@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Main.gd" type="Script" id=1]
 [ext_resource path="res://ActivityBar.tscn" type="PackedScene" id=2]
 [ext_resource path="res://assets/regular-font.tres" type="DynamicFont" id=3]
+[ext_resource path="res://assets/button_style_blue.tres" type="StyleBox" id=4]
 
 [node name="Main" type="HBoxContainer"]
 anchor_right = 1.0
@@ -37,11 +38,30 @@ margin_bottom = 1071.0
 rect_min_size = Vector2( 1040, 0 )
 custom_constants/separation = 20
 
-[node name="Label" type="Label" parent="M/V"]
+[node name="Menu" type="HBoxContainer" parent="M/V"]
 margin_right = 1040.0
+margin_bottom = 31.0
+
+[node name="Label" type="Label" parent="M/V/Menu"]
+margin_right = 139.0
 margin_bottom = 31.0
 custom_fonts/font = ExtResource( 3 )
 text = "Activity Timer"
+
+[node name="sp" type="Control" parent="M/V/Menu"]
+margin_left = 143.0
+margin_right = 996.0
+margin_bottom = 31.0
+size_flags_horizontal = 3
+
+[node name="Add" type="Button" parent="M/V/Menu"]
+margin_left = 1000.0
+margin_right = 1040.0
+margin_bottom = 31.0
+rect_min_size = Vector2( 40, 0 )
+custom_fonts/font = ExtResource( 3 )
+custom_styles/normal = ExtResource( 4 )
+text = "+"
 
 [node name="Act" parent="M/V" instance=ExtResource( 2 )]
 margin_top = 51.0
@@ -83,3 +103,5 @@ margin_left = 1493.0
 margin_right = 1920.0
 margin_bottom = 1080.0
 size_flags_horizontal = 3
+
+[connection signal="pressed" from="M/V/Menu/Add" to="." method="_on_Add_pressed"]
