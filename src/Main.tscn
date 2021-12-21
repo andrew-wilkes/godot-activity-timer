@@ -45,7 +45,38 @@ text = "Activity Timer"
 
 [node name="Act" parent="M/V" instance=ExtResource( 2 )]
 margin_top = 51.0
-margin_bottom = 91.0
+margin_right = 1040.0
+margin_bottom = 107.0
+
+[node name="Act2" parent="M/V" instance=ExtResource( 2 )]
+margin_top = 127.0
+margin_right = 1040.0
+margin_bottom = 183.0
+
+[node name="Act3" parent="M/V" instance=ExtResource( 2 )]
+margin_top = 203.0
+margin_right = 1040.0
+margin_bottom = 259.0
+
+[node name="Act4" parent="M/V" instance=ExtResource( 2 )]
+margin_top = 279.0
+margin_right = 1040.0
+margin_bottom = 335.0
+
+[node name="Act5" parent="M/V" instance=ExtResource( 2 )]
+margin_top = 355.0
+margin_right = 1040.0
+margin_bottom = 411.0
+
+[node name="Act6" parent="M/V" instance=ExtResource( 2 )]
+margin_top = 431.0
+margin_right = 1040.0
+margin_bottom = 487.0
+
+[node name="Act7" parent="M/V" instance=ExtResource( 2 )]
+margin_top = 507.0
+margin_right = 1040.0
+margin_bottom = 563.0
 
 [node name="sp2" type="Control" parent="."]
 margin_left = 1493.0

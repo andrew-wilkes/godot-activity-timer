@@ -1,29 +1,58 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://ActivityBar.gd" type="Script" id=1]
 [ext_resource path="res://assets/regular-font.tres" type="DynamicFont" id=2]
 [ext_resource path="res://assets/mono-font.tres" type="DynamicFont" id=3]
+[ext_resource path="res://assets/button_style_red.tres" type="StyleBox" id=4]
 
-[node name="Act" type="HBoxContainer"]
-margin_top = 34.0
-margin_right = 1040.0
-margin_bottom = 74.0
-custom_constants/separation = 20
+[sub_resource type="StyleBoxFlat" id=2]
+content_margin_left = 8.0
+content_margin_right = 8.0
+content_margin_top = 8.0
+content_margin_bottom = 8.0
+bg_color = Color( 0.0980392, 0.0980392, 0.0980392, 1 )
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.0901961, 0.384314, 0, 1 )
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[node name="Act" type="PanelContainer"]
+margin_right = 1116.0
+margin_bottom = 54.0
+size_flags_horizontal = 3
+custom_styles/panel = SubResource( 2 )
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="ColorRect" type="ColorRect" parent="."]
+[node name="H" type="HBoxContainer" parent="."]
+margin_left = 8.0
+margin_top = 8.0
+margin_right = 1108.0
+margin_bottom = 48.0
+custom_constants/separation = 20
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="H"]
 margin_right = 8.0
 margin_bottom = 40.0
 rect_min_size = Vector2( 8, 40 )
 size_flags_vertical = 3
 color = Color( 0.0745098, 0.729412, 0, 1 )
 
-[node name="Title" type="Button" parent="."]
+[node name="Title" type="Button" parent="H"]
 margin_left = 28.0
-margin_right = 736.0
+margin_right = 676.0
 margin_bottom = 40.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 2 )
@@ -32,30 +61,41 @@ text = "Task name"
 flat = true
 align = 0
 
-[node name="StartStop" type="Button" parent="."]
-margin_left = 756.0
-margin_right = 856.0
+[node name="Start" type="Button" parent="H"]
+margin_left = 696.0
+margin_right = 796.0
 margin_bottom = 40.0
 rect_min_size = Vector2( 100, 0 )
 custom_fonts/font = ExtResource( 2 )
+custom_styles/normal = SubResource( 1 )
 text = "START"
 
-[node name="Time" type="Label" parent="."]
-margin_left = 876.0
+[node name="Stop" type="Button" parent="H"]
+margin_left = 816.0
+margin_right = 916.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 100, 0 )
+custom_fonts/font = ExtResource( 2 )
+custom_styles/normal = ExtResource( 4 )
+text = "STOP"
+
+[node name="Time" type="Label" parent="H"]
+margin_left = 936.0
 margin_top = 6.0
-margin_right = 980.0
+margin_right = 1040.0
 margin_bottom = 33.0
 custom_fonts/font = ExtResource( 3 )
 text = "00:00:00"
 
-[node name="View" type="Button" parent="."]
-margin_left = 1000.0
-margin_right = 1040.0
+[node name="View" type="Button" parent="H"]
+margin_left = 1060.0
+margin_right = 1100.0
 margin_bottom = 40.0
 rect_min_size = Vector2( 40, 0 )
 custom_fonts/font = ExtResource( 2 )
 text = ">"
 
-[connection signal="toggled" from="Title" to="." method="_on_Title_toggled"]
-[connection signal="pressed" from="StartStop" to="." method="_on_StartStop_pressed"]
-[connection signal="pressed" from="View" to="." method="_on_View_pressed"]
+[connection signal="toggled" from="H/Title" to="H" method="_on_Title_toggled"]
+[connection signal="pressed" from="H/Start" to="H" method="_on_Start_pressed"]
+[connection signal="pressed" from="H/Stop" to="H" method="_on_Stop_pressed"]
+[connection signal="pressed" from="H/View" to="H" method="_on_View_pressed"]

@@ -38,7 +38,6 @@ Data="*res://data.gd"
 
 window/size/width=1920
 window/size/height=1080
-window/size/resizable=false
 window/energy_saving/keep_screen_on=false
 window/stretch/mode="2d"
 window/stretch/aspect="keep"
