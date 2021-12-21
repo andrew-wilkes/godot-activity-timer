@@ -10,6 +10,9 @@ var running = false
 var dragging = false
 
 func _ready():
+	set_styles($H/Start)
+	set_styles($H/Stop)
+	set_styles($H/View)
 	if get_parent().name == "root":
 		# Test
 		$H/Title.text = "33s"
@@ -56,3 +59,18 @@ func _on_Stop_pressed():
 	emit_signal("stop_request", self)
 	$H/Stop.hide()
 	$H/Start.show()
+
+
+func set_styles(button: Button):
+	var style = button.get("custom_styles/normal")
+	if style == null:
+		return # Stick with default button style
+	var next_style = set_style(button, style, "custom_styles/hover")
+	next_style = set_style(button, next_style, "custom_styles/pressed")
+
+
+func set_style(button, style, path):
+	var new_style = style.duplicate()
+	new_style.bg_color = new_style.bg_color.darkened(0.2)
+	button.set(path, new_style)
+	return new_style
