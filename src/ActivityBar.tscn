@@ -1,0 +1,61 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://ActivityBar.gd" type="Script" id=1]
+[ext_resource path="res://assets/regular-font.tres" type="DynamicFont" id=2]
+[ext_resource path="res://assets/mono-font.tres" type="DynamicFont" id=3]
+
+[node name="Act" type="HBoxContainer"]
+margin_top = 34.0
+margin_right = 1040.0
+margin_bottom = 74.0
+custom_constants/separation = 20
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 8.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 8, 40 )
+size_flags_vertical = 3
+color = Color( 0.0745098, 0.729412, 0, 1 )
+
+[node name="Title" type="Button" parent="."]
+margin_left = 28.0
+margin_right = 736.0
+margin_bottom = 40.0
+size_flags_horizontal = 3
+custom_fonts/font = ExtResource( 2 )
+toggle_mode = true
+text = "Task name"
+flat = true
+align = 0
+
+[node name="StartStop" type="Button" parent="."]
+margin_left = 756.0
+margin_right = 856.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 100, 0 )
+custom_fonts/font = ExtResource( 2 )
+text = "START"
+
+[node name="Time" type="Label" parent="."]
+margin_left = 876.0
+margin_top = 6.0
+margin_right = 980.0
+margin_bottom = 33.0
+custom_fonts/font = ExtResource( 3 )
+text = "00:00:00"
+
+[node name="View" type="Button" parent="."]
+margin_left = 1000.0
+margin_right = 1040.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 40, 0 )
+custom_fonts/font = ExtResource( 2 )
+text = ">"
+
+[connection signal="toggled" from="Title" to="." method="_on_Title_toggled"]
+[connection signal="pressed" from="StartStop" to="." method="_on_StartStop_pressed"]
+[connection signal="pressed" from="View" to="." method="_on_View_pressed"]
