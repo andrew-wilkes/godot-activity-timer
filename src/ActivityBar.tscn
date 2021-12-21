@@ -97,7 +97,9 @@ custom_fonts/font = ExtResource( 2 )
 custom_styles/normal = ExtResource( 5 )
 text = ">"
 
+[connection signal="mouse_entered" from="H/Title" to="." method="_on_Title_mouse_entered"]
+[connection signal="mouse_exited" from="H/Title" to="." method="_on_Title_mouse_exited"]
 [connection signal="toggled" from="H/Title" to="." method="_on_Title_toggled"]
 [connection signal="pressed" from="H/Start" to="." method="_on_Start_pressed"]
 [connection signal="pressed" from="H/Stop" to="." method="_on_Stop_pressed"]
-[connection signal="pressed" from="H/View" to="H" method="_on_View_pressed"]
+[connection signal="pressed" from="H/View" to="." method="_on_View_pressed"]

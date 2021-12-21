@@ -66,3 +66,11 @@ func set_style(button, style, path):
 	new_style.bg_color = new_style.bg_color.darkened(0.2)
 	button.set(path, new_style)
 	return new_style
+
+
+func _on_Title_mouse_entered():
+	$H/Title.set_default_cursor_shape(Input.CURSOR_DRAG)
+
+
+func _on_Title_mouse_exited():
+	$H/Title.set_default_cursor_shape(Input.CURSOR_ARROW)
