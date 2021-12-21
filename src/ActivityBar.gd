@@ -13,6 +13,7 @@ func _ready():
 	set_styles($H/Start)
 	set_styles($H/Stop)
 	set_styles($H/View)
+	$H/Stop.hide()
 	if get_parent().name == "root":
 		# Test
 		$H/Title.text = "33s"
@@ -26,15 +27,6 @@ func _ready():
 		yield(get_tree().create_timer(2.0), "timeout")
 		$H/Title.text = "1000 hours"
 		update_time(3600000)
-
-
-func _on_StartStop_pressed():
-	if running:
-		$H/StartStop.text = "Start"
-		
-	else:
-		$H/StartStop.text = "Stop"
-		
 
 
 func _on_View_pressed():

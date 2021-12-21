@@ -1,9 +1,10 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://ActivityBar.gd" type="Script" id=1]
 [ext_resource path="res://assets/regular-font.tres" type="DynamicFont" id=2]
 [ext_resource path="res://assets/mono-font.tres" type="DynamicFont" id=3]
 [ext_resource path="res://assets/button_style_red.tres" type="StyleBox" id=4]
+[ext_resource path="res://assets/button_style_blue.tres" type="StyleBox" id=5]
 
 [sub_resource type="StyleBoxFlat" id=2]
 content_margin_left = 8.0
@@ -93,9 +94,10 @@ margin_right = 1100.0
 margin_bottom = 40.0
 rect_min_size = Vector2( 40, 0 )
 custom_fonts/font = ExtResource( 2 )
+custom_styles/normal = ExtResource( 5 )
 text = ">"
 
-[connection signal="toggled" from="H/Title" to="H" method="_on_Title_toggled"]
-[connection signal="pressed" from="H/Start" to="H" method="_on_Start_pressed"]
-[connection signal="pressed" from="H/Stop" to="H" method="_on_Stop_pressed"]
+[connection signal="toggled" from="H/Title" to="." method="_on_Title_toggled"]
+[connection signal="pressed" from="H/Start" to="." method="_on_Start_pressed"]
+[connection signal="pressed" from="H/Stop" to="." method="_on_Stop_pressed"]
 [connection signal="pressed" from="H/View" to="H" method="_on_View_pressed"]
