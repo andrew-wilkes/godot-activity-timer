@@ -4,6 +4,7 @@ const SETTINGS_FILE_NAME = "user://settings.res"
 
 var settings: Settings
 var settings_changed = false
+var activities
 
 func _ready():
 	load_settings()

@@ -1,0 +1,130 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://ActivityBar.gd" type="Script" id=1]
+[ext_resource path="res://assets/regular-font.tres" type="DynamicFont" id=2]
+[ext_resource path="res://assets/add.png" type="Texture" id=3]
+[ext_resource path="res://assets/add-light.png" type="Texture" id=4]
+[ext_resource path="res://ActivityBar.tscn" type="PackedScene" id=5]
+[ext_resource path="res://assets/add-dark.png" type="Texture" id=6]
+
+[sub_resource type="StyleBoxFlat" id=2]
+content_margin_left = 8.0
+content_margin_right = 8.0
+content_margin_top = 8.0
+content_margin_bottom = 8.0
+bg_color = Color( 0.0980392, 0.0980392, 0.0980392, 1 )
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[node name="ActivityList" type="VBoxContainer"]
+margin_left = 9.0
+margin_top = 9.0
+margin_right = 1049.0
+margin_bottom = 1071.0
+rect_min_size = Vector2( 1040, 0 )
+custom_constants/separation = 20
+
+[node name="Menu" type="HBoxContainer" parent="."]
+margin_right = 1040.0
+margin_bottom = 48.0
+
+[node name="Label" type="Label" parent="Menu"]
+margin_top = 8.0
+margin_right = 139.0
+margin_bottom = 39.0
+custom_fonts/font = ExtResource( 2 )
+text = "Activity Timer"
+
+[node name="sp" type="Control" parent="Menu"]
+margin_left = 143.0
+margin_right = 988.0
+margin_bottom = 48.0
+size_flags_horizontal = 3
+
+[node name="Add" type="TextureButton" parent="Menu"]
+margin_left = 992.0
+margin_right = 1040.0
+margin_bottom = 48.0
+rect_min_size = Vector2( 40, 0 )
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 6 )
+texture_hover = ExtResource( 4 )
+
+[node name="Act" type="PanelContainer" parent="." instance=ExtResource( 5 )]
+margin_top = 68.0
+margin_right = 1040.0
+margin_bottom = 132.0
+size_flags_horizontal = 3
+custom_styles/panel = SubResource( 2 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Act2" type="PanelContainer" parent="." instance=ExtResource( 5 )]
+margin_top = 152.0
+margin_right = 1040.0
+margin_bottom = 216.0
+size_flags_horizontal = 3
+custom_styles/panel = SubResource( 2 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Act3" type="PanelContainer" parent="." instance=ExtResource( 5 )]
+margin_top = 236.0
+margin_right = 1040.0
+margin_bottom = 300.0
+size_flags_horizontal = 3
+custom_styles/panel = SubResource( 2 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Act4" type="PanelContainer" parent="." instance=ExtResource( 5 )]
+margin_top = 320.0
+margin_right = 1040.0
+margin_bottom = 384.0
+size_flags_horizontal = 3
+custom_styles/panel = SubResource( 2 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Act5" type="PanelContainer" parent="." instance=ExtResource( 5 )]
+margin_top = 404.0
+margin_right = 1040.0
+margin_bottom = 468.0
+size_flags_horizontal = 3
+custom_styles/panel = SubResource( 2 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Act6" type="PanelContainer" parent="." instance=ExtResource( 5 )]
+margin_top = 488.0
+margin_right = 1040.0
+margin_bottom = 552.0
+size_flags_horizontal = 3
+custom_styles/panel = SubResource( 2 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Act7" type="PanelContainer" parent="." instance=ExtResource( 5 )]
+margin_top = 572.0
+margin_right = 1040.0
+margin_bottom = 636.0
+size_flags_horizontal = 3
+custom_styles/panel = SubResource( 2 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}

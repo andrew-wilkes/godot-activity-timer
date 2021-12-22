@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://assets/mono-font.tres" type="DynamicFont" id=1]
+[ext_resource path="res://TimeDisplay.gd" type="Script" id=2]
+
+[node name="TimeDisplay" type="Label"]
+margin_left = 928.0
+margin_top = 10.0
+margin_right = 1032.0
+margin_bottom = 37.0
+custom_fonts/font = ExtResource( 1 )
+text = "00:00:00"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}

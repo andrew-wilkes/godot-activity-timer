@@ -2,7 +2,7 @@
 
 [ext_resource path="res://ActivityBar.gd" type="Script" id=1]
 [ext_resource path="res://assets/regular-font.tres" type="DynamicFont" id=2]
-[ext_resource path="res://assets/mono-font.tres" type="DynamicFont" id=3]
+[ext_resource path="res://TimeDisplay.tscn" type="PackedScene" id=3]
 [ext_resource path="res://assets/stop.png" type="Texture" id=4]
 [ext_resource path="res://assets/view.png" type="Texture" id=5]
 [ext_resource path="res://assets/start.png" type="Texture" id=6]
@@ -66,6 +66,7 @@ align = 0
 margin_left = 792.0
 margin_right = 840.0
 margin_bottom = 48.0
+hint_tooltip = "Start / re-start  timer"
 texture_normal = ExtResource( 6 )
 texture_pressed = ExtResource( 8 )
 texture_hover = ExtResource( 7 )
@@ -78,18 +79,13 @@ texture_normal = ExtResource( 4 )
 texture_pressed = ExtResource( 12 )
 texture_hover = ExtResource( 9 )
 
-[node name="Time" type="Label" parent="H"]
-margin_left = 928.0
-margin_top = 10.0
-margin_right = 1032.0
-margin_bottom = 37.0
-custom_fonts/font = ExtResource( 3 )
-text = "00:00:00"
+[node name="TimeDisplay" parent="H" instance=ExtResource( 3 )]
 
 [node name="View" type="TextureButton" parent="H"]
 margin_left = 1052.0
 margin_right = 1100.0
 margin_bottom = 48.0
+hint_tooltip = "View activity"
 texture_normal = ExtResource( 5 )
 texture_pressed = ExtResource( 10 )
 texture_hover = ExtResource( 11 )

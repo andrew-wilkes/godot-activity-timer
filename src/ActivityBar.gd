@@ -14,16 +14,16 @@ func _ready():
 	if get_parent().name == "root":
 		# Test
 		$H/Title.text = "33s"
-		update_time(33)
+		$H/TimeDisplay.update_time(33)
 		yield(get_tree().create_timer(2.0), "timeout")
 		$H/Title.text = "10 minutes and 10s"
-		update_time(610)
+		$H/TimeDisplay.update_time(610)
 		yield(get_tree().create_timer(2.0), "timeout")
 		$H/Title.text = "10 hours 10 mins and 10s"
-		update_time(36610)
+		$H/TimeDisplay.update_time(36610)
 		yield(get_tree().create_timer(2.0), "timeout")
 		$H/Title.text = "1000 hours"
-		update_time(3600000)
+		$H/TimeDisplay.update_time(3600000)
 
 
 func _on_View_pressed():
@@ -32,10 +32,6 @@ func _on_View_pressed():
 
 func _on_Title_toggled(button_pressed):
 	emit_signal("drag_drop_request", self, button_pressed)
-
-
-func update_time(secs):
-	$H/Time.text = "%02d:%02d:%02d" % [secs / 3600, secs % 3600 / 60, secs % 60]
 
 
 func _on_Start_pressed():
