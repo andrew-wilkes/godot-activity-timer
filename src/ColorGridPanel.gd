@@ -14,7 +14,7 @@ func _ready():
 		# Switch between saturated and pastel palettes
 		var s = 0.5 if n > 15 else 1.0
 		button.modulate =  Color.from_hsv(fmod(n / 15.0, 2.0), s, 1.0)
-		button.connect("pressed", self, "change_color", [button])
+		var _e = button.connect("pressed", self, "change_color", [button])
 	if get_parent().name == "root":
 		# Test
 		show()
