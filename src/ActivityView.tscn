@@ -94,24 +94,26 @@ texture_pressed = ExtResource( 5 )
 texture_hover = ExtResource( 4 )
 
 [node name="LastStart" type="Label" parent="."]
+visible = false
 margin_top = 68.0
 margin_right = 1920.0
 margin_bottom = 82.0
 
 [node name="LastStop" type="Label" parent="."]
-margin_top = 102.0
+visible = false
+margin_top = 68.0
 margin_right = 1920.0
-margin_bottom = 116.0
+margin_bottom = 82.0
 
 [node name="NotesLabel" type="Label" parent="."]
-margin_top = 136.0
+margin_top = 68.0
 margin_right = 1920.0
-margin_bottom = 167.0
+margin_bottom = 99.0
 custom_fonts/font = ExtResource( 2 )
 text = "Notes"
 
 [node name="Notes" type="TextEdit" parent="."]
-margin_top = 187.0
+margin_top = 119.0
 margin_right = 1920.0
 margin_bottom = 1012.0
 size_flags_vertical = 3

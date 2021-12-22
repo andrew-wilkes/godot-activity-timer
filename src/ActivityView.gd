@@ -14,6 +14,7 @@ func _ready():
 func setup(_key, _act: Activity, new = false):
 	key = _key
 	act = _act
+	set_button_states()
 	if new:
 		$Menu/Title.editable = false
 		$Menu/Title.text = "Add title"
@@ -22,9 +23,9 @@ func setup(_key, _act: Activity, new = false):
 		$Menu/Title.editable = true
 	else:
 		$Menu/Title.text = act.title
+		$Menu/ColorPicker.modulate = act.color_code
+		$Notes.text = act.notes
 	$Menu/Title.grab_focus()
-	$Menu/ColorPicker.modulate = act.color_code
-	$Notes.text = act.notes
 	update_last_start()
 	update_last_stop()
 
@@ -41,12 +42,19 @@ func _on_Start_pressed():
 	act.stopped = false
 	act.start_time = OS.get_unix_time()
 	update_last_start()
+	set_button_states()
 
 
 func _on_Stop_pressed():
 	act.stopped = true
 	act.stop_time = OS.get_unix_time()
 	update_last_stop()
+	set_button_states()
+
+
+func set_button_states():
+	$Menu/Start.visible = act.stopped
+	$Menu/Stop.visible = not act.stopped
 
 
 func _on_Reset_pressed():
@@ -74,7 +82,7 @@ func _on_Title_text_changed(new_text):
 
 
 func update_last_start():
-	update_datetime($LastStart, act.stop_time, "Last start time: ")
+	update_datetime($LastStart, act.start_time, "Last start time: ")
 
 
 func update_last_stop():
@@ -82,10 +90,14 @@ func update_last_stop():
 
 
 func update_datetime(node: Label, time: int, txt: String):
-	var dict = OS.get_datetime_from_unix_time(time)
-	dict.erase("dst")
-	dict.erase("weekday")
-	node.text = txt + "\t%02d:%02d:%02d %0d-%02d-%02d" % dict.values()
+	if time == 0:
+		node.visible = false
+	else:
+		node.visible = true
+		var dict = OS.get_datetime_from_unix_time(time)
+		dict.erase("dst")
+		dict.erase("weekday")
+		node.text = txt + "\t%02d:%02d:%02d %0d-%02d-%02d" % dict.values()
 
 
 func _on_ColorPicker_pressed():
