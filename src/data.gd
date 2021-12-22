@@ -1,21 +1,28 @@
 extends Node
 
 const SETTINGS_FILE_NAME = "user://settings.res"
+const ACTIVITIES_FILE_NAME = "user://activities.res"
 
 var settings: Settings
 var settings_changed = false
-var activities
+var activities: Activities
 
 func _ready():
-	load_settings()
+	var data = load_data(SETTINGS_FILE_NAME)
+	if data is Settings: # Check that the data is valid
+		settings = data
+	else:
+		settings = Settings.new()
+	data = load_data(ACTIVITIES_FILE_NAME)
+	if data is Activities: # Check that the data is valid
+		activities = data
+	else:
+		activities = Activities.new()
 
 
-func load_settings(file_name = SETTINGS_FILE_NAME):
-	settings = Settings.new()
+func load_data(file_name):
 	if ResourceLoader.exists(file_name):
-		var data = ResourceLoader.load(file_name)
-		if data is Settings: # Check that the data is valid
-			settings = data
+		return ResourceLoader.load(file_name)
 
 
 func get_file_content(path) -> String:
@@ -27,8 +34,8 @@ func get_file_content(path) -> String:
 	return content
 
 
-func save_settings(_settings, file_name = SETTINGS_FILE_NAME):
-	assert(ResourceSaver.save(file_name, _settings) == OK)
+func save_data(data, file_name):
+	assert(ResourceSaver.save(file_name, data) == OK)
 	settings_changed = false
 
 
@@ -43,4 +50,5 @@ func save_string(content, file_name):
 func _notification(what):
 	if what == MainLoop.NOTIFICATION_WM_QUIT_REQUEST:
 		if settings_changed:
-			save_settings(settings)
+			save_data(settings, SETTINGS_FILE_NAME)
+		save_data(activities, ACTIVITIES_FILE_NAME)

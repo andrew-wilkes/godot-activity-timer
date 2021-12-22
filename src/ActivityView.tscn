@@ -37,6 +37,8 @@ custom_constants/separation = 20
 margin_right = 48.0
 margin_bottom = 48.0
 rect_min_size = Vector2( 48, 0 )
+hint_tooltip = "Color marker"
+color = Color( 0.745098, 0.788235, 0, 1 )
 edit_alpha = false
 
 [node name="Title" type="LineEdit" parent="Menu"]
@@ -90,14 +92,25 @@ texture_normal = ExtResource( 3 )
 texture_pressed = ExtResource( 5 )
 texture_hover = ExtResource( 4 )
 
-[node name="NotesLabel" type="Label" parent="."]
+[node name="LastStart" type="Label" parent="."]
 margin_top = 68.0
 margin_right = 1920.0
 margin_bottom = 82.0
+
+[node name="LastStop" type="Label" parent="."]
+margin_top = 102.0
+margin_right = 1920.0
+margin_bottom = 116.0
+
+[node name="NotesLabel" type="Label" parent="."]
+margin_top = 136.0
+margin_right = 1920.0
+margin_bottom = 167.0
+custom_fonts/font = ExtResource( 2 )
 text = "Notes"
 
 [node name="Notes" type="TextEdit" parent="."]
-margin_top = 102.0
+margin_top = 187.0
 margin_right = 1920.0
 margin_bottom = 1012.0
 size_flags_vertical = 3
@@ -121,6 +134,11 @@ texture_normal = ExtResource( 10 )
 texture_pressed = ExtResource( 9 )
 texture_hover = ExtResource( 11 )
 
+[node name="Confirm" type="ConfirmationDialog" parent="."]
+margin_right = 200.0
+margin_bottom = 70.0
+dialog_text = "Are you sure that you want to delete this activity?"
+
 [connection signal="color_changed" from="Menu/ColorPicker" to="." method="_on_ColorPicker_color_changed"]
 [connection signal="text_changed" from="Menu/Title" to="." method="_on_Title_text_changed"]
 [connection signal="pressed" from="Menu/Start" to="." method="_on_Start_pressed"]
@@ -128,3 +146,4 @@ texture_hover = ExtResource( 11 )
 [connection signal="pressed" from="Menu/Reset" to="." method="_on_Reset_pressed"]
 [connection signal="pressed" from="Menu/Home" to="." method="_on_Home_pressed"]
 [connection signal="pressed" from="Footer/Delete" to="." method="_on_Delete_pressed"]
+[connection signal="confirmed" from="Confirm" to="." method="_on_Confirm_confirmed"]

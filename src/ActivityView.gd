@@ -1,38 +1,88 @@
 extends Control
 
-signal home_button_pressed
-signal start_button_pressed(id)
-signal stop_button_pressed(id)
-signal reset_button_pressed(id)
-signal delete_button_pressed(id)
-signal color_changed(color)
+signal show_list
 
-var id
+var act: Activity
+var key = 0
+
+func _ready():
+	if get_parent().name == "root":
+		# Test
+		setup(null, Activity.new(), true)
+
+
+func setup(_key, _act: Activity, new = false):
+	key = _key
+	act = _act
+	if new:
+		$Menu/Title.editable = false
+		$Menu/Title.text = "Add title"
+		yield(get_tree().create_timer(2.0), "timeout")
+		$Menu/Title.text = ""
+		$Menu/Title.editable = true
+	else:
+		$Menu/Title.text = act.title
+	$Menu/Title.grab_focus()
+	$Menu/ColorPicker.color = act.color_code
+	$Notes.text = act.notes
+	update_last_start()
+	update_last_stop()
+
+
+func update_time():
+	$Menu/TimeDisplay.update_time(act.time)
+
 
 func _on_Home_pressed():
-	emit_signal("home_button_pressed")
+	emit_signal("show_list")
 
 
 func _on_Start_pressed():
-	emit_signal("start_button_pressed", id)
+	act.stopped = false
+	act.start_time = OS.get_unix_time()
+	update_last_start()
 
 
 func _on_Stop_pressed():
-	emit_signal("stop_button_pressed", id)
+	act.stopped = true
+	act.stop_time = OS.get_unix_time()
+	update_last_stop()
 
 
 func _on_Reset_pressed():
-	emit_signal("reset_button_pressed", id)
+	act.time = 0
+	$Menu/TimeDisplay.update_time(0)
+	$LastStart.text = ""
+	$LastStop.text = ""
 
 
 func _on_Delete_pressed():
-	emit_signal("delete_button_pressed", id)
+	$Confirm.popup_centered()
+
+
+func _on_Confirm_confirmed():
+	Data.activities.erase(key)
+	emit_signal("show_list")
 
 
 func _on_ColorPicker_color_changed(color):
 	act.color_code = color
-	emit_signal("color_changed", id)
 
 
 func _on_Title_text_changed(new_text):
-	pass # Replace with function body.
+	act.title = new_text
+
+
+func update_last_start():
+	update_datetime($LastStart, act.stop_time, "Last start time: ")
+
+
+func update_last_stop():
+	update_datetime($LastStop, act.stop_time, "Last stop time: ")
+
+
+func update_datetime(node: Label, time: int, txt: String):
+	var dict = OS.get_datetime_from_unix_time(time)
+	dict.erase("dst")
+	dict.erase("weekday")
+	node.text = txt + "\t%02d:%02d:%02d %0d-%02d-%02d" % dict.values()
