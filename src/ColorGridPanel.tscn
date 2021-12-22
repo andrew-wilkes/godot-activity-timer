@@ -13,8 +13,8 @@ script = ExtResource( 2 )
 [node name="Grid" type="GridContainer" parent="."]
 margin_left = 4.0
 margin_top = 4.0
-margin_right = 1916.0
-margin_bottom = 1076.0
+margin_right = 1076.0
+margin_bottom = 1916.0
 custom_constants/vseparation = 5
 custom_constants/hseparation = 5
 columns = 4
