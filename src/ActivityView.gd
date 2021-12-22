@@ -23,7 +23,7 @@ func setup(_key, _act: Activity, new = false):
 	else:
 		$Menu/Title.text = act.title
 	$Menu/Title.grab_focus()
-	$Menu/ColorPicker.color = act.color_code
+	$Menu/ColorPicker.modulate = act.color_code
 	$Notes.text = act.notes
 	update_last_start()
 	update_last_stop()
@@ -57,7 +57,7 @@ func _on_Reset_pressed():
 
 
 func _on_Delete_pressed():
-	$Confirm.popup_centered()
+	$c/Confirm.popup_centered()
 
 
 func _on_Confirm_confirmed():
@@ -86,3 +86,12 @@ func update_datetime(node: Label, time: int, txt: String):
 	dict.erase("dst")
 	dict.erase("weekday")
 	node.text = txt + "\t%02d:%02d:%02d %0d-%02d-%02d" % dict.values()
+
+
+func _on_ColorPicker_pressed():
+	$c/ColorGridPanel.popup_centered()
+
+
+func _on_ColorGridPanel_color_changed(color):
+	act.color_code = color
+	$Menu/ColorPicker.modulate = color

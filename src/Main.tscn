@@ -44,5 +44,3 @@ margin_left = 1493.0
 margin_right = 1920.0
 margin_bottom = 1080.0
 size_flags_horizontal = 3
-
-[connection signal="home_button_pressed" from="M/Activity" to="." method="_on_Activity_home_button_pressed"]
