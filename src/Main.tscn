@@ -13,14 +13,14 @@ __meta__ = {
 }
 
 [node name="sp1" type="Control" parent="."]
-margin_right = 427.0
-margin_bottom = 1080.0
+margin_bottom = 1920.0
 size_flags_horizontal = 3
 
 [node name="M" type="MarginContainer" parent="."]
-margin_left = 431.0
-margin_right = 1489.0
-margin_bottom = 1080.0
+margin_left = 4.0
+margin_right = 1084.0
+margin_bottom = 1920.0
+rect_min_size = Vector2( 1080, 0 )
 custom_constants/margin_right = 9
 custom_constants/margin_top = 9
 custom_constants/margin_left = 9
@@ -30,17 +30,20 @@ __meta__ = {
 }
 
 [node name="ActivityList" parent="M" instance=ExtResource( 2 )]
+margin_right = 1071.0
+margin_bottom = 1911.0
 
 [node name="Activity" parent="M" instance=ExtResource( 3 )]
+visible = false
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 9.0
 margin_top = 9.0
-margin_right = 1049.0
-margin_bottom = 1071.0
+margin_right = 1071.0
+margin_bottom = 1911.0
 
 [node name="sp2" type="Control" parent="."]
-margin_left = 1493.0
-margin_right = 1920.0
-margin_bottom = 1080.0
+margin_left = 1088.0
+margin_right = 1088.0
+margin_bottom = 1920.0
 size_flags_horizontal = 3

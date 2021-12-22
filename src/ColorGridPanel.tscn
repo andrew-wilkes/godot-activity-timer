@@ -11,8 +11,10 @@ size_flags_vertical = 5
 script = ExtResource( 2 )
 
 [node name="Grid" type="GridContainer" parent="."]
-margin_right = 1205.0
-margin_bottom = 692.0
+margin_left = 4.0
+margin_top = 4.0
+margin_right = 1916.0
+margin_bottom = 1076.0
 custom_constants/vseparation = 5
 custom_constants/hseparation = 5
 columns = 4

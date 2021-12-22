@@ -31,7 +31,7 @@ __meta__ = {
 }
 
 [node name="Menu" type="HBoxContainer" parent="."]
-margin_right = 1920.0
+margin_right = 1080.0
 margin_bottom = 48.0
 custom_constants/separation = 20
 
@@ -44,15 +44,15 @@ texture_normal = ExtResource( 19 )
 
 [node name="Title" type="LineEdit" parent="Menu"]
 margin_left = 68.0
-margin_right = 1524.0
+margin_right = 684.0
 margin_bottom = 48.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 2 )
 text = "Enter name of activity"
 
 [node name="Start" type="TextureButton" parent="Menu"]
-margin_left = 1544.0
-margin_right = 1592.0
+margin_left = 704.0
+margin_right = 752.0
 margin_bottom = 48.0
 hint_tooltip = "Start timer"
 texture_normal = ExtResource( 16 )
@@ -60,8 +60,8 @@ texture_pressed = ExtResource( 18 )
 texture_hover = ExtResource( 17 )
 
 [node name="Stop" type="TextureButton" parent="Menu"]
-margin_left = 1612.0
-margin_right = 1660.0
+margin_left = 772.0
+margin_right = 820.0
 margin_bottom = 48.0
 hint_tooltip = "Stop timer"
 texture_normal = ExtResource( 14 )
@@ -72,8 +72,8 @@ __meta__ = {
 }
 
 [node name="Reset" type="TextureButton" parent="Menu"]
-margin_left = 1680.0
-margin_right = 1728.0
+margin_left = 840.0
+margin_right = 888.0
 margin_bottom = 48.0
 hint_tooltip = "Reset time"
 texture_normal = ExtResource( 8 )
@@ -81,12 +81,12 @@ texture_pressed = ExtResource( 7 )
 texture_hover = ExtResource( 6 )
 
 [node name="TimeDisplay" parent="Menu" instance=ExtResource( 13 )]
-margin_left = 1748.0
-margin_right = 1852.0
+margin_left = 908.0
+margin_right = 1012.0
 
 [node name="Home" type="TextureButton" parent="Menu"]
-margin_left = 1872.0
-margin_right = 1920.0
+margin_left = 1032.0
+margin_right = 1080.0
 margin_bottom = 48.0
 hint_tooltip = "Back to list"
 texture_normal = ExtResource( 3 )
@@ -107,30 +107,30 @@ margin_bottom = 82.0
 
 [node name="NotesLabel" type="Label" parent="."]
 margin_top = 68.0
-margin_right = 1920.0
+margin_right = 1080.0
 margin_bottom = 99.0
 custom_fonts/font = ExtResource( 2 )
 text = "Notes"
 
 [node name="Notes" type="TextEdit" parent="."]
 margin_top = 119.0
-margin_right = 1920.0
-margin_bottom = 1012.0
+margin_right = 1080.0
+margin_bottom = 1852.0
 size_flags_vertical = 3
 
 [node name="Footer" type="HBoxContainer" parent="."]
-margin_top = 1032.0
-margin_right = 1920.0
-margin_bottom = 1080.0
+margin_top = 1872.0
+margin_right = 1080.0
+margin_bottom = 1920.0
 
 [node name="Spacer" type="Control" parent="Footer"]
-margin_right = 1868.0
+margin_right = 1028.0
 margin_bottom = 48.0
 size_flags_horizontal = 3
 
 [node name="Delete" type="TextureButton" parent="Footer"]
-margin_left = 1872.0
-margin_right = 1920.0
+margin_left = 1032.0
+margin_right = 1080.0
 margin_bottom = 48.0
 hint_tooltip = "Delete activity"
 texture_normal = ExtResource( 10 )
