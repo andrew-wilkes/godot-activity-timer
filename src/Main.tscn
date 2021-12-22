@@ -1,9 +1,11 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Main.gd" type="Script" id=1]
 [ext_resource path="res://ActivityBar.tscn" type="PackedScene" id=2]
 [ext_resource path="res://assets/regular-font.tres" type="DynamicFont" id=3]
-[ext_resource path="res://assets/button_style_blue.tres" type="StyleBox" id=4]
+[ext_resource path="res://assets/add.png" type="Texture" id=4]
+[ext_resource path="res://assets/add-light.png" type="Texture" id=5]
+[ext_resource path="res://assets/add-dark.png" type="Texture" id=6]
 
 [node name="Main" type="HBoxContainer"]
 anchor_right = 1.0
@@ -40,63 +42,64 @@ custom_constants/separation = 20
 
 [node name="Menu" type="HBoxContainer" parent="M/V"]
 margin_right = 1040.0
-margin_bottom = 31.0
+margin_bottom = 48.0
 
 [node name="Label" type="Label" parent="M/V/Menu"]
+margin_top = 8.0
 margin_right = 139.0
-margin_bottom = 31.0
+margin_bottom = 39.0
 custom_fonts/font = ExtResource( 3 )
 text = "Activity Timer"
 
 [node name="sp" type="Control" parent="M/V/Menu"]
 margin_left = 143.0
-margin_right = 996.0
-margin_bottom = 31.0
+margin_right = 988.0
+margin_bottom = 48.0
 size_flags_horizontal = 3
 
-[node name="Add" type="Button" parent="M/V/Menu"]
-margin_left = 1000.0
+[node name="Add" type="TextureButton" parent="M/V/Menu"]
+margin_left = 992.0
 margin_right = 1040.0
-margin_bottom = 31.0
+margin_bottom = 48.0
 rect_min_size = Vector2( 40, 0 )
-custom_fonts/font = ExtResource( 3 )
-custom_styles/normal = ExtResource( 4 )
-text = "+"
+texture_normal = ExtResource( 4 )
+texture_pressed = ExtResource( 6 )
+texture_hover = ExtResource( 5 )
 
 [node name="Act" parent="M/V" instance=ExtResource( 2 )]
-margin_top = 51.0
+margin_top = 68.0
 margin_right = 1040.0
-margin_bottom = 107.0
+margin_bottom = 132.0
 
 [node name="Act2" parent="M/V" instance=ExtResource( 2 )]
-margin_top = 127.0
+margin_top = 152.0
 margin_right = 1040.0
-margin_bottom = 183.0
+margin_bottom = 216.0
 
 [node name="Act3" parent="M/V" instance=ExtResource( 2 )]
-margin_top = 203.0
+margin_top = 236.0
 margin_right = 1040.0
-margin_bottom = 259.0
+margin_bottom = 300.0
 
 [node name="Act4" parent="M/V" instance=ExtResource( 2 )]
-margin_top = 279.0
+margin_top = 320.0
 margin_right = 1040.0
-margin_bottom = 335.0
+margin_bottom = 384.0
 
 [node name="Act5" parent="M/V" instance=ExtResource( 2 )]
-margin_top = 355.0
+margin_top = 404.0
 margin_right = 1040.0
-margin_bottom = 411.0
+margin_bottom = 468.0
 
 [node name="Act6" parent="M/V" instance=ExtResource( 2 )]
-margin_top = 431.0
+margin_top = 488.0
 margin_right = 1040.0
-margin_bottom = 487.0
+margin_bottom = 552.0
 
 [node name="Act7" parent="M/V" instance=ExtResource( 2 )]
-margin_top = 507.0
+margin_top = 572.0
 margin_right = 1040.0
-margin_bottom = 563.0
+margin_bottom = 636.0
 
 [node name="sp2" type="Control" parent="."]
 margin_left = 1493.0
