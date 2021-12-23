@@ -1,11 +1,10 @@
-extends HBoxContainer
+extends Container
 
 func _ready():
-	$M/Activity.hide()
+	pass
 
 
 func show_list():
-	$M/Activity.hide()
 	$M/ActivityList.show()
 
 

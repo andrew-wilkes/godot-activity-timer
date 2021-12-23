@@ -1,24 +1,17 @@
-[gd_scene load_steps=21 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://ActivityView.gd" type="Script" id=1]
 [ext_resource path="res://assets/regular-font.tres" type="DynamicFont" id=2]
-[ext_resource path="res://assets/list.png" type="Texture" id=3]
-[ext_resource path="res://assets/list-light.png" type="Texture" id=4]
-[ext_resource path="res://assets/list-dark.png" type="Texture" id=5]
-[ext_resource path="res://assets/reset-light.png" type="Texture" id=6]
-[ext_resource path="res://assets/reset-dark.png" type="Texture" id=7]
-[ext_resource path="res://assets/reset.png" type="Texture" id=8]
-[ext_resource path="res://assets/delete-dark.png" type="Texture" id=9]
-[ext_resource path="res://assets/delete.png" type="Texture" id=10]
-[ext_resource path="res://assets/delete-light.png" type="Texture" id=11]
-[ext_resource path="res://assets/stop-light.png" type="Texture" id=12]
+[ext_resource path="res://assets/icon-8.png" type="Texture" id=3]
+[ext_resource path="res://assets/icon-6.png" type="Texture" id=4]
+[ext_resource path="res://assets/icon-2.png" type="Texture" id=5]
+[ext_resource path="res://assets/icon-0.png" type="Texture" id=6]
+[ext_resource path="res://assets/icon-1.png" type="Texture" id=7]
+[ext_resource path="res://assets/icon-7.png" type="Texture" id=8]
+[ext_resource path="res://assets/icon-18.png" type="Texture" id=9]
+[ext_resource path="res://assets/icon-20.png" type="Texture" id=10]
+[ext_resource path="res://assets/icon-19.png" type="Texture" id=11]
 [ext_resource path="res://TimeDisplay.tscn" type="PackedScene" id=13]
-[ext_resource path="res://assets/stop.png" type="Texture" id=14]
-[ext_resource path="res://assets/stop-dark.png" type="Texture" id=15]
-[ext_resource path="res://assets/start.png" type="Texture" id=16]
-[ext_resource path="res://assets/start-light.png" type="Texture" id=17]
-[ext_resource path="res://assets/start-dark.png" type="Texture" id=18]
-[ext_resource path="res://assets/white-sqr.png" type="Texture" id=19]
 [ext_resource path="res://ColorGridPanel.tscn" type="PackedScene" id=20]
 
 [node name="ActivityView" type="VBoxContainer"]
@@ -32,66 +25,60 @@ __meta__ = {
 
 [node name="Menu" type="HBoxContainer" parent="."]
 margin_right = 1080.0
-margin_bottom = 48.0
+margin_bottom = 77.0
 custom_constants/separation = 20
 
 [node name="ColorPicker" type="TextureButton" parent="Menu"]
 margin_right = 48.0
-margin_bottom = 48.0
+margin_bottom = 77.0
 rect_min_size = Vector2( 48, 0 )
 hint_tooltip = "Color marker"
-texture_normal = ExtResource( 19 )
 
 [node name="Title" type="LineEdit" parent="Menu"]
 margin_left = 68.0
-margin_right = 684.0
-margin_bottom = 48.0
+margin_right = 620.0
+margin_bottom = 77.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 2 )
 text = "Enter name of activity"
 
 [node name="Start" type="TextureButton" parent="Menu"]
-margin_left = 704.0
-margin_right = 752.0
-margin_bottom = 48.0
+margin_left = 640.0
+margin_right = 704.0
+margin_bottom = 77.0
 hint_tooltip = "Start timer"
-texture_normal = ExtResource( 16 )
-texture_pressed = ExtResource( 18 )
-texture_hover = ExtResource( 17 )
+texture_normal = ExtResource( 7 )
+texture_pressed = ExtResource( 6 )
+texture_hover = ExtResource( 5 )
 
 [node name="Stop" type="TextureButton" parent="Menu"]
-margin_left = 772.0
-margin_right = 820.0
-margin_bottom = 48.0
+margin_left = 724.0
+margin_right = 788.0
+margin_bottom = 77.0
 hint_tooltip = "Stop timer"
-texture_normal = ExtResource( 14 )
-texture_pressed = ExtResource( 15 )
-texture_hover = ExtResource( 12 )
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 3 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Reset" type="TextureButton" parent="Menu"]
-margin_left = 840.0
-margin_right = 888.0
-margin_bottom = 48.0
+margin_left = 808.0
+margin_right = 808.0
+margin_bottom = 77.0
 hint_tooltip = "Reset time"
-texture_normal = ExtResource( 8 )
-texture_pressed = ExtResource( 7 )
-texture_hover = ExtResource( 6 )
 
 [node name="TimeDisplay" parent="Menu" instance=ExtResource( 13 )]
-margin_left = 908.0
-margin_right = 1012.0
+margin_left = 828.0
+margin_right = 1060.0
+margin_bottom = 67.0
 
 [node name="Home" type="TextureButton" parent="Menu"]
-margin_left = 1032.0
+margin_left = 1080.0
 margin_right = 1080.0
-margin_bottom = 48.0
+margin_bottom = 77.0
 hint_tooltip = "Back to list"
-texture_normal = ExtResource( 3 )
-texture_pressed = ExtResource( 5 )
-texture_hover = ExtResource( 4 )
 
 [node name="LastStart" type="Label" parent="."]
 visible = false
@@ -106,36 +93,36 @@ margin_right = 1920.0
 margin_bottom = 82.0
 
 [node name="NotesLabel" type="Label" parent="."]
-margin_top = 68.0
+margin_top = 97.0
 margin_right = 1080.0
-margin_bottom = 99.0
+margin_bottom = 164.0
 custom_fonts/font = ExtResource( 2 )
 text = "Notes"
 
 [node name="Notes" type="TextEdit" parent="."]
-margin_top = 119.0
+margin_top = 184.0
 margin_right = 1080.0
-margin_bottom = 1852.0
+margin_bottom = 1836.0
 size_flags_vertical = 3
 
 [node name="Footer" type="HBoxContainer" parent="."]
-margin_top = 1872.0
+margin_top = 1856.0
 margin_right = 1080.0
 margin_bottom = 1920.0
 
 [node name="Spacer" type="Control" parent="Footer"]
-margin_right = 1028.0
-margin_bottom = 48.0
+margin_right = 1012.0
+margin_bottom = 64.0
 size_flags_horizontal = 3
 
 [node name="Delete" type="TextureButton" parent="Footer"]
-margin_left = 1032.0
+margin_left = 1016.0
 margin_right = 1080.0
-margin_bottom = 48.0
+margin_bottom = 64.0
 hint_tooltip = "Delete activity"
-texture_normal = ExtResource( 10 )
+texture_normal = ExtResource( 11 )
 texture_pressed = ExtResource( 9 )
-texture_hover = ExtResource( 11 )
+texture_hover = ExtResource( 10 )
 
 [node name="c" type="CanvasLayer" parent="."]
 

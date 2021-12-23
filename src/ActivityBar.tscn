@@ -3,15 +3,15 @@
 [ext_resource path="res://ActivityBar.gd" type="Script" id=1]
 [ext_resource path="res://assets/regular-font.tres" type="DynamicFont" id=2]
 [ext_resource path="res://TimeDisplay.tscn" type="PackedScene" id=3]
-[ext_resource path="res://assets/stop.png" type="Texture" id=4]
-[ext_resource path="res://assets/view.png" type="Texture" id=5]
-[ext_resource path="res://assets/start.png" type="Texture" id=6]
-[ext_resource path="res://assets/start-light.png" type="Texture" id=7]
-[ext_resource path="res://assets/start-dark.png" type="Texture" id=8]
-[ext_resource path="res://assets/stop-light.png" type="Texture" id=9]
-[ext_resource path="res://assets/view-dark.png" type="Texture" id=10]
-[ext_resource path="res://assets/view-light.png" type="Texture" id=11]
-[ext_resource path="res://assets/stop-dark.png" type="Texture" id=12]
+[ext_resource path="res://assets/icon-8.png" type="Texture" id=4]
+[ext_resource path="res://assets/icon-4.png" type="Texture" id=5]
+[ext_resource path="res://assets/icon-6.png" type="Texture" id=6]
+[ext_resource path="res://assets/icon-2.png" type="Texture" id=7]
+[ext_resource path="res://assets/icon-5.png" type="Texture" id=8]
+[ext_resource path="res://assets/icon-0.png" type="Texture" id=9]
+[ext_resource path="res://assets/icon-1.png" type="Texture" id=10]
+[ext_resource path="res://assets/icon-7.png" type="Texture" id=11]
+[ext_resource path="res://assets/icon-3.png" type="Texture" id=12]
 
 [sub_resource type="StyleBoxFlat" id=2]
 content_margin_left = 8.0
@@ -25,8 +25,8 @@ corner_radius_bottom_right = 4
 corner_radius_bottom_left = 4
 
 [node name="Act" type="PanelContainer"]
-margin_right = 1116.0
-margin_bottom = 54.0
+margin_right = 1072.0
+margin_bottom = 80.0
 size_flags_horizontal = 3
 custom_styles/panel = SubResource( 2 )
 script = ExtResource( 1 )
@@ -37,58 +37,63 @@ __meta__ = {
 [node name="H" type="HBoxContainer" parent="."]
 margin_left = 8.0
 margin_top = 8.0
-margin_right = 1108.0
-margin_bottom = 56.0
+margin_right = 1064.0
+margin_bottom = 108.0
 custom_constants/separation = 20
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="ColorRect" type="ColorRect" parent="H"]
-margin_right = 8.0
-margin_bottom = 48.0
-rect_min_size = Vector2( 8, 40 )
+margin_right = 16.0
+margin_bottom = 100.0
+rect_min_size = Vector2( 16, 0 )
 size_flags_vertical = 3
 color = Color( 0.0745098, 0.729412, 0, 1 )
 
 [node name="Title" type="Button" parent="H"]
-margin_left = 28.0
-margin_right = 772.0
-margin_bottom = 48.0
+margin_left = 36.0
+margin_right = 476.0
+margin_bottom = 100.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 2 )
 toggle_mode = true
 text = "Task name"
 flat = true
+clip_text = true
 align = 0
 
 [node name="Start" type="TextureButton" parent="H"]
-margin_left = 792.0
-margin_right = 840.0
-margin_bottom = 48.0
+margin_left = 496.0
+margin_right = 596.0
+margin_bottom = 100.0
 hint_tooltip = "Start / re-start  timer"
-texture_normal = ExtResource( 6 )
-texture_pressed = ExtResource( 8 )
+texture_normal = ExtResource( 10 )
+texture_pressed = ExtResource( 9 )
 texture_hover = ExtResource( 7 )
 
 [node name="Stop" type="TextureButton" parent="H"]
-margin_left = 860.0
-margin_right = 908.0
-margin_bottom = 48.0
-texture_normal = ExtResource( 4 )
-texture_pressed = ExtResource( 12 )
-texture_hover = ExtResource( 9 )
+margin_left = 616.0
+margin_right = 716.0
+margin_bottom = 100.0
+texture_normal = ExtResource( 11 )
+texture_pressed = ExtResource( 6 )
+texture_hover = ExtResource( 4 )
 
 [node name="TimeDisplay" parent="H" instance=ExtResource( 3 )]
+margin_left = 736.0
+margin_top = 25.0
+margin_right = 936.0
+margin_bottom = 74.0
 
 [node name="View" type="TextureButton" parent="H"]
-margin_left = 1052.0
-margin_right = 1100.0
-margin_bottom = 48.0
+margin_left = 956.0
+margin_right = 1056.0
+margin_bottom = 100.0
 hint_tooltip = "View activity"
 texture_normal = ExtResource( 5 )
-texture_pressed = ExtResource( 10 )
-texture_hover = ExtResource( 11 )
+texture_pressed = ExtResource( 8 )
+texture_hover = ExtResource( 12 )
 
 [connection signal="mouse_entered" from="H/Title" to="." method="_on_Title_mouse_entered"]
 [connection signal="mouse_exited" from="H/Title" to="." method="_on_Title_mouse_exited"]

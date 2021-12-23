@@ -1,0 +1,16 @@
+The best icon sizes seem to be:
+
+200 x 200 for large buttons up to 5 horizontally.
+100 x 100 for the minimum easily clickable.
+
+Group the icons in Inkscape and export to icons.png with dimensions to give the desired per-icon size.
+
+Use Imagemagick via the convert function.
+
+convert -crop 16.6666%x25% icons.png icon.png
+
+This splits the image into individual images with numerical imcrements appended to the name.
+
+icon-0.png etc.
+
+Then drag and drop the icon images to the button texture slots.
