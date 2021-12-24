@@ -6,13 +6,11 @@ func _ready():
 	set("custom_constants/margin_bottom", ws.end.y + 10.0)
 
 
-func show_list():
+func _on_ActivityList_view_clicked(id):
+	$ActivityList.hide()
+	$ActivityView.setup(Data.activities.items[id])
+
+
+func _on_ActivityView_show_list():
 	$ActivityList.show()
-
-
-func _on_Add_pressed():
-	pass # Replace with function body.
-
-
-func _on_Activity_home_button_pressed():
-	show_list()
+	$ActivityView.hide()

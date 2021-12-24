@@ -8,14 +8,14 @@ var key = 0
 func _ready():
 	if get_parent().name == "root":
 		# Test
-		setup(null, Activity.new(), true)
+		setup(Activity.new())
 
 
-func setup(_key, _act: Activity, new = false):
-	key = _key
+func setup(_act: Activity):
 	act = _act
+	show()
 	set_button_states()
-	if new:
+	if act.new:
 		$Menu/Title.editable = false
 		$Menu/Title.text = "Add title"
 		yield(get_tree().create_timer(2.0), "timeout")
@@ -34,10 +34,6 @@ func update_time():
 	$Menu/TimeDisplay.update_time(act.time)
 
 
-func _on_Home_pressed():
-	emit_signal("show_list")
-
-
 func _on_Start_pressed():
 	act.stopped = false
 	act.start_time = OS.get_unix_time()
@@ -53,13 +49,13 @@ func _on_Stop_pressed():
 
 
 func set_button_states():
-	$Menu/Start.visible = act.stopped
-	$Menu/Stop.visible = not act.stopped
+	$Time/Start.visible = act.stopped
+	$Time/Stop.visible = not act.stopped
 
 
 func _on_Reset_pressed():
 	act.time = 0
-	$Menu/TimeDisplay.update_time(0)
+	$Time/TimeDisplay.update_time(0)
 	$LastStart.text = ""
 	$LastStop.text = ""
 
@@ -82,22 +78,21 @@ func _on_Title_text_changed(new_text):
 
 
 func update_last_start():
-	update_datetime($LastStart, act.start_time, "Last start time: ")
+	update_datetime($Stats/LastStart, act.start_time)
 
 
 func update_last_stop():
-	update_datetime($LastStop, act.stop_time, "Last stop time: ")
+	update_datetime($Stats/LastStop, act.stop_time)
 
 
-func update_datetime(node: Label, time: int, txt: String):
+func update_datetime(node: Label, time: int):
 	if time == 0:
-		node.visible = false
+		node.text = ""
 	else:
-		node.visible = true
 		var dict = OS.get_datetime_from_unix_time(time)
 		dict.erase("dst")
 		dict.erase("weekday")
-		node.text = txt + "\t%02d:%02d:%02d %0d-%02d-%02d" % dict.values()
+		node.text = "%02d:%02d:%02d %0d-%02d-%02d" % dict.values()
 
 
 func _on_ColorPicker_pressed():
@@ -107,3 +102,7 @@ func _on_ColorPicker_pressed():
 func _on_ColorGridPanel_color_changed(color):
 	act.color_code = color
 	$Menu/ColorPicker.modulate = color
+
+
+func _on_List_pressed():
+	emit_signal("show_list")

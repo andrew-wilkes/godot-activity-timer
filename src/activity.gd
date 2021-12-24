@@ -11,3 +11,4 @@ export(Color, RGB) var color_code
 
 var stopped = true
 var node
+var new = false
