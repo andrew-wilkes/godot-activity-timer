@@ -25,36 +25,36 @@ __meta__ = {
 
 [node name="Menu" type="HBoxContainer" parent="."]
 margin_right = 1080.0
-margin_bottom = 77.0
+margin_bottom = 100.0
 custom_constants/separation = 20
 
 [node name="ColorPicker" type="TextureButton" parent="Menu"]
 margin_right = 48.0
-margin_bottom = 77.0
+margin_bottom = 100.0
 rect_min_size = Vector2( 48, 0 )
 hint_tooltip = "Color marker"
 
 [node name="Title" type="LineEdit" parent="Menu"]
 margin_left = 68.0
-margin_right = 620.0
-margin_bottom = 77.0
+margin_right = 580.0
+margin_bottom = 100.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 2 )
 text = "Enter name of activity"
 
 [node name="Start" type="TextureButton" parent="Menu"]
-margin_left = 640.0
-margin_right = 704.0
-margin_bottom = 77.0
+margin_left = 600.0
+margin_right = 700.0
+margin_bottom = 100.0
 hint_tooltip = "Start timer"
 texture_normal = ExtResource( 7 )
 texture_pressed = ExtResource( 6 )
 texture_hover = ExtResource( 5 )
 
 [node name="Stop" type="TextureButton" parent="Menu"]
-margin_left = 724.0
-margin_right = 788.0
-margin_bottom = 77.0
+margin_left = 720.0
+margin_right = 820.0
+margin_bottom = 100.0
 hint_tooltip = "Stop timer"
 texture_normal = ExtResource( 8 )
 texture_pressed = ExtResource( 4 )
@@ -64,20 +64,21 @@ __meta__ = {
 }
 
 [node name="Reset" type="TextureButton" parent="Menu"]
-margin_left = 808.0
-margin_right = 808.0
-margin_bottom = 77.0
+margin_left = 840.0
+margin_right = 840.0
+margin_bottom = 100.0
 hint_tooltip = "Reset time"
 
 [node name="TimeDisplay" parent="Menu" instance=ExtResource( 13 )]
-margin_left = 828.0
+margin_left = 860.0
+margin_top = 25.0
 margin_right = 1060.0
-margin_bottom = 67.0
+margin_bottom = 74.0
 
 [node name="Home" type="TextureButton" parent="Menu"]
 margin_left = 1080.0
 margin_right = 1080.0
-margin_bottom = 77.0
+margin_bottom = 100.0
 hint_tooltip = "Back to list"
 
 [node name="LastStart" type="Label" parent="."]
@@ -93,32 +94,32 @@ margin_right = 1920.0
 margin_bottom = 82.0
 
 [node name="NotesLabel" type="Label" parent="."]
-margin_top = 97.0
+margin_top = 120.0
 margin_right = 1080.0
-margin_bottom = 164.0
+margin_bottom = 178.0
 custom_fonts/font = ExtResource( 2 )
 text = "Notes"
 
 [node name="Notes" type="TextEdit" parent="."]
-margin_top = 184.0
+margin_top = 198.0
 margin_right = 1080.0
-margin_bottom = 1836.0
+margin_bottom = 1800.0
 size_flags_vertical = 3
 
 [node name="Footer" type="HBoxContainer" parent="."]
-margin_top = 1856.0
+margin_top = 1820.0
 margin_right = 1080.0
 margin_bottom = 1920.0
 
 [node name="Spacer" type="Control" parent="Footer"]
-margin_right = 1012.0
-margin_bottom = 64.0
+margin_right = 976.0
+margin_bottom = 100.0
 size_flags_horizontal = 3
 
 [node name="Delete" type="TextureButton" parent="Footer"]
-margin_left = 1016.0
+margin_left = 980.0
 margin_right = 1080.0
-margin_bottom = 64.0
+margin_bottom = 100.0
 hint_tooltip = "Delete activity"
 texture_normal = ExtResource( 11 )
 texture_pressed = ExtResource( 9 )
@@ -132,6 +133,7 @@ margin_bottom = 70.0
 dialog_text = "Are you sure that you want to delete this activity?"
 
 [node name="ColorGridPanel" parent="c" instance=ExtResource( 20 )]
+visible = false
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_top = 1024.0

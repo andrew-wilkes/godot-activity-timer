@@ -6,7 +6,6 @@
 [node name="Main" type="MarginContainer"]
 margin_right = 1080.0
 margin_bottom = 1920.0
-rect_min_size = Vector2( 1080, 0 )
 size_flags_horizontal = 3
 custom_constants/margin_right = 20
 custom_constants/margin_top = 120
