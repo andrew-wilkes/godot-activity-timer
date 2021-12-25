@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=2]
+[gd_scene load_steps=24 format=2]
 
 [ext_resource path="res://ActivityView.gd" type="Script" id=1]
 [ext_resource path="res://assets/regular-font.tres" type="DynamicFont" id=2]
@@ -21,10 +21,13 @@
 [ext_resource path="res://assets/icon-14.png" type="Texture" id=19]
 [ext_resource path="res://ColorGridPanel.tscn" type="PackedScene" id=20]
 [ext_resource path="res://assets/mono-font.tres" type="DynamicFont" id=21]
+[ext_resource path="res://assets/the_theme.tres" type="Theme" id=22]
+[ext_resource path="res://ConfirmPopup.tscn" type="PackedScene" id=23]
 
 [node name="ActivityView" type="VBoxContainer"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+theme = ExtResource( 22 )
 custom_constants/separation = 20
 script = ExtResource( 1 )
 __meta__ = {
@@ -68,43 +71,41 @@ margin_top = 170.0
 margin_right = 1080.0
 margin_bottom = 228.0
 size_flags_horizontal = 3
-custom_fonts/font = ExtResource( 2 )
 text = "Title"
 
 [node name="Menu" type="HBoxContainer" parent="."]
 margin_top = 248.0
 margin_right = 1080.0
-margin_bottom = 348.0
+margin_bottom = 316.0
 custom_constants/separation = 20
 
-[node name="ColorPicker" type="TextureButton" parent="Menu"]
+[node name="Title" type="LineEdit" parent="Menu"]
+margin_right = 1080.0
+margin_bottom = 68.0
+size_flags_horizontal = 3
+text = "Enter name of activity"
+
+[node name="Sp3" type="Control" parent="."]
+margin_top = 336.0
+margin_right = 1080.0
+margin_bottom = 366.0
+rect_min_size = Vector2( 0, 30 )
+
+[node name="Time" type="HBoxContainer" parent="."]
+margin_top = 386.0
+margin_right = 1080.0
+margin_bottom = 486.0
+custom_constants/separation = 20
+
+[node name="ColorPicker" type="TextureButton" parent="Time"]
 margin_right = 100.0
 margin_bottom = 100.0
 rect_min_size = Vector2( 48, 0 )
 hint_tooltip = "Color marker"
 texture_normal = ExtResource( 12 )
 
-[node name="Title" type="LineEdit" parent="Menu"]
-margin_left = 120.0
-margin_right = 1080.0
-margin_bottom = 100.0
-size_flags_horizontal = 3
-custom_fonts/font = ExtResource( 2 )
-text = "Enter name of activity"
-
-[node name="Sp3" type="Control" parent="."]
-margin_top = 368.0
-margin_right = 1080.0
-margin_bottom = 398.0
-rect_min_size = Vector2( 0, 30 )
-
-[node name="Time" type="HBoxContainer" parent="."]
-margin_top = 418.0
-margin_right = 1080.0
-margin_bottom = 518.0
-custom_constants/separation = 20
-
 [node name="Sp" type="Control" parent="Time"]
+margin_left = 120.0
 margin_right = 500.0
 margin_bottom = 100.0
 size_flags_horizontal = 3
@@ -145,15 +146,15 @@ texture_pressed = ExtResource( 17 )
 texture_hover = ExtResource( 19 )
 
 [node name="Sp4" type="Control" parent="."]
-margin_top = 538.0
+margin_top = 506.0
 margin_right = 1080.0
-margin_bottom = 568.0
+margin_bottom = 536.0
 rect_min_size = Vector2( 0, 30 )
 
 [node name="Stats" type="GridContainer" parent="."]
-margin_top = 588.0
+margin_top = 556.0
 margin_right = 1080.0
-margin_bottom = 724.0
+margin_bottom = 692.0
 custom_constants/vseparation = 20
 custom_constants/hseparation = 50
 columns = 2
@@ -161,7 +162,6 @@ columns = 2
 [node name="Label" type="Label" parent="Stats"]
 margin_right = 292.0
 margin_bottom = 58.0
-custom_fonts/font = ExtResource( 2 )
 text = "Last start time:"
 
 [node name="LastStart" type="Label" parent="Stats"]
@@ -175,7 +175,6 @@ custom_fonts/font = ExtResource( 21 )
 margin_top = 78.0
 margin_right = 292.0
 margin_bottom = 136.0
-custom_fonts/font = ExtResource( 2 )
 text = "Last stop time:"
 
 [node name="LastStop" type="Label" parent="Stats"]
@@ -186,48 +185,45 @@ margin_bottom = 131.0
 custom_fonts/font = ExtResource( 21 )
 
 [node name="Sp2" type="Control" parent="."]
-margin_top = 744.0
+margin_top = 712.0
 margin_right = 1080.0
-margin_bottom = 774.0
+margin_bottom = 742.0
 rect_min_size = Vector2( 0, 30 )
 
 [node name="NotesLabel" type="Label" parent="."]
-margin_top = 794.0
+margin_top = 762.0
 margin_right = 1080.0
-margin_bottom = 852.0
+margin_bottom = 820.0
 size_flags_horizontal = 3
-custom_fonts/font = ExtResource( 2 )
 text = "Notes"
 
 [node name="Notes" type="TextEdit" parent="."]
-margin_top = 872.0
+margin_top = 840.0
 margin_right = 1080.0
 margin_bottom = 1920.0
-rect_min_size = Vector2( 0, 1000 )
+rect_min_size = Vector2( 0, 300 )
 size_flags_vertical = 3
 custom_fonts/font = ExtResource( 2 )
 
 [node name="c" type="CanvasLayer" parent="."]
 
-[node name="Confirm" type="ConfirmationDialog" parent="c"]
-margin_right = 333.0
-margin_bottom = 70.0
-dialog_text = "Are you sure that you want to delete this activity?"
-
 [node name="ColorGridPanel" parent="c" instance=ExtResource( 20 )]
-visible = false
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_top = 1024.0
 margin_right = 56.0
 margin_bottom = 1080.0
 
+[node name="Confirm" parent="c" instance=ExtResource( 23 )]
+margin_right = -116.0
+margin_bottom = -1659.0
+
 [connection signal="pressed" from="Footer/List" to="." method="_on_List_pressed"]
 [connection signal="pressed" from="Footer/Delete" to="." method="_on_Delete_pressed"]
-[connection signal="pressed" from="Menu/ColorPicker" to="." method="_on_ColorPicker_pressed"]
 [connection signal="text_changed" from="Menu/Title" to="." method="_on_Title_text_changed"]
+[connection signal="pressed" from="Time/ColorPicker" to="." method="_on_ColorPicker_pressed"]
 [connection signal="pressed" from="Time/Start" to="." method="_on_Start_pressed"]
 [connection signal="pressed" from="Time/Stop" to="." method="_on_Stop_pressed"]
 [connection signal="pressed" from="Time/Reset" to="." method="_on_Reset_pressed"]
-[connection signal="confirmed" from="c/Confirm" to="." method="_on_Confirm_confirmed"]
 [connection signal="color_changed" from="c/ColorGridPanel" to="." method="_on_ColorGridPanel_color_changed"]
+[connection signal="confirmed" from="c/Confirm" to="." method="_on_Confirm_confirmed"]

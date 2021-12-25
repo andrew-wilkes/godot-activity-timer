@@ -29,7 +29,8 @@ func check_if_space_to_add_new_bar():
 	if num_bars > 0:
 		var base = get_child(num_bars)
 		var sep = get("custom_constants/separation")
-		var limit = OS.get_window_safe_area().size.y - 30.0 - sep - base.rect_size.y 
+		# Account for the extra margin y sizes set in main.gd = 50
+		var limit = OS.get_window_safe_area().size.y - 50.0 - sep - base.rect_size.y 
 		if base.margin_bottom > limit:
 			$Menu/Add.visible = false
 		else:

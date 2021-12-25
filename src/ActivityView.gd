@@ -23,7 +23,7 @@ func setup(_act: Activity):
 		$Menu/Title.editable = true
 	else:
 		$Menu/Title.text = act.title
-		$Menu/ColorPicker.modulate = act.color_code
+		$Time/ColorPicker.modulate = act.color_code
 		$Notes.text = act.notes
 	$Menu/Title.grab_focus()
 	update_last_start()
@@ -65,7 +65,7 @@ func _on_Delete_pressed():
 
 
 func _on_Confirm_confirmed():
-	Data.activities.erase(key)
+	Data.activities.items.erase(key)
 	emit_signal("show_list")
 
 
@@ -101,7 +101,7 @@ func _on_ColorPicker_pressed():
 
 func _on_ColorGridPanel_color_changed(color):
 	act.color_code = color
-	$Menu/ColorPicker.modulate = color
+	$Time/ColorPicker.modulate = color
 
 
 func _on_List_pressed():

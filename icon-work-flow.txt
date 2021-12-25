@@ -7,7 +7,7 @@ Group the icons in Inkscape and export to icons.png with dimensions to give the 
 
 Use Imagemagick via the convert function.
 
-convert -crop 16.6666%x25% icons.png icon.png
+convert -crop 16.6666%x20% icons.png icon.png
 
 This splits the image into individual images with numerical imcrements appended to the name.
 
