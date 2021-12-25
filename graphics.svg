@@ -9,6 +9,7 @@
    inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -204,11 +205,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.32"
-     inkscape:cx="-1192.1875"
-     inkscape:cy="-409.375"
+     inkscape:zoom="1.28"
+     inkscape:cx="-2312.8906"
+     inkscape:cy="-1048.4375"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="true"
      inkscape:pagecheckerboard="true"
@@ -236,10 +237,23 @@
     </rdf:RDF>
   </metadata>
   <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Template"
+     sodipodi:insensitive="true">
+    <image
+       width="324"
+       height="324"
+       preserveAspectRatio="none"
+       xlink:href="android-icon-template.png"
+       id="image1194"
+       x="-2364"
+       y="-1200" />
+  </g>
+  <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1"
-     sodipodi:insensitive="true">
+     id="layer1">
     <rect
        style="fill:#16d600;fill-opacity:1;stroke-width:16;stroke-linecap:round"
        id="rect867"
@@ -262,11 +276,43 @@
        inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.54614"
+       id="rect1267"
+       width="320"
+       height="320"
+       x="-2360"
+       y="-1200"
+       ry="0"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/icons/back.png"
+       inkscape:export-xdpi="129.60001"
+       inkscape:export-ydpi="129.60001" />
+    <text
+       xml:space="preserve"
+       style="font-size:24px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px"
+       x="-2608.8457"
+       y="-1176.0699"
+       id="text3120"><tspan
+         sodipodi:role="line"
+         id="tspan3118"
+         x="-2608.8457"
+         y="-1176.0699">Main 192x192</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px"
+       x="-2623.4087"
+       y="-1140.9531"
+       id="text7940"><tspan
+         sodipodi:role="line"
+         id="tspan7938"
+         x="-2623.4087"
+         y="-1140.9531">Adaptive 432x432</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="Layer 2">
+     inkscape:label="Layer 2"
+     style="display:inline">
     <path
        sodipodi:type="star"
        style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
@@ -1212,6 +1258,18 @@
            y="820" />
       </g>
     </g>
+    <path
+       style="fill:#a33227;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.54614"
+       id="path1043"
+       sodipodi:type="arc"
+       sodipodi:cx="-1449.9996"
+       sodipodi:cy="-1079.3434"
+       sodipodi:rx="330.00034"
+       sodipodi:ry="330.00034"
+       sodipodi:start="0"
+       sodipodi:end="6.2811956"
+       sodipodi:arc-type="slice"
+       d="m -1119.9993,-1079.3434 a 330.00034,330.00034 0 0 1 -329.8362,330.00031 330.00034,330.00034 0 0 1 -330.1643,-329.67201 330.00034,330.00034 0 0 1 329.5077,-330.3283 A 330.00034,330.00034 0 0 1 -1120,-1080 l -329.9996,0.6566 z" />
     <g
        id="g25580"
        transform="translate(480,-220)">
@@ -1255,6 +1313,61 @@
       <rect
          style="fill:#666666;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:round"
          id="rect38345"
+         width="80"
+         height="80"
+         x="-1960"
+         y="-1020"
+         ry="0"
+         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/icon.png"
+         inkscape:export-xdpi="10.971429"
+         inkscape:export-ydpi="10.971429" />
+    </g>
+    <g
+       id="g25580-3"
+       transform="matrix(0.26964286,0,0,0.26964286,-1682.2857,-808.10714)"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/icons/front.png"
+       inkscape:export-xdpi="129.60001"
+       inkscape:export-ydpi="129.60001">
+      <rect
+         style="fill:#999999;fill-opacity:1;stroke:none;stroke-width:14.4725;stroke-linecap:round"
+         id="rect28562-6"
+         width="560"
+         height="360"
+         x="-2200"
+         y="-940"
+         ry="130.90909"
+         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/icon.png"
+         inkscape:export-xdpi="10.971429"
+         inkscape:export-ydpi="10.971429" />
+      <text
+         xml:space="preserve"
+         style="font-size:329.23px;line-height:1.25;font-family:'Noto Sans Mono';-inkscape-font-specification:'Noto Sans Mono';letter-spacing:0px;word-spacing:0px;fill:#ffffff;stroke-width:4.40933"
+         x="-2014.5194"
+         y="-688.2337"
+         id="text33626-7"
+         transform="scale(1.060586,0.94287498)"
+         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/icon.png"
+         inkscape:export-xdpi="10.971429"
+         inkscape:export-ydpi="10.971429"><tspan
+           sodipodi:role="line"
+           id="tspan33624-5"
+           x="-2014.5194"
+           y="-688.2337"
+           style="fill:#ffffff;stroke-width:4.40933">00</tspan></text>
+      <rect
+         style="fill:#999999;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:round"
+         id="rect36484-3"
+         width="360"
+         height="120"
+         x="-2100"
+         y="-1140"
+         ry="30"
+         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/icon.png"
+         inkscape:export-xdpi="10.971429"
+         inkscape:export-ydpi="10.971429" />
+      <rect
+         style="fill:#666666;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:round"
+         id="rect38345-5"
          width="80"
          height="80"
          x="-1960"
