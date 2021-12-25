@@ -8,11 +8,12 @@ signal drag_drop_request(this, pressed)
 var id
 var running = false
 var dragging = false
+var act: Activity
 
 func _ready():
-	$H/Stop.hide()
 	if get_parent().name == "root":
 		# Test
+		$H/Stop.hide()
 		$H/Title.text = "33s"
 		$H/TimeDisplay.update_time(33)
 		yield(get_tree().create_timer(2.0), "timeout")
@@ -26,6 +27,14 @@ func _ready():
 		$H/TimeDisplay.update_time(3600000)
 
 
+func setup(_act: Activity):
+	$H/Title.text = _act.title
+	show_start_button(_act.stopped)
+	$H/TimeDisplay.update_time(_act.time)
+	$H/ColorRect.color = _act.color_code
+	act = _act
+
+
 func _on_View_pressed():
 	emit_signal("view_request", id)
 
@@ -36,14 +45,17 @@ func _on_Title_toggled(button_pressed):
 
 func _on_Start_pressed():
 	emit_signal("start_request", self)
-	$H/Stop.show()
-	$H/Start.hide()
+	show_start_button(false)
 
 
 func _on_Stop_pressed():
 	emit_signal("stop_request", self)
-	$H/Stop.hide()
-	$H/Start.show()
+	show_start_button(true)
+
+
+func show_start_button(show):
+	$H/Stop.visible = not show
+	$H/Start.visible = show
 
 
 func _on_Title_mouse_entered():
@@ -52,3 +64,8 @@ func _on_Title_mouse_entered():
 
 func _on_Title_mouse_exited():
 	$H/Title.set_default_cursor_shape(Input.CURSOR_ARROW)
+
+
+func _on_Timer_timeout():
+	if not act.stopped:
+		$H/TimeDisplay.update_time(act.time)

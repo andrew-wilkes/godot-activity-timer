@@ -34,6 +34,10 @@ func get_file_content(path) -> String:
 	return content
 
 
+func save_activities():
+	save_data(activities, ACTIVITIES_FILE_NAME)
+
+
 func save_data(data, file_name):
 	assert(ResourceSaver.save(file_name, data) == OK)
 	settings_changed = false

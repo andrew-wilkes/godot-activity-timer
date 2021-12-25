@@ -33,5 +33,9 @@ margin_top = 120.0
 margin_right = 1060.0
 margin_bottom = 1920.0
 
+[node name="Timer" type="Timer" parent="."]
+autostart = true
+
 [connection signal="view_clicked" from="ActivityList" to="." method="_on_ActivityList_view_clicked"]
 [connection signal="show_list" from="ActivityView" to="." method="_on_ActivityView_show_list"]
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

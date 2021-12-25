@@ -7,10 +7,17 @@ func _ready():
 
 
 func _on_ActivityList_view_clicked(id):
-	$ActivityList.hide()
+	$ActivityList.clear_list()
 	$ActivityView.setup(Data.activities.items[id])
 
 
 func _on_ActivityView_show_list():
-	$ActivityList.show()
+	$ActivityList.build_list()
 	$ActivityView.hide()
+
+
+func _on_Timer_timeout():
+	for a in Data.activities.items.values():
+		var act: Activity = a
+		if not act.stopped:
+			act.time += 1

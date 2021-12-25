@@ -24,6 +24,7 @@ func setup(_act: Activity):
 	else:
 		$Menu/Title.text = act.title
 		$Time/ColorPicker.modulate = act.color_code
+		update_time()
 		$Notes.text = act.notes
 	$Menu/Title.grab_focus()
 	update_last_start()
@@ -31,7 +32,7 @@ func setup(_act: Activity):
 
 
 func update_time():
-	$Menu/TimeDisplay.update_time(act.time)
+	$Time/TimeDisplay.update_time(act.time)
 
 
 func _on_Start_pressed():
@@ -66,6 +67,7 @@ func _on_Delete_pressed():
 
 func _on_Confirm_confirmed():
 	Data.activities.items.erase(key)
+	Data.save_activities()
 	emit_signal("show_list")
 
 
@@ -105,4 +107,10 @@ func _on_ColorGridPanel_color_changed(color):
 
 
 func _on_List_pressed():
+	Data.save_activities()
 	emit_signal("show_list")
+
+
+func _on_Timer_timeout():
+	if visible and not act.stopped:
+		update_time()

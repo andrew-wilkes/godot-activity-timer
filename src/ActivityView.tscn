@@ -218,6 +218,9 @@ margin_bottom = 1080.0
 margin_right = -116.0
 margin_bottom = -1659.0
 
+[node name="Timer" type="Timer" parent="."]
+autostart = true
+
 [connection signal="pressed" from="Footer/List" to="." method="_on_List_pressed"]
 [connection signal="pressed" from="Footer/Delete" to="." method="_on_Delete_pressed"]
 [connection signal="text_changed" from="Menu/Title" to="." method="_on_Title_text_changed"]
@@ -227,3 +230,4 @@ margin_bottom = -1659.0
 [connection signal="pressed" from="Time/Reset" to="." method="_on_Reset_pressed"]
 [connection signal="color_changed" from="c/ColorGridPanel" to="." method="_on_ColorGridPanel_color_changed"]
 [connection signal="confirmed" from="c/Confirm" to="." method="_on_Confirm_confirmed"]
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

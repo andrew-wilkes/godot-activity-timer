@@ -6,22 +6,44 @@ var bar_scene = preload("res://ActivityBar.tscn")
 var drag_item
 
 func _ready():
-	pass
+	build_list()
+
+
+func clear_list():
+	hide()
+	for idx in get_child_count():
+		if idx > 0:
+			get_child(idx).queue_free()
+
+
+func build_list():
+	show()
+	for id in Data.activities.order:
+		var act = Data.activities.items[id]
+		act.node = bar_scene.instance()
+		act.node.id = id
+		act.node.setup(act)
+		add_child(act.node)
+		connect_bar(act.node)
 
 
 func _on_Add_pressed():
 	var act = Activity.new()
 	act.node = bar_scene.instance()
 	add_child_below_node($Menu, act.node, true)
-	act.node.connect("start_request", self, "start_timer")
-	act.node.connect("stop_request", self, "stop_timer")
-	act.node.connect("view_request", self, "view_timer")
-	act.node.connect("drag_drop_request", self, "bar_clicked")
-	act.node.id = Data.activities.get_id(act)
+	connect_bar(act.node)
+	act.node.id = Data.activities.get_id_and_add_to_data(act)
 	act.new = true
 	# Allow time for node to be visible
 	yield(get_tree(), "idle_frame")
 	check_if_space_to_add_new_bar()
+
+
+func connect_bar(node):
+	node.connect("start_request", self, "start_timer")
+	node.connect("stop_request", self, "stop_timer")
+	node.connect("view_request", self, "view_activity")
+	node.connect("drag_drop_request", self, "bar_clicked")
 
 
 func check_if_space_to_add_new_bar():
@@ -55,5 +77,5 @@ func stop_timer(item):
 	Data.activities.items[item.id].stopped = true
 
 
-func view_timer(id):
+func view_activity(id):
 	emit_signal("view_clicked", id)
