@@ -21,7 +21,6 @@ expand_margin_top = 20.0
 expand_margin_bottom = 20.0
 
 [node name="ConfirmPopup" type="PopupPanel"]
-visible = true
 anchor_right = 1.0
 anchor_bottom = 1.0
 theme = ExtResource( 2 )

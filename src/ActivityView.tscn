@@ -1,7 +1,6 @@
-[gd_scene load_steps=24 format=2]
+[gd_scene load_steps=23 format=2]
 
 [ext_resource path="res://ActivityView.gd" type="Script" id=1]
-[ext_resource path="res://assets/regular-font.tres" type="DynamicFont" id=2]
 [ext_resource path="res://assets/icon-8.png" type="Texture" id=3]
 [ext_resource path="res://assets/icon-6.png" type="Texture" id=4]
 [ext_resource path="res://assets/icon-2.png" type="Texture" id=5]
@@ -72,6 +71,7 @@ margin_right = 1080.0
 margin_bottom = 228.0
 size_flags_horizontal = 3
 text = "Title"
+max_lines_visible = 1
 
 [node name="Menu" type="HBoxContainer" parent="."]
 margin_top = 248.0
@@ -203,7 +203,6 @@ margin_right = 1080.0
 margin_bottom = 1920.0
 rect_min_size = Vector2( 0, 300 )
 size_flags_vertical = 3
-custom_fonts/font = ExtResource( 2 )
 
 [node name="c" type="CanvasLayer" parent="."]
 
@@ -228,6 +227,7 @@ autostart = true
 [connection signal="pressed" from="Time/Start" to="." method="_on_Start_pressed"]
 [connection signal="pressed" from="Time/Stop" to="." method="_on_Stop_pressed"]
 [connection signal="pressed" from="Time/Reset" to="." method="_on_Reset_pressed"]
+[connection signal="text_changed" from="Notes" to="." method="_on_Notes_text_changed"]
 [connection signal="color_changed" from="c/ColorGridPanel" to="." method="_on_ColorGridPanel_color_changed"]
 [connection signal="confirmed" from="c/Confirm" to="." method="_on_Confirm_confirmed"]
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

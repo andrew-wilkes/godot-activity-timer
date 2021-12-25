@@ -8,7 +8,7 @@ func _ready():
 
 func _on_ActivityList_view_clicked(id):
 	$ActivityList.clear_list()
-	$ActivityView.setup(Data.activities.items[id])
+	$ActivityView.setup(id, Data.activities.items[id])
 
 
 func _on_ActivityView_show_list():

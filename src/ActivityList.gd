@@ -33,6 +33,7 @@ func _on_Add_pressed():
 	add_child_below_node($Menu, act.node, true)
 	connect_bar(act.node)
 	act.node.id = Data.activities.get_id_and_add_to_data(act)
+	act.node.setup(act)
 	act.new = true
 	# Allow time for node to be visible
 	yield(get_tree(), "idle_frame")
@@ -40,8 +41,6 @@ func _on_Add_pressed():
 
 
 func connect_bar(node):
-	node.connect("start_request", self, "start_timer")
-	node.connect("stop_request", self, "stop_timer")
 	node.connect("view_request", self, "view_activity")
 	node.connect("drag_drop_request", self, "bar_clicked")
 
@@ -67,14 +66,6 @@ func bar_clicked(item, pressed):
 		# Drop
 		# Reparent bar
 		drag_item = null
-
-
-func start_timer(item):
-	Data.activities.items[item.id].stopped = false
-
-
-func stop_timer(item):
-	Data.activities.items[item.id].stopped = true
 
 
 func view_activity(id):

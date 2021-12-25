@@ -3,30 +3,28 @@ extends Control
 signal show_list
 
 var act: Activity
-var key = 0
+var id
 
 func _ready():
 	if get_parent().name == "root":
 		# Test
-		setup(Activity.new())
+		setup(-1, Activity.new())
 
 
-func setup(_act: Activity):
+func setup(_id, _act: Activity):
+	id = _id
 	act = _act
 	show()
 	set_button_states()
 	if act.new:
-		$Menu/Title.editable = false
-		$Menu/Title.text = "Add title"
-		yield(get_tree().create_timer(2.0), "timeout")
 		$Menu/Title.text = ""
-		$Menu/Title.editable = true
+		$Menu/Title.grab_focus()
+		act.new = false
 	else:
 		$Menu/Title.text = act.title
-		$Time/ColorPicker.modulate = act.color_code
 		update_time()
 		$Notes.text = act.notes
-	$Menu/Title.grab_focus()
+	$Time/ColorPicker.modulate = act.color_code
 	update_last_start()
 	update_last_stop()
 
@@ -43,9 +41,10 @@ func _on_Start_pressed():
 
 
 func _on_Stop_pressed():
+	if not act.stopped: # Don't log a reset in stopped state
+		update_last_stop()
 	act.stopped = true
 	act.stop_time = OS.get_unix_time()
-	update_last_stop()
 	set_button_states()
 
 
@@ -56,9 +55,8 @@ func set_button_states():
 
 func _on_Reset_pressed():
 	act.time = 0
+	_on_Stop_pressed()
 	$Time/TimeDisplay.update_time(0)
-	$LastStart.text = ""
-	$LastStop.text = ""
 
 
 func _on_Delete_pressed():
@@ -66,7 +64,8 @@ func _on_Delete_pressed():
 
 
 func _on_Confirm_confirmed():
-	Data.activities.items.erase(key)
+	Data.activities.items.erase(id)
+	Data.activities.order.erase(id)
 	Data.save_activities()
 	emit_signal("show_list")
 
@@ -114,3 +113,7 @@ func _on_List_pressed():
 func _on_Timer_timeout():
 	if visible and not act.stopped:
 		update_time()
+
+
+func _on_Notes_text_changed():
+	act.notes = $Notes.text

@@ -1,7 +1,5 @@
 extends PanelContainer
 
-signal start_request(this)
-signal stop_request(this)
 signal view_request(id)
 signal drag_drop_request(this, pressed)
 
@@ -44,12 +42,14 @@ func _on_Title_toggled(button_pressed):
 
 
 func _on_Start_pressed():
-	emit_signal("start_request", self)
+	act.stopped = false
+	act.start_time = OS.get_unix_time()
 	show_start_button(false)
 
 
 func _on_Stop_pressed():
-	emit_signal("stop_request", self)
+	act.stopped = true
+	act.stop_time = OS.get_unix_time()
 	show_start_button(true)
 
 
