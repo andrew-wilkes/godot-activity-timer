@@ -96,4 +96,16 @@ func _input(event):
 			if item_index != current_item_index:
 				move_child(drag_item, item_index + 1)
 				current_item_index = item_index
+				call_deferred("rebuild_order")
 			drag_item.rect_position.y = event.position.y - y_offset
+
+
+func rebuild_order():
+	var new_order = []
+	var skip_menu = true
+	for node in get_children():
+		if skip_menu:
+			skip_menu = false
+			continue
+		new_order.append(node.id)
+	Data.activities.order = new_order
