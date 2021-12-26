@@ -2,7 +2,9 @@ extends Container
 
 func _ready():
 	var ws = OS.get_window_safe_area()
-	set("custom_constants/margin_top", ws.position.y + 40.0)
+	var top_margin = ws.position.y + 40.0
+	$ActivityList.top_margin = top_margin
+	set("custom_constants/margin_top", top_margin)
 	set("custom_constants/margin_bottom", ws.end.y + 10.0)
 
 

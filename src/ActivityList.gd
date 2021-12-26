@@ -7,6 +7,7 @@ var drag_item
 var current_item_index
 var y_offset
 var row_height
+var top_margin = 0
 
 func _ready():
 	build_list()
@@ -66,12 +67,12 @@ func check_if_space_to_add_new_bar():
 
 func bar_clicked(item, pressed):
 	var mpos = get_viewport().get_mouse_position().y
-	row_height = get_child(1).rect_size.y + 40
+	row_height = get_child(1).rect_size.y + get("custom_constants/separation")
 	current_item_index = get_item_index_from_viewport_position(mpos)
 	if pressed:
 		drag_item = item
 		# Offset of mouse to bar rect_position.y
-		y_offset = fmod(mpos - 180, row_height) + 40
+		y_offset = fmod(mpos - 140 - top_margin, row_height) + top_margin
 	else:
 		# Drop
 		drag_item.rect_position.y = 140 + row_height * current_item_index
@@ -79,7 +80,7 @@ func bar_clicked(item, pressed):
 
 
 func get_item_index_from_viewport_position(y_pos: float):
-	var id = (y_pos - 180) / row_height
+	var id = (y_pos - 140 - top_margin) / row_height
 	id = clamp(id, 0, get_child_count() - 2)
 	return int(id)
 
