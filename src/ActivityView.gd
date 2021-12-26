@@ -111,7 +111,7 @@ func _on_List_pressed():
 
 
 func _on_Timer_timeout():
-	if visible and not act.stopped:
+	if visible and act and not act.stopped:
 		update_time()
 
 

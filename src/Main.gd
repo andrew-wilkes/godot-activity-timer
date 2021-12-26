@@ -6,6 +6,7 @@ func _ready():
 	$ActivityList.top_margin = top_margin
 	set("custom_constants/margin_top", top_margin)
 	set("custom_constants/margin_bottom", ws.end.y + 10.0)
+	$ActivityView.rect_size.y = ws.size.y
 
 
 func _on_ActivityList_view_clicked(id):

@@ -44,7 +44,9 @@ Data="*res://data.gd"
 
 window/size/width=1080
 window/size/height=1920
-window/size/fullscreen=true
+window/size/resizable=false
+window/size/test_width=607
+window/size/test_height=1080
 window/energy_saving/keep_screen_on=false
 window/handheld/orientation="portrait"
 window/stretch/mode="2d"
