@@ -4,6 +4,9 @@ signal view_clicked(id)
 
 var bar_scene = preload("res://ActivityBar.tscn")
 var drag_item
+var current_item_index
+var y_offset
+var row_height
 
 func _ready():
 	build_list()
@@ -62,14 +65,34 @@ func check_if_space_to_add_new_bar():
 
 
 func bar_clicked(item, pressed):
+	var mpos = get_viewport().get_mouse_position().y
+	row_height = get_child(1).rect_size.y + 40
+	current_item_index = get_item_index_from_viewport_position(mpos)
 	if pressed:
 		drag_item = item
-		# Track mouse y position
+		# Offset of mouse to bar rect_position.y
+		y_offset = fmod(mpos - 180, row_height) + 40
 	else:
 		# Drop
-		# Reparent bar
+		drag_item.rect_position.y = 140 + row_height * current_item_index
 		drag_item = null
+
+
+func get_item_index_from_viewport_position(y_pos: float):
+	var id = (y_pos - 180) / row_height
+	id = clamp(id, 0, get_child_count() - 2)
+	return int(id)
 
 
 func view_activity(id):
 	emit_signal("view_clicked", id)
+
+
+func _input(event):
+	if event is InputEventMouseMotion:
+		if drag_item != null:
+			var item_index = get_item_index_from_viewport_position(event.position.y)
+			if item_index != current_item_index:
+				move_child(drag_item, item_index + 1)
+				current_item_index = item_index
+			drag_item.rect_position.y = event.position.y - y_offset

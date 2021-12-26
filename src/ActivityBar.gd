@@ -37,10 +37,6 @@ func _on_View_pressed():
 	emit_signal("view_request", id)
 
 
-func _on_Title_toggled(button_pressed):
-	emit_signal("drag_drop_request", self, button_pressed)
-
-
 func _on_Start_pressed():
 	act.stopped = false
 	act.start_time = OS.get_unix_time()
@@ -69,3 +65,11 @@ func _on_Title_mouse_exited():
 func _on_Timer_timeout():
 	if not act.stopped:
 		$H/TimeDisplay.update_time(act.time)
+
+
+func _on_Title_button_down():
+	emit_signal("drag_drop_request", self, true)
+
+
+func _on_Title_button_up():
+	emit_signal("drag_drop_request", self, false)
