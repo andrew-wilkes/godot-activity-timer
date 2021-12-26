@@ -25,6 +25,8 @@ func build_list():
 		act.node.setup(act)
 		add_child(act.node)
 		connect_bar(act.node)
+		yield(get_tree(), "idle_frame")
+		check_if_space_to_add_new_bar()
 
 
 func _on_Add_pressed():
@@ -38,6 +40,7 @@ func _on_Add_pressed():
 	# Allow time for node to be visible
 	yield(get_tree(), "idle_frame")
 	check_if_space_to_add_new_bar()
+	view_activity(act.node.id)
 
 
 func connect_bar(node):

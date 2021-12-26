@@ -41,10 +41,10 @@ func _on_Start_pressed():
 
 
 func _on_Stop_pressed():
+	act.stop_time = OS.get_unix_time()
 	if not act.stopped: # Don't log a reset in stopped state
 		update_last_stop()
 	act.stopped = true
-	act.stop_time = OS.get_unix_time()
 	set_button_states()
 
 
@@ -79,10 +79,12 @@ func _on_Title_text_changed(new_text):
 
 
 func update_last_start():
+	prints(act.start_time, act.stop_time)
 	update_datetime($Stats/LastStart, act.start_time)
 
 
 func update_last_stop():
+	prints(act.start_time, act.stop_time)
 	update_datetime($Stats/LastStop, act.stop_time)
 
 
@@ -93,6 +95,7 @@ func update_datetime(node: Label, time: int):
 		var dict = OS.get_datetime_from_unix_time(time)
 		dict.erase("dst")
 		dict.erase("weekday")
+		print(dict)
 		node.text = "%02d:%02d:%02d %0d-%02d-%02d" % dict.values()
 
 
