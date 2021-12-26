@@ -14,3 +14,10 @@ This splits the image into individual images with numerical imcrements appended 
 icon-0.png etc.
 
 Then drag and drop the icon images to the button texture slots.
+
+When adding more icons:
+
+* export all to a temp folder below the assets/icons folder.
+* run the convert utility with appropriate % settings
+* copy the new icoms to the assets/icons folder
+* delete the temp folder

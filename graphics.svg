@@ -206,8 +206,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.16"
-     inkscape:cx="-1671.875"
-     inkscape:cy="637.5"
+     inkscape:cx="1109.375"
+     inkscape:cy="618.75"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      inkscape:document-rotation="0"
@@ -239,7 +239,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer3"
-     inkscape:label="Template">
+     inkscape:label="Template"
+     sodipodi:insensitive="true">
     <image
        width="324"
        height="324"
@@ -264,7 +265,7 @@
        x="-1400"
        y="-480"
        ry="40"
-       inkscape:export-filename="/home/andrew/Pictures/my-icons.png"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24" />
     <rect
@@ -275,7 +276,7 @@
        x="-1000"
        y="720"
        ry="40"
-       inkscape:export-filename="/home/andrew/Pictures/my-icons.png"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24" />
     <rect
@@ -338,12 +339,12 @@
        d="m -1080,-280 -103.3012,59.641 -103.3013,59.641 V -280 -399.282 l 103.3013,59.641 z"
        inkscape:transform-center-x="-34.433799"
        inkscape:transform-center-y="9.5996444e-06"
-       inkscape:export-filename="/home/andrew/Pictures/my-icons.png"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24" />
     <g
        id="g1912"
-       inkscape:export-filename="/home/andrew/Pictures/my-icons.png"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24"
        transform="translate(-80.00003)">
@@ -382,7 +383,7 @@
     </g>
     <g
        id="g1918"
-       inkscape:export-filename="/home/andrew/Pictures/my-icons.png"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24"
        transform="translate(-260.00003)">
@@ -432,7 +433,7 @@
     </g>
     <g
        id="g1923"
-       inkscape:export-filename="/home/andrew/Pictures/my-icons.png"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24"
        transform="translate(-360.00003)">
@@ -482,7 +483,7 @@
     </g>
     <g
        id="g1928"
-       inkscape:export-filename="/home/andrew/Pictures/my-icons.png"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24"
        transform="translate(-460.00003)">
@@ -532,7 +533,7 @@
     </g>
     <g
        id="g1943"
-       inkscape:export-filename="/home/andrew/Pictures/my-icons.png"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24"
        transform="translate(-160,-100)">
@@ -560,7 +561,7 @@
     </g>
     <g
        id="g1938"
-       inkscape:export-filename="/home/andrew/Pictures/my-icons.png"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24"
        transform="translate(-80.00003,-100)">
@@ -588,7 +589,7 @@
     </g>
     <g
        id="g1933"
-       inkscape:export-filename="/home/andrew/Pictures/my-icons.png"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24"
        transform="translate(20,-100)">
@@ -616,7 +617,7 @@
     </g>
     <g
        id="g1950"
-       inkscape:export-filename="/home/andrew/Pictures/my-icons.png"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24"
        transform="translate(-260.00003,-100)">
@@ -655,7 +656,7 @@
     </g>
     <g
        id="g1956"
-       inkscape:export-filename="/home/andrew/Pictures/my-icons.png"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24"
        transform="translate(-360.00003,-100)">
@@ -695,7 +696,7 @@
     </g>
     <g
        id="g1962"
-       inkscape:export-filename="/home/andrew/Pictures/my-icons.png"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24"
        transform="translate(-460.00003,-100)">
@@ -735,7 +736,7 @@
     </g>
     <g
        id="g25340"
-       inkscape:export-filename="/home/andrew/Pictures/my-icons.png"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24">
       <rect
@@ -771,7 +772,7 @@
     </g>
     <g
        id="g25346"
-       inkscape:export-filename="/home/andrew/Pictures/my-icons.png"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24">
       <rect
@@ -807,7 +808,7 @@
     </g>
     <g
        id="g25352"
-       inkscape:export-filename="/home/andrew/Pictures/my-icons.png"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24">
       <rect
@@ -843,7 +844,7 @@
     </g>
     <g
        id="g2016"
-       inkscape:export-filename="/home/andrew/Pictures/my-icons.png"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24"
        transform="translate(-260,-200)">
@@ -985,7 +986,7 @@
     </g>
     <g
        id="g1977"
-       inkscape:export-filename="/home/andrew/Pictures/my-icons.png"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24"
        transform="translate(-80,-200)">
@@ -1026,7 +1027,7 @@
     </g>
     <g
        id="g1970"
-       inkscape:export-filename="/home/andrew/Pictures/my-icons.png"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24"
        transform="translate(3e-5,-200)">
@@ -1067,7 +1068,7 @@
     </g>
     <g
        id="g1907"
-       inkscape:export-filename="/home/andrew/Pictures/my-icons.png"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24"
        transform="translate(20)">
@@ -1106,7 +1107,7 @@
     </g>
     <g
        id="g2029"
-       inkscape:export-filename="/home/andrew/Pictures/my-icons.png"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24"
        transform="translate(-360,-200)">
@@ -1187,7 +1188,7 @@
     </g>
     <g
        id="g2042"
-       inkscape:export-filename="/home/andrew/Pictures/my-icons.png"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24"
        transform="translate(-460,-200)">
@@ -1378,7 +1379,7 @@
     </g>
     <g
        id="g2075"
-       inkscape:export-filename="/home/andrew/Pictures/my-icons.png"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24"
        transform="translate(-160,-300)">
@@ -1448,7 +1449,7 @@
     </g>
     <g
        id="g2064"
-       inkscape:export-filename="/home/andrew/Pictures/my-icons.png"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24"
        transform="translate(-80.00003,-300)">
@@ -1519,7 +1520,7 @@
     </g>
     <g
        id="g2053"
-       inkscape:export-filename="/home/andrew/Pictures/my-icons.png"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24"
        transform="translate(0,-300)">
@@ -1590,7 +1591,7 @@
     </g>
     <g
        id="g1985"
-       inkscape:export-filename="/home/andrew/Pictures/my-icons.png"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24"
        transform="translate(-159.99997,-200)">
@@ -1630,7 +1631,7 @@
     </g>
     <g
        id="g25358"
-       inkscape:export-filename="/home/andrew/Pictures/my-icons.png"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24">
       <rect
@@ -1669,7 +1670,7 @@
     </g>
     <g
        id="g25364"
-       inkscape:export-filename="/home/andrew/Pictures/my-icons.png"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24">
       <rect
@@ -1708,7 +1709,7 @@
     </g>
     <g
        id="g25370"
-       inkscape:export-filename="/home/andrew/Pictures/my-icons.png"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24">
       <rect
@@ -1744,6 +1745,187 @@
            y="-580"
            transform="rotate(-90)" />
       </g>
+    </g>
+    <g
+       id="g2557"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24">
+      <rect
+         style="fill:#656565;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+         id="rect867-6-0-6-9-6"
+         width="400"
+         height="400"
+         x="-1800"
+         y="1520"
+         ry="40"
+         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/add-dark.png"
+         inkscape:export-xdpi="11.52"
+         inkscape:export-ydpi="11.52" />
+      <rect
+         style="fill:#fafafa;fill-opacity:1;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.54614"
+         id="rect1632"
+         width="79.999977"
+         height="180"
+         x="-1640"
+         y="1680" />
+      <rect
+         style="fill:#fafafa;fill-opacity:1;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.54614"
+         id="rect1865"
+         width="80"
+         height="80"
+         x="-1640"
+         y="1580"
+         ry="40" />
+    </g>
+    <g
+       id="g2562"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24">
+      <rect
+         style="fill:#525252;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+         id="rect867-7-6-9"
+         width="400"
+         height="400"
+         x="-2200"
+         y="1520"
+         ry="40"
+         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/add-light.png"
+         inkscape:export-xdpi="11.52"
+         inkscape:export-ydpi="11.52" />
+      <rect
+         style="display:inline;fill:#fafafa;fill-opacity:1;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.54614"
+         id="rect1632-6"
+         width="79.999977"
+         height="180"
+         x="-2040"
+         y="1680" />
+      <rect
+         style="display:inline;fill:#fafafa;fill-opacity:1;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.54614"
+         id="rect1865-2"
+         width="80"
+         height="80"
+         x="-2040"
+         y="1580"
+         ry="40" />
+    </g>
+    <g
+       id="g2076"
+       transform="translate(-800.00003,800)"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24">
+      <rect
+         style="fill:#757575;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+         id="rect867-6-1-6-20-6"
+         width="400"
+         height="400"
+         x="-600"
+         y="720"
+         ry="40"
+         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/add.png"
+         inkscape:export-xdpi="11.52"
+         inkscape:export-ydpi="11.52" />
+      <rect
+         style="display:inline;fill:#fafafa;fill-opacity:1;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.54614"
+         id="rect1632-2"
+         width="79.999977"
+         height="180"
+         x="-439.99997"
+         y="880" />
+      <rect
+         style="display:inline;fill:#fafafa;fill-opacity:1;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.54614"
+         id="rect1865-7"
+         width="80"
+         height="80"
+         x="-439.99997"
+         y="780"
+         ry="40" />
+    </g>
+    <g
+       id="g17961"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24">
+      <rect
+         style="display:inline;fill:#11a300;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+         id="rect867-7-6-1"
+         width="400"
+         height="400"
+         x="-1000"
+         y="1520"
+         ry="40"
+         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/add-light.png"
+         inkscape:export-xdpi="11.52"
+         inkscape:export-ydpi="11.52" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:338.147px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';letter-spacing:0px;word-spacing:0px;stroke-width:5.28355;fill:#eeeeec"
+         x="-897.41541"
+         y="1837.4489"
+         id="text6381"><tspan
+           sodipodi:role="line"
+           id="tspan6379"
+           x="-897.41541"
+           y="1837.4489"
+           style="stroke-width:5.28355;fill:#eeeeec;-inkscape-font-specification:'Roboto Bold';font-family:Roboto;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">$</tspan></text>
+    </g>
+    <g
+       id="g17967"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24">
+      <rect
+         style="display:inline;fill:#14bd00;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+         id="rect867-6-1-6-2-2"
+         width="400"
+         height="400"
+         x="-600"
+         y="1520"
+         ry="40"
+         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/add.png"
+         inkscape:export-xdpi="11.52"
+         inkscape:export-ydpi="11.52" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:338.147px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#eeeeec;stroke-width:5.28355"
+         x="-496.67239"
+         y="1837.4489"
+         id="text6381-4"><tspan
+           sodipodi:role="line"
+           id="tspan6379-7"
+           x="-496.67239"
+           y="1837.4489"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';fill:#eeeeec;stroke-width:5.28355">$</tspan></text>
+    </g>
+    <g
+       id="g17973"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24">
+      <rect
+         style="display:inline;fill:#16d600;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+         id="rect867-6-0-6-0-2"
+         width="400"
+         height="400"
+         x="-200.00003"
+         y="1520"
+         ry="40"
+         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/add-dark.png"
+         inkscape:export-xdpi="11.52"
+         inkscape:export-ydpi="11.52" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:338.147px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#eeeeec;stroke-width:5.28355"
+         x="-96.672432"
+         y="1837.4489"
+         id="text6381-44"><tspan
+           sodipodi:role="line"
+           id="tspan6379-3"
+           x="-96.672432"
+           y="1837.4489"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';fill:#eeeeec;stroke-width:5.28355">$</tspan></text>
     </g>
   </g>
 </svg>
