@@ -56,3 +56,7 @@ func _notification(what):
 		if settings_changed:
 			save_data(settings, SETTINGS_FILE_NAME)
 		save_data(activities, ACTIVITIES_FILE_NAME)
+
+
+func get_time_secs():
+	return OS.get_unix_time_from_datetime(OS.get_time())
