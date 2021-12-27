@@ -62,3 +62,4 @@ texture_pressed = ExtResource( 8 )
 texture_hover = ExtResource( 5 )
 
 [connection signal="pressed" from="Menu/Add" to="." method="_on_Add_pressed"]
+[connection signal="pressed" from="Menu/Info" to="." method="_on_Info_pressed"]

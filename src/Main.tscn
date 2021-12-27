@@ -1,14 +1,16 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Main.gd" type="Script" id=1]
 [ext_resource path="res://ActivityList.tscn" type="PackedScene" id=2]
 [ext_resource path="res://ActivityView.tscn" type="PackedScene" id=3]
 [ext_resource path="res://assets/the_theme.tres" type="Theme" id=4]
+[ext_resource path="res://Info.tscn" type="PackedScene" id=5]
 
 [node name="Main" type="MarginContainer"]
 margin_right = 1080.0
 margin_bottom = 1920.0
 size_flags_horizontal = 3
+size_flags_vertical = 3
 theme = ExtResource( 4 )
 custom_constants/margin_right = 20
 custom_constants/margin_top = 120
@@ -33,9 +35,20 @@ margin_top = 120.0
 margin_right = 1060.0
 margin_bottom = 1920.0
 
+[node name="Info" parent="." instance=ExtResource( 5 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 20.0
+margin_top = 120.0
+margin_right = 1060.0
+margin_bottom = 1920.0
+
 [node name="Timer" type="Timer" parent="."]
 autostart = true
 
+[connection signal="info_pressed" from="ActivityList" to="." method="_on_ActivityList_info_pressed"]
 [connection signal="view_clicked" from="ActivityList" to="." method="_on_ActivityList_view_clicked"]
 [connection signal="show_list" from="ActivityView" to="." method="_on_ActivityView_show_list"]
+[connection signal="show_list" from="Info" to="." method="_on_Info_show_list"]
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

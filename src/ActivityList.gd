@@ -1,6 +1,7 @@
 extends VBoxContainer
 
 signal view_clicked(id)
+signal info_pressed
 
 var bar_scene = preload("res://ActivityBar.tscn")
 var drag_item
@@ -110,3 +111,7 @@ func rebuild_order():
 			continue
 		new_order.append(node.id)
 	Data.activities.order = new_order
+
+
+func _on_Info_pressed():
+	emit_signal("info_pressed")

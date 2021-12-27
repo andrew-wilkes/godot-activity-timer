@@ -24,3 +24,13 @@ func _on_Timer_timeout():
 		var act: Activity = a
 		if not act.stopped:
 			act.time += 1
+
+
+func _on_Info_show_list():
+	$Info.hide()
+	$ActivityList.show()
+
+
+func _on_ActivityList_info_pressed():
+	$ActivityList.hide()
+	$Info.show()

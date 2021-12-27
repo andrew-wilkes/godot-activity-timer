@@ -1,0 +1,137 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://assets/icon-17.png" type="Texture" id=1]
+[ext_resource path="res://assets/icon-16.png" type="Texture" id=2]
+[ext_resource path="res://assets/icon-15.png" type="Texture" id=3]
+[ext_resource path="res://Info.gd" type="Script" id=4]
+[ext_resource path="res://assets/the_theme.tres" type="Theme" id=5]
+[ext_resource path="res://assets/OpenSans-Regular.ttf" type="DynamicFontData" id=6]
+[ext_resource path="res://assets/icon-34.png" type="Texture" id=7]
+[ext_resource path="res://assets/icon-33.png" type="Texture" id=8]
+[ext_resource path="res://assets/icon-35.png" type="Texture" id=9]
+
+[sub_resource type="DynamicFont" id=1]
+size = 32
+font_data = ExtResource( 6 )
+
+[node name="Info" type="VBoxContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = ExtResource( 5 )
+custom_constants/separation = 50
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="List" type="TextureButton" parent="."]
+margin_right = 1080.0
+margin_bottom = 100.0
+texture_normal = ExtResource( 1 )
+texture_pressed = ExtResource( 2 )
+texture_hover = ExtResource( 3 )
+
+[node name="Label2" type="Label" parent="."]
+margin_top = 150.0
+margin_right = 1080.0
+margin_bottom = 269.0
+text = "This software was created by Andrew Wilkes in 2021
+Email: andrew@urgentclick.com"
+
+[node name="sp" type="Control" parent="."]
+margin_top = 319.0
+margin_right = 1080.0
+margin_bottom = 369.0
+rect_min_size = Vector2( 0, 50 )
+
+[node name="HBox" type="HBoxContainer" parent="."]
+margin_top = 419.0
+margin_right = 1080.0
+margin_bottom = 538.0
+custom_constants/separation = 50
+
+[node name="Donate" type="TextureButton" parent="HBox"]
+margin_right = 100.0
+margin_bottom = 119.0
+texture_normal = ExtResource( 7 )
+texture_pressed = ExtResource( 8 )
+texture_hover = ExtResource( 9 )
+
+[node name="Label3" type="Label" parent="HBox"]
+margin_left = 150.0
+margin_right = 1080.0
+margin_bottom = 119.0
+size_flags_horizontal = 3
+text = "If you enjoyed using this software, please consider a donation to help the author, thanks!"
+autowrap = true
+
+[node name="sp2" type="Control" parent="."]
+margin_top = 588.0
+margin_right = 1080.0
+margin_bottom = 638.0
+rect_min_size = Vector2( 0, 50 )
+
+[node name="Label3" type="Label" parent="."]
+margin_top = 688.0
+margin_right = 1080.0
+margin_bottom = 746.0
+text = "Licence Information"
+
+[node name="SC" type="ScrollContainer" parent="."]
+margin_top = 796.0
+margin_right = 1080.0
+margin_bottom = 1920.0
+rect_min_size = Vector2( 0, 1000 )
+size_flags_horizontal = 3
+size_flags_vertical = 3
+scroll_horizontal_enabled = false
+
+[node name="Licences" type="Label" parent="SC"]
+margin_right = 1068.0
+margin_bottom = 3789.0
+size_flags_horizontal = 3
+custom_fonts/font = SubResource( 1 )
+text = "This software uses Godot Engine, available under the following license:
+
+Copyright (c) 2007-2021 Juan Linietsky, Ariel Manzur. Copyright (c) 2014-2021 Godot Engine contributors.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+--------
+FreeType
+
+Portions of this software are copyright © 2021 The FreeType Project (www.freetype.org). All rights reserved.
+
+--------
+ENet
+Godot includes the ENet library to handle high-level multiplayer.
+
+Copyright (c) 2002-2020 Lee Salzman
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+---------
+MBedTLS
+
+For using SSL (usually through HTTP requests), the MBedTLS Apache license:
+
+Copyright The Mbed TLS Contributors
+
+Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+"
+autowrap = true
+
+[connection signal="pressed" from="List" to="." method="_on_List_pressed"]
+[connection signal="pressed" from="HBox/Donate" to="." method="_on_Donate_pressed"]
