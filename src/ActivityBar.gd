@@ -40,15 +40,19 @@ func _on_View_pressed():
 func _on_Start_pressed():
 	act.stopped = false
 	act.start_time = OS.get_unix_time()
-	$H/TimeDisplay.modulate = Color.green
+	set_time_color()
 	show_start_button(false)
 
 
 func _on_Stop_pressed():
 	act.stopped = true
 	act.stop_time = OS.get_unix_time()
-	$H/TimeDisplay.modulate = Color.white
+	set_time_color()
 	show_start_button(true)
+
+
+func set_time_color():
+	$H/TimeDisplay.set_color(act.stopped)
 
 
 func show_start_button(show):

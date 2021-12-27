@@ -51,6 +51,7 @@ func _on_Stop_pressed():
 func set_button_states():
 	$Time/Start.visible = act.stopped
 	$Time/Stop.visible = not act.stopped
+	$Time/TimeDisplay.set_color(act.stopped)
 
 
 func _on_Reset_pressed():
