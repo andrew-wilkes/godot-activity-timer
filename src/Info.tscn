@@ -62,7 +62,7 @@ margin_left = 150.0
 margin_right = 1080.0
 margin_bottom = 119.0
 size_flags_horizontal = 3
-text = "If you enjoyed using this software, please consider a donation to help the author, thanks!"
+text = "If you found this Activity Timer useful, please consider supporting me, thanks!"
 autowrap = true
 
 [node name="sp2" type="Control" parent="."]
@@ -75,7 +75,7 @@ rect_min_size = Vector2( 0, 50 )
 margin_top = 688.0
 margin_right = 1080.0
 margin_bottom = 746.0
-text = "Licence Information"
+text = "License Information"
 
 [node name="SC" type="ScrollContainer" parent="."]
 margin_top = 796.0
@@ -88,10 +88,20 @@ scroll_horizontal_enabled = false
 
 [node name="Licences" type="Label" parent="SC"]
 margin_right = 1068.0
-margin_bottom = 3789.0
+margin_bottom = 4653.0
 size_flags_horizontal = 3
 custom_fonts/font = SubResource( 1 )
-text = "This software uses Godot Engine, available under the following license:
+text = "This Software
+
+Copyright © 2021 Andrew Wilkes
+
+THIS SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THIS SOFTWARE.
+
+Third party licences follow:
+
+Godot Engine
+
+This software uses Godot Engine, available under the following license:
 
 Copyright (c) 2007-2021 Juan Linietsky, Ariel Manzur. Copyright (c) 2014-2021 Godot Engine contributors.
 
