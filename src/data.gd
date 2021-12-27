@@ -59,4 +59,4 @@ func _notification(what):
 
 
 func get_time_secs():
-	return OS.get_unix_time_from_datetime(OS.get_time())
+	return OS.get_unix_time_from_datetime(OS.get_datetime())
