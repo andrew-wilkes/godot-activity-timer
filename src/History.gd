@@ -4,7 +4,7 @@ var thirty_days
 
 func _ready():
 	rect_size.y = rect_min_size.y
-	thirty_days = 30 * 24 * 3600
+	thirty_days = 30 * 24 * 3600 # Seconds
 	var samples = test_sampler()
 	#test_create_data_texture()
 	var texture = create_data_texture(get_texture_bytes_from_samples(samples))
@@ -20,18 +20,17 @@ func show_line(data: Array):
 
 
 func get_texture_bytes_from_samples(samples: Array):
-	var rgb_bytes = PoolByteArray([])
-	print(samples)
-	var m = samples.max() * 1.1
+	var bytes = PoolByteArray([])
+	var normalization_factor = samples.max() * 1.1
 	for s in samples:
-		var v = 255.0 * s / m
-		rgb_bytes.append_array([v, v, v])
-	return rgb_bytes
+		var v = 0777 * s / normalization_factor
+		bytes.append(v)
+	return bytes
 
 
 func create_data_texture(data: PoolByteArray):
 	var img = Image.new()
-	img.create_from_data(720, 1, false, Image.FORMAT_RGB8, data)
+	img.create_from_data(data.size(), 1, false, Image.FORMAT_R8, data) # Only use the red component
 	var texture = ImageTexture.new()
 	texture.create_from_image(img)
 	return texture
