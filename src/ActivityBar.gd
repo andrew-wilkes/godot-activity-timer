@@ -40,6 +40,7 @@ func _on_View_pressed():
 func _on_Start_pressed():
 	act.stopped = false
 	act.start_time = Data.get_time_secs()
+	act.history.append(act.start_time)
 	set_time_color()
 	show_start_button(false)
 
@@ -47,6 +48,7 @@ func _on_Start_pressed():
 func _on_Stop_pressed():
 	act.stopped = true
 	act.stop_time = Data.get_time_secs()
+	act.history.append(act.stop_time)
 	set_time_color()
 	show_start_button(true)
 

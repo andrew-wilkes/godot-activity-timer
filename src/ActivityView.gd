@@ -36,6 +36,7 @@ func update_time():
 func _on_Start_pressed():
 	act.stopped = false
 	act.start_time = Data.get_time_secs()
+	act.history.append(act.start_time)
 	update_last_start()
 	set_button_states()
 
@@ -44,6 +45,7 @@ func _on_Stop_pressed():
 	act.stop_time = Data.get_time_secs()
 	if not act.stopped: # Don't log a reset in stopped state
 		update_last_stop()
+		act.history.append(act.stop_time)
 	act.stopped = true
 	set_button_states()
 

@@ -2,6 +2,7 @@ extends Resource
 
 class_name Activity
 
+export var history = []
 export var start_time = 0
 export var stop_time = 0
 export var time = 0
