@@ -25,8 +25,14 @@ func setup(_id, _act: Activity):
 		update_time()
 		$Notes.text = act.notes
 	$Time/ColorPicker.modulate = act.color_code
+	update_history()
 	update_last_start()
 	update_last_stop()
+
+
+func update_history():
+	$VB/History.apply_data(act.history)
+	$VB/Days.update_days()	
 
 
 func update_time():
@@ -46,6 +52,7 @@ func _on_Stop_pressed():
 	if not act.stopped: # Don't log a reset in stopped state
 		update_last_stop()
 		act.history.append(act.stop_time)
+		update_history()
 	act.stopped = true
 	set_button_states()
 
@@ -71,10 +78,6 @@ func _on_Confirm_confirmed():
 	Data.activities.order.erase(id)
 	Data.save_activities()
 	emit_signal("show_list")
-
-
-func _on_ColorPicker_color_changed(color):
-	act.color_code = color
 
 
 func _on_Title_text_changed(new_text):

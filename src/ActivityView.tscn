@@ -1,6 +1,7 @@
-[gd_scene load_steps=23 format=2]
+[gd_scene load_steps=27 format=2]
 
 [ext_resource path="res://ActivityView.gd" type="Script" id=1]
+[ext_resource path="res://History.tscn" type="PackedScene" id=2]
 [ext_resource path="res://assets/icon-8.png" type="Texture" id=3]
 [ext_resource path="res://assets/icon-6.png" type="Texture" id=4]
 [ext_resource path="res://assets/icon-2.png" type="Texture" id=5]
@@ -22,6 +23,12 @@
 [ext_resource path="res://assets/mono-font.tres" type="DynamicFont" id=21]
 [ext_resource path="res://assets/the_theme.tres" type="Theme" id=22]
 [ext_resource path="res://ConfirmPopup.tscn" type="PackedScene" id=23]
+[ext_resource path="res://assets/Bitstream Vera Sans Mono Roman.ttf" type="DynamicFontData" id=24]
+[ext_resource path="res://Days.gd" type="Script" id=25]
+
+[sub_resource type="DynamicFont" id=1]
+size = 26
+font_data = ExtResource( 24 )
 
 [node name="ActivityView" type="VBoxContainer"]
 anchor_right = 1.0
@@ -166,6 +173,7 @@ margin_bottom = 58.0
 text = "Last start time:"
 
 [node name="LastStart" type="Label" parent="Stats"]
+modulate = Color( 0.772549, 0.772549, 0.772549, 1 )
 margin_left = 342.0
 margin_top = 4.0
 margin_right = 342.0
@@ -179,29 +187,57 @@ margin_bottom = 136.0
 text = "Last stop time:"
 
 [node name="LastStop" type="Label" parent="Stats"]
+modulate = Color( 0.772549, 0.772549, 0.772549, 1 )
 margin_left = 342.0
 margin_top = 82.0
 margin_right = 342.0
 margin_bottom = 131.0
 custom_fonts/font = ExtResource( 21 )
 
-[node name="Sp2" type="Control" parent="."]
+[node name="VB" type="VBoxContainer" parent="."]
 margin_top = 712.0
 margin_right = 1080.0
-margin_bottom = 742.0
-rect_min_size = Vector2( 0, 30 )
+margin_bottom = 868.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="History" parent="VB" instance=ExtResource( 2 )]
+modulate = Color( 0.0784314, 0.984314, 0.580392, 1 )
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 1080.0
+margin_bottom = 120.0
+rect_min_size = Vector2( 720, 120 )
+
+[node name="Days" type="HBoxContainer" parent="VB"]
+modulate = Color( 0.984314, 0.933333, 0.0784314, 1 )
+margin_top = 124.0
+margin_right = 1080.0
+margin_bottom = 156.0
+size_flags_horizontal = 3
+script = ExtResource( 25 )
+
+[node name="Day" type="Label" parent="VB/Days"]
+margin_right = 16.0
+margin_bottom = 32.0
+custom_fonts/font = SubResource( 1 )
+text = "1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="NotesLabel" type="Label" parent="."]
-margin_top = 762.0
+margin_top = 888.0
 margin_right = 1080.0
-margin_bottom = 820.0
+margin_bottom = 946.0
 size_flags_horizontal = 3
 text = "Notes"
 
 [node name="Notes" type="TextEdit" parent="."]
-margin_top = 840.0
+margin_top = 966.0
 margin_right = 1080.0
-margin_bottom = 1440.0
+margin_bottom = 1566.0
 rect_min_size = Vector2( 0, 600 )
 
 [node name="c" type="CanvasLayer" parent="."]

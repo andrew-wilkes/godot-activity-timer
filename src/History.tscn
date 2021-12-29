@@ -5,15 +5,13 @@
 [sub_resource type="Shader" id=1]
 code = "shader_type canvas_item;
 
-render_mode blend_disabled;
-
 uniform sampler2D data;
 
 void fragment() {
 	float v = texture(data, UV).r;
 	if (UV.y < 1.0 - v)
 		COLOR = vec4(0.0);
-	else
+	else 
 		COLOR = vec4(1.0);
 }
 "
