@@ -8,14 +8,17 @@ func _ready():
 	#test_impulses()
 	#apply_data(get_test_data())
 	#apply_data([])
+	#print(clean_data([3,2,4,30,20]))
 
 
 func apply_data(timestamp_history: Array):
+	var data = clean_data(timestamp_history)
 	var samples: Array
-	samples = get_samples(timestamp_history)
+	samples = get_samples(data)
 	var bytes = get_texture_bytes_from_samples(samples)
 	var texture = create_data_texture(bytes)
 	material.set_shader_param("data", texture)
+	return data
 
 
 # Scale the sample values to fit in the range 0 - 255
@@ -79,6 +82,16 @@ func get_samples(data: Array):
 			total = 0
 		samples.append(total)
 	return samples
+
+
+func clean_data(data: Array):
+	# Time stamps must be sequential
+	var last_value = 0
+	for t in data.duplicate():
+		if t <= last_value:
+			data.erase(t)
+		last_value = t
+	return data
 
 
 func get_test_data():

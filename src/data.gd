@@ -51,10 +51,18 @@ func save_string(content, file_name):
 	return error
 
 
+# Handle shutdown of App
 func _notification(what):
 	if what == MainLoop.NOTIFICATION_WM_QUIT_REQUEST:
 		if settings_changed:
 			save_data(settings, SETTINGS_FILE_NAME)
+		# Stop all running timers
+		for a in activities.items.values():
+			var act: Activity = a
+			if not act.stopped:
+				act.stopped = true
+				act.stop_time = get_time_secs()
+				act.history.append(act.stop_time)
 		save_data(activities, ACTIVITIES_FILE_NAME)
 
 

@@ -17,7 +17,6 @@ func setup(_id, _act: Activity):
 	id = _id
 	act = _act
 	show()
-	set_button_states()
 	if act.new:
 		$Menu/Title.text = ""
 		$Menu/Title.grab_focus()
@@ -28,13 +27,21 @@ func setup(_id, _act: Activity):
 		$Notes.text = act.notes
 	$Time/ColorPicker.modulate = act.color_code
 	update_history()
+	check_data()
 	update_last_start()
 	update_last_stop()
 	$RefreshTimer.start()
+	set_button_states()
+
+
+func check_data():
+	# Out of order timestamps were removed in the history clean_data function
+	# An even number means we are stopped
+	act.stopped = true if act.history.size() % 2 == 0 else false
 
 
 func update_history():
-	$VB/History.apply_data(act.history)
+	act.history = $VB/History.apply_data(act.history)
 	#$VB/History.apply_data($VB/History.get_test_data())
 	$VB/Days.update_days()	
 
