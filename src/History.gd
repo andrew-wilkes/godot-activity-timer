@@ -6,9 +6,9 @@ func _ready():
 	rect_size.y = rect_min_size.y
 	thirty_days = 30 * 24 * 3600 # Seconds
 	#test_impulses()
-	#apply_data(get_test_data())
 	#apply_data([])
 	#print(clean_data([3,2,4,30,20]))
+	#test_sampler(2)
 
 
 func apply_data(timestamp_history: Array):
@@ -70,17 +70,24 @@ func get_samples(data: Array):
 				sampling = false
 				break
 		if active:
-			total = next_t - t1
+			total += next_t - t1
 		samples.append(total)
 		t = next_t
+	# There are no more time stamps now
+	# If active, want to accumulate time until the present time
 	var now = Data.get_time_secs()
 	while t < midnight:
-		t = t + sample_size
-		if active and t < now:
-			total = sample_size
+		var next_t = t + sample_size
+		if active:
+			if now < next_t:
+				total = now - t
+				active = false
+			else:
+				total = sample_size
 		else:
 			total = 0
 		samples.append(total)
+		t = next_t
 	return samples
 
 
@@ -94,16 +101,25 @@ func clean_data(data: Array):
 	return data
 
 
-func get_test_data():
+func get_test_data(idx):
 	var zero_oclock = OS.get_unix_time_from_datetime(OS.get_date())
-	var one_day = 24 * 3600
-	var t = zero_oclock - one_day * 29
-	var now = Data.get_time_secs()
-	return [t, t + 1800, t + 3665, t + 3765, t + one_day, t + 2.5 * one_day, now - 2 * one_day - 6000, now - 2 * one_day]
+	var hour: int = 3600
+	var day: int = 24 * hour
+	var t: int = zero_oclock - day * 29
+	var _now = Data.get_time_secs()
+	var data = [
+# warning-ignore:integer_division
+		[t, t + 2, t + 4, t + hour / 2, t + 2 * hour, t + 4 * hour], # > [1798, 0, 3600, 3600, 0, 0 ...
+# warning-ignore:integer_division
+# warning-ignore:integer_division
+		[zero_oclock - hour / 2, zero_oclock + hour / 2], # > ... 0, 0, 1800, 1800, 0, 0 ...] @ index 695, 696 on page 34
+		[zero_oclock + hour], # > up to now ... 0, 0, 3600, 3600, < 3600, 0, 0 ...]
+	]
+	return data[idx]
 
 
-func test_sampler():
-	var samples = get_samples(get_test_data())
+func test_sampler(idx):
+	var samples = get_samples(get_test_data(idx))
 	return samples
 
 

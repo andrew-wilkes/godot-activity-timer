@@ -42,7 +42,7 @@ func check_data():
 
 func update_history():
 	act.history = $VB/History.apply_data(act.history)
-	#$VB/History.apply_data($VB/History.get_test_data())
+	#$VB/History.apply_data($VB/History.get_test_data(2))
 	$VB/Days.update_days()	
 
 
