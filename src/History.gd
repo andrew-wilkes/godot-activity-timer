@@ -13,6 +13,7 @@ func _ready():
 
 func apply_data(timestamp_history: Array):
 	var data = clean_data(timestamp_history)
+	print(data)
 	var samples: Array
 	samples = get_samples(data)
 	var bytes = get_texture_bytes_from_samples(samples)

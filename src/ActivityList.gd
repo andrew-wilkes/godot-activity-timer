@@ -37,6 +37,8 @@ func build_list():
 
 func _on_Add_pressed():
 	var act = Activity.new()
+	# The previous node's history array is copied for some reason
+	act.history = []
 	act.node = bar_scene.instance()
 	add_child_below_node($Menu, act.node, true)
 	connect_bar(act.node)

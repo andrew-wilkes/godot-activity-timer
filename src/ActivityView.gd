@@ -20,17 +20,19 @@ func setup(_id, _act: Activity):
 	if act.new:
 		$Menu/Title.text = ""
 		$Menu/Title.grab_focus()
+		$Notes.text = ""
 		act.new = false
+		prints(">", act.history)
+		#act.history.clear() # For some reason, a previously deleted item's history is copied
 	else:
 		$Menu/Title.text = act.title
-		update_time()
 		$Notes.text = act.notes
 	$Time/ColorPicker.modulate = act.color_code
+	update_time()
 	update_history()
 	check_data()
 	update_last_start()
 	update_last_stop()
-	$RefreshTimer.start()
 	set_button_states()
 
 
@@ -42,7 +44,7 @@ func check_data():
 
 func update_history():
 	act.history = $VB/History.apply_data(act.history)
-	#$VB/History.apply_data($VB/History.get_test_data(2))
+	#$VB/History.apply_data($VB/History.get_test_data(0))
 	$VB/Days.update_days()	
 
 
@@ -56,9 +58,11 @@ func _on_Start_pressed():
 	act.history.append(act.start_time)
 	update_last_start()
 	set_button_states()
+	$RefreshTimer.start()
 
 
 func _on_Stop_pressed():
+	$RefreshTimer.stop()
 	act.stop_time = Data.get_time_secs()
 	if not act.stopped: # Don't log a reset in stopped state
 		update_last_stop()
@@ -88,6 +92,7 @@ func _on_Confirm_confirmed():
 	Data.activities.items.erase(id)
 	Data.activities.order.erase(id)
 	Data.save_activities()
+	act = null
 	emit_signal("show_list")
 
 
@@ -143,7 +148,3 @@ func _on_Notes_text_changed():
 
 func _on_RefreshTimer_timeout():
 	update_history()
-
-
-func _on_ColorGridPanel_popup_hide():
-	pass # Replace with function body.
