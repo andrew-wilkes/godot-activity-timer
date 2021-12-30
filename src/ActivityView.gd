@@ -4,6 +4,7 @@ signal show_list
 
 var act: Activity
 var id
+var choosing_color = false
 
 func _ready():
 	$RefreshTimer.wait_time = 3
@@ -104,13 +105,17 @@ func update_datetime(node: Label, time: int):
 		dict.erase("weekday")
 		node.text = "%02d:%02d:%02d %0d-%02d-%02d" % dict.values()
 
-
 func _on_ColorPicker_pressed():
-	$c/ColorGridPanel.popup_centered()
+	if choosing_color:
+		choosing_color = false
+	else:
+		choosing_color = true
+		$c/ColorGridPanel.popup_centered()
 
 
 func _on_ColorGridPanel_color_changed(color):
 	act.color_code = color
+	choosing_color = false
 	$Time/ColorPicker.modulate = color
 
 
@@ -131,3 +136,7 @@ func _on_Notes_text_changed():
 
 func _on_RefreshTimer_timeout():
 	update_history()
+
+
+func _on_ColorGridPanel_popup_hide():
+	pass # Replace with function body.
