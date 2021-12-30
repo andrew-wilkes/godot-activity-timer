@@ -6,6 +6,7 @@ var act: Activity
 var id
 
 func _ready():
+	$RefreshTimer.wait_time = 3
 	if get_parent().name == "root":
 		# Test
 		setup(-1, Activity.new())
@@ -28,10 +29,12 @@ func setup(_id, _act: Activity):
 	update_history()
 	update_last_start()
 	update_last_stop()
+	$RefreshTimer.start()
 
 
 func update_history():
 	$VB/History.apply_data(act.history)
+	#$VB/History.apply_data($VB/History.get_test_data())
 	$VB/Days.update_days()	
 
 
@@ -112,6 +115,7 @@ func _on_ColorGridPanel_color_changed(color):
 
 
 func _on_List_pressed():
+	$RefreshTimer.stop()
 	Data.save_activities()
 	emit_signal("show_list")
 
@@ -123,3 +127,7 @@ func _on_Timer_timeout():
 
 func _on_Notes_text_changed():
 	act.notes = $Notes.text
+
+
+func _on_RefreshTimer_timeout():
+	update_history()

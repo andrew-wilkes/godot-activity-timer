@@ -86,7 +86,7 @@ func get_test_data():
 	var one_day = 24 * 3600
 	var t = zero_oclock - one_day * 29
 	var now = Data.get_time_secs()
-	return [t, t + 1800, t + 3665, t + 3765, t + one_day, t + 2.5 * one_day, now - 6000, now]
+	return [t, t + 1800, t + 3665, t + 3765, t + one_day, t + 2.5 * one_day, now - 2 * one_day - 6000, now - 2 * one_day]
 
 
 func test_sampler():
