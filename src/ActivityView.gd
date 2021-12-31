@@ -22,8 +22,6 @@ func setup(_id, _act: Activity):
 		$Menu/Title.grab_focus()
 		$Notes.text = ""
 		act.new = false
-		prints(">", act.history)
-		#act.history.clear() # For some reason, a previously deleted item's history is copied
 	else:
 		$Menu/Title.text = act.title
 		$Notes.text = act.notes
@@ -44,7 +42,7 @@ func check_data():
 
 func update_history():
 	act.history = $VB/History.apply_data(act.history)
-	#$VB/History.apply_data($VB/History.get_test_data(0))
+	#$VB/History.apply_data($VB/History.get_test_data(4))
 	$VB/Days.update_days()	
 
 
@@ -58,7 +56,7 @@ func _on_Start_pressed():
 	act.history.append(act.start_time)
 	update_last_start()
 	set_button_states()
-	$RefreshTimer.start()
+	$RefreshTimer.start(2.0)
 
 
 func _on_Stop_pressed():
@@ -148,3 +146,5 @@ func _on_Notes_text_changed():
 
 func _on_RefreshTimer_timeout():
 	update_history()
+	var time_to_next_hour = 3600 - OS.get_unix_time() % 3600
+	$RefreshTimer.start(time_to_next_hour)

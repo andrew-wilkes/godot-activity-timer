@@ -259,6 +259,7 @@ margin_bottom = -1659.0
 autostart = true
 
 [node name="RefreshTimer" type="Timer" parent="."]
+one_shot = true
 
 [connection signal="pressed" from="Footer/List" to="." method="_on_List_pressed"]
 [connection signal="pressed" from="Footer/Delete" to="." method="_on_Delete_pressed"]

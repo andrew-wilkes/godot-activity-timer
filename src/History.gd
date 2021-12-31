@@ -13,7 +13,6 @@ func _ready():
 
 func apply_data(timestamp_history: Array):
 	var data = clean_data(timestamp_history)
-	print(data)
 	var samples: Array
 	samples = get_samples(data)
 	var bytes = get_texture_bytes_from_samples(samples)
@@ -28,7 +27,10 @@ func get_texture_bytes_from_samples(samples: Array):
 	var m = samples.max()
 	var normalization_factor = max(1.0, m)
 	for s in samples:
-		var v = 255 * s / normalization_factor
+		var v = int(255 * s / normalization_factor)
+		# Make recent activity visible
+		if s > 0 and v < 2:
+			v = 2 # Min value to be visible
 		bytes.append(v)
 	return bytes
 
@@ -55,6 +57,7 @@ func get_samples(data: Array):
 	var t1
 	var samples = []
 	var total = 0
+	var now = Data.get_time_secs()
 	while sampling and t < midnight:
 		total = 0
 		t1 = t
@@ -71,16 +74,19 @@ func get_samples(data: Array):
 				sampling = false
 				break
 		if active:
-			total += next_t - t1
+			if next_t > now:
+				total += now - t1
+				active = false
+			else:
+				total += next_t - t1
 		samples.append(total)
 		t = next_t
 	# There are no more time stamps now
 	# If active, want to accumulate time until the present time
-	var now = Data.get_time_secs()
 	while t < midnight:
 		var next_t = t + sample_size
 		if active:
-			if now < next_t:
+			if next_t > now:
 				total = now - t
 				active = false
 			else:
@@ -115,6 +121,9 @@ func get_test_data(idx):
 # warning-ignore:integer_division
 		[zero_oclock - hour / 2, zero_oclock + hour / 2], # > ... 0, 0, 1800, 1800, 0, 0 ...] @ index 695, 696 on page 34
 		[zero_oclock + hour], # > up to now ... 0, 0, 3600, 3600, < 3600, 0, 0 ...]
+		[1640800840, 1640805840],
+		[1640800840, 1640805840, 1640944913],
+		[1640800840, 1640805840, 1640944913, 1640945012]
 	]
 	return data[idx]
 
