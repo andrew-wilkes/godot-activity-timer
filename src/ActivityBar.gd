@@ -27,8 +27,8 @@ func _ready():
 
 func setup(_act: Activity):
 	$H/Title.text = _act.title
-	show_start_button(_act.stopped)
-	$H/TimeDisplay.update_time(_act.time)
+	show_start_button(_act.stopped())
+	$H/TimeDisplay.update_time(_act.get_elapsed_time())
 	$H/ColorRect.color = _act.color_code
 	act = _act
 
@@ -38,23 +38,19 @@ func _on_View_pressed():
 
 
 func _on_Start_pressed():
-	act.stopped = false
-	act.start_time = Data.get_time_secs()
-	act.history.append(act.start_time)
-	set_time_color()
+	act.add_timestamp()
+	set_time_color(false)
 	show_start_button(false)
 
 
 func _on_Stop_pressed():
-	act.stopped = true
-	act.stop_time = Data.get_time_secs()
-	act.history.append(act.stop_time)
-	set_time_color()
+	act.add_timestamp()
+	set_time_color(true)
 	show_start_button(true)
 
 
-func set_time_color():
-	$H/TimeDisplay.set_color(act.stopped)
+func set_time_color(stopped: bool):
+	$H/TimeDisplay.set_color(stopped)
 
 
 func show_start_button(show):
@@ -71,8 +67,8 @@ func _on_Title_mouse_exited():
 
 
 func _on_Timer_timeout():
-	if not act.stopped:
-		$H/TimeDisplay.update_time(act.time)
+	if not act.stopped():
+		$H/TimeDisplay.update_time(act.get_elapsed_time())
 
 
 func _on_Title_button_down():

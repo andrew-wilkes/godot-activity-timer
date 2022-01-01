@@ -59,10 +59,8 @@ func _notification(what):
 		# Stop all running timers
 		for a in activities.items.values():
 			var act: Activity = a
-			if not act.stopped:
-				act.stopped = true
-				act.stop_time = get_time_secs()
-				act.history.append(act.stop_time)
+			if not act.stopped():
+				act.add_timestamp()
 		save_data(activities, ACTIVITIES_FILE_NAME)
 
 

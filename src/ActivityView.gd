@@ -28,16 +28,9 @@ func setup(_id, _act: Activity):
 	$Time/ColorPicker.modulate = act.color_code
 	update_time()
 	update_history()
-	check_data()
 	update_last_start()
 	update_last_stop()
 	set_button_states()
-
-
-func check_data():
-	# Out of order timestamps were removed in the history clean_data function
-	# An even number means we are stopped
-	act.stopped = true if act.history.size() % 2 == 0 else false
 
 
 func update_history():
@@ -47,13 +40,11 @@ func update_history():
 
 
 func update_time():
-	$Time/TimeDisplay.update_time(act.time)
+	$Time/TimeDisplay.update_time(act.get_elapsed_time())
 
 
 func _on_Start_pressed():
-	act.stopped = false
-	act.start_time = Data.get_time_secs()
-	act.history.append(act.start_time)
+	act.add_timestamp()
 	update_last_start()
 	set_button_states()
 	$RefreshTimer.start(2.0)
@@ -61,24 +52,21 @@ func _on_Start_pressed():
 
 func _on_Stop_pressed():
 	$RefreshTimer.stop()
-	act.stop_time = Data.get_time_secs()
-	if not act.stopped: # Don't log a reset in stopped state
-		update_last_stop()
-		act.history.append(act.stop_time)
-		update_history()
-	act.stopped = true
+	act.add_timestamp()
+	update_last_stop()
+	update_history()
 	set_button_states()
 
 
 func set_button_states():
-	$Time/Start.visible = act.stopped
-	$Time/Stop.visible = not act.stopped
-	$Time/TimeDisplay.set_color(act.stopped)
+	var stopped = act.stopped()
+	$Time/Start.visible = stopped
+	$Time/Stop.visible = not stopped
+	$Time/TimeDisplay.set_color(stopped)
 
 
 func _on_Reset_pressed():
-	act.time = 0
-	_on_Stop_pressed()
+	act.reset()
 	$Time/TimeDisplay.update_time(0)
 
 
@@ -99,11 +87,11 @@ func _on_Title_text_changed(new_text):
 
 
 func update_last_start():
-	update_datetime($Stats/LastStart, act.start_time)
+	update_datetime($Stats/LastStart, act.get_last_start_time())
 
 
 func update_last_stop():
-	update_datetime($Stats/LastStop, act.stop_time)
+	update_datetime($Stats/LastStop, act.get_last_stop_time())
 
 
 func update_datetime(node: Label, time: int):
@@ -114,6 +102,7 @@ func update_datetime(node: Label, time: int):
 		dict.erase("dst")
 		dict.erase("weekday")
 		node.text = "%02d:%02d:%02d %0d-%02d-%02d" % dict.values()
+
 
 func _on_ColorPicker_pressed():
 	if choosing_color:
@@ -136,7 +125,7 @@ func _on_List_pressed():
 
 
 func _on_Timer_timeout():
-	if visible and act and not act.stopped:
+	if visible and act and not act.stopped():
 		update_time()
 
 

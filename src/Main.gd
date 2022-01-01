@@ -19,13 +19,6 @@ func _on_ActivityView_show_list():
 	$ActivityView.hide()
 
 
-func _on_Timer_timeout():
-	for a in Data.activities.items.values():
-		var act: Activity = a
-		if not act.stopped:
-			act.time += 1
-
-
 func _on_Info_show_list():
 	$Info.hide()
 	$ActivityList.show()

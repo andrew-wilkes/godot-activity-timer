@@ -28,7 +28,7 @@ func build_list():
 		act.node = bar_scene.instance()
 		act.node.id = id
 		act.node.setup(act)
-		act.node.set_time_color()
+		act.node.set_time_color(act.stopped())
 		add_child(act.node)
 		connect_bar(act.node)
 		yield(get_tree(), "idle_frame")
