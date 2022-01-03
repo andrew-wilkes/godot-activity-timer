@@ -205,9 +205,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.16"
-     inkscape:cx="1109.375"
-     inkscape:cy="618.75"
+     inkscape:zoom="0.32"
+     inkscape:cx="-901.5625"
+     inkscape:cy="-193.75"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      inkscape:document-rotation="0"
@@ -287,9 +287,9 @@
        x="-1520"
        y="-960"
        ry="0"
-       inkscape:export-filename="/home/andrew/Pictures/my-icons.png"
-       inkscape:export-xdpi="24"
-       inkscape:export-ydpi="24" />
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/icon.png"
+       inkscape:export-xdpi="19.200001"
+       inkscape:export-ydpi="19.200001" />
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px"
@@ -1270,9 +1270,9 @@
     <g
        id="g25580"
        transform="translate(1320,20)"
-       inkscape:export-filename="/home/andrew/Pictures/my-icons.png"
-       inkscape:export-xdpi="24"
-       inkscape:export-ydpi="24">
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/icon.png"
+       inkscape:export-xdpi="10.971429"
+       inkscape:export-ydpi="10.971429">
       <rect
          style="fill:#999999;fill-opacity:1;stroke:none;stroke-width:14.4725;stroke-linecap:round"
          id="rect28562"

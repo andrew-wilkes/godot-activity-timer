@@ -9,7 +9,6 @@ export var notes = ""
 export(Color, RGB) var color_code = Color.green
 
 var node
-var new = false
 
 func stopped():
 	# Stopped if we have an even number of timestamps

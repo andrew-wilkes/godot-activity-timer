@@ -17,14 +17,10 @@ func setup(_id, _act: Activity):
 	id = _id
 	act = _act
 	show()
-	if act.new:
-		$Menu/Title.text = ""
+	$Menu/Title.text = act.title
+	if act.title == "":
 		$Menu/Title.grab_focus()
-		$Notes.text = ""
-		act.new = false
-	else:
-		$Menu/Title.text = act.title
-		$Notes.text = act.notes
+	$Notes.text = act.notes
 	$Time/ColorPicker.modulate = act.color_code
 	update_time()
 	update_history()
@@ -83,7 +79,7 @@ func _on_Confirm_confirmed():
 
 
 func _on_Title_text_changed(new_text):
-	act.title = new_text
+	act.title = new_text.capitalize()
 
 
 func update_last_start():

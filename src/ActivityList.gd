@@ -44,7 +44,6 @@ func _on_Add_pressed():
 	connect_bar(act.node)
 	act.node.id = Data.activities.get_id_and_add_to_data(act)
 	act.node.setup(act)
-	act.new = true
 	# Allow time for node to be visible
 	yield(get_tree(), "idle_frame")
 	check_if_space_to_add_new_bar()

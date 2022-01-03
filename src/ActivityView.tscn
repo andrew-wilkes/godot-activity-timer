@@ -73,36 +73,29 @@ margin_right = 1080.0
 margin_bottom = 150.0
 rect_min_size = Vector2( 0, 30 )
 
-[node name="Title" type="Label" parent="."]
+[node name="Menu" type="HBoxContainer" parent="."]
 margin_top = 170.0
 margin_right = 1080.0
-margin_bottom = 228.0
-size_flags_horizontal = 3
-text = "Title"
-max_lines_visible = 1
-
-[node name="Menu" type="HBoxContainer" parent="."]
-margin_top = 248.0
-margin_right = 1080.0
-margin_bottom = 316.0
+margin_bottom = 238.0
 custom_constants/separation = 20
 
 [node name="Title" type="LineEdit" parent="Menu"]
 margin_right = 1080.0
 margin_bottom = 68.0
 size_flags_horizontal = 3
-text = "Enter name of activity"
+placeholder_text = "Name of activity"
+caret_blink = true
 
 [node name="Sp3" type="Control" parent="."]
-margin_top = 336.0
+margin_top = 258.0
 margin_right = 1080.0
-margin_bottom = 366.0
+margin_bottom = 288.0
 rect_min_size = Vector2( 0, 30 )
 
 [node name="Time" type="HBoxContainer" parent="."]
-margin_top = 386.0
+margin_top = 308.0
 margin_right = 1080.0
-margin_bottom = 486.0
+margin_bottom = 408.0
 custom_constants/separation = 20
 
 [node name="ColorPicker" type="TextureButton" parent="Time"]
@@ -155,15 +148,15 @@ texture_pressed = ExtResource( 17 )
 texture_hover = ExtResource( 19 )
 
 [node name="Sp4" type="Control" parent="."]
-margin_top = 506.0
+margin_top = 428.0
 margin_right = 1080.0
-margin_bottom = 536.0
+margin_bottom = 458.0
 rect_min_size = Vector2( 0, 30 )
 
 [node name="Stats" type="GridContainer" parent="."]
-margin_top = 556.0
+margin_top = 478.0
 margin_right = 1080.0
-margin_bottom = 692.0
+margin_bottom = 614.0
 custom_constants/vseparation = 20
 custom_constants/hseparation = 50
 columns = 2
@@ -196,9 +189,9 @@ margin_bottom = 131.0
 custom_fonts/font = ExtResource( 21 )
 
 [node name="VB" type="VBoxContainer" parent="."]
-margin_top = 712.0
+margin_top = 634.0
 margin_right = 1080.0
-margin_bottom = 868.0
+margin_bottom = 790.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -230,16 +223,16 @@ __meta__ = {
 }
 
 [node name="NotesLabel" type="Label" parent="."]
-margin_top = 888.0
+margin_top = 810.0
 margin_right = 1080.0
-margin_bottom = 946.0
+margin_bottom = 868.0
 size_flags_horizontal = 3
 text = "Notes"
 
 [node name="Notes" type="TextEdit" parent="."]
-margin_top = 966.0
+margin_top = 888.0
 margin_right = 1080.0
-margin_bottom = 1566.0
+margin_bottom = 1488.0
 rect_min_size = Vector2( 0, 600 )
 
 [node name="c" type="CanvasLayer" parent="."]
