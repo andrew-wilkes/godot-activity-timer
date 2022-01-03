@@ -116,3 +116,7 @@ func rebuild_order():
 
 func _on_Info_pressed():
 	emit_signal("info_pressed")
+
+
+func _on_Upload_pressed():
+	pass # Replace with function body.

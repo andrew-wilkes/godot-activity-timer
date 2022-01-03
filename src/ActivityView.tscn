@@ -52,7 +52,7 @@ texture_normal = ExtResource( 16 )
 texture_pressed = ExtResource( 14 )
 texture_hover = ExtResource( 15 )
 
-[node name="Spacer" type="Control" parent="Footer"]
+[node name="Sp1" type="Control" parent="Footer"]
 margin_left = 104.0
 margin_right = 976.0
 margin_bottom = 100.0
@@ -191,7 +191,7 @@ custom_fonts/font = ExtResource( 21 )
 [node name="VB" type="VBoxContainer" parent="."]
 margin_top = 634.0
 margin_right = 1080.0
-margin_bottom = 790.0
+margin_bottom = 826.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -222,17 +222,28 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="NotesLabel" type="Label" parent="."]
-margin_top = 810.0
+[node name="DaysLabel" type="Label" parent="VB"]
+margin_top = 160.0
 margin_right = 1080.0
-margin_bottom = 868.0
+margin_bottom = 192.0
+size_flags_horizontal = 3
+custom_fonts/font = SubResource( 1 )
+text = "30 day history"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="NotesLabel" type="Label" parent="."]
+margin_top = 846.0
+margin_right = 1080.0
+margin_bottom = 904.0
 size_flags_horizontal = 3
 text = "Notes"
 
 [node name="Notes" type="TextEdit" parent="."]
-margin_top = 888.0
+margin_top = 924.0
 margin_right = 1080.0
-margin_bottom = 1488.0
+margin_bottom = 1524.0
 rect_min_size = Vector2( 0, 600 )
 
 [node name="c" type="CanvasLayer" parent="."]

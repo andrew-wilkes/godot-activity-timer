@@ -133,3 +133,7 @@ func _on_RefreshTimer_timeout():
 	update_history()
 	var time_to_next_hour = 3600 - OS.get_unix_time() % 3600
 	$RefreshTimer.start(time_to_next_hour)
+
+
+func _on_Upload_pressed():
+	pass # Replace with function body.
