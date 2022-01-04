@@ -8,6 +8,7 @@ var choosing_color = false
 
 func _ready():
 	$RefreshTimer.wait_time = 3
+	$Header/OK.hide()
 	if get_parent().name == "root":
 		# Test
 		setup(-1, Activity.new())
@@ -137,3 +138,13 @@ func _on_RefreshTimer_timeout():
 
 func _on_Upload_pressed():
 	pass # Replace with function body.
+
+
+func _on_Notes_focus_entered():
+	move_child($Notes, 2)
+	$Header/OK.show()
+
+
+func _on_Notes_focus_exited():
+	move_child($Notes, get_child_count() - 1)
+	$Header/OK.hide()
