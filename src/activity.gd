@@ -57,5 +57,7 @@ func reset():
 func get_elapsed_time():
 	if start_time == 0:
 		return 0
+	elif stopped():
+		return history[-1] - start_time
 	else:
 		return Data.get_time_secs() - start_time
