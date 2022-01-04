@@ -25,9 +25,9 @@
 [ext_resource path="res://ConfirmPopup.tscn" type="PackedScene" id=23]
 [ext_resource path="res://assets/Bitstream Vera Sans Mono Roman.ttf" type="DynamicFontData" id=24]
 [ext_resource path="res://Days.gd" type="Script" id=25]
-[ext_resource path="res://assets/upload-2.png" type="Texture" id=26]
-[ext_resource path="res://assets/upload-1.png" type="Texture" id=27]
-[ext_resource path="res://assets/upload-3.png" type="Texture" id=28]
+[ext_resource path="res://assets/down-1.png" type="Texture" id=26]
+[ext_resource path="res://assets/down-3.png" type="Texture" id=27]
+[ext_resource path="res://assets/down-2.png" type="Texture" id=28]
 
 [sub_resource type="DynamicFont" id=1]
 size = 26
@@ -65,10 +65,9 @@ size_flags_horizontal = 3
 margin_left = 490.0
 margin_right = 590.0
 margin_bottom = 100.0
-texture_normal = ExtResource( 26 )
-texture_pressed = ExtResource( 27 )
-texture_hover = ExtResource( 28 )
-flip_v = true
+texture_normal = ExtResource( 28 )
+texture_pressed = ExtResource( 26 )
+texture_hover = ExtResource( 27 )
 
 [node name="Sp2" type="Control" parent="Header"]
 margin_left = 594.0

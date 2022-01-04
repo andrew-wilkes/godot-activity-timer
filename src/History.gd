@@ -42,16 +42,16 @@ func create_data_texture(data: PoolByteArray):
 	img.create_from_data(data.size(), 1, false, Image.FORMAT_R8, data) # Only use the red component
 	var texture = ImageTexture.new()
 	texture.create_from_image(img, 0)
+	img.save_png("res://temp.png")
 	return texture
 
 
-# Samples are an array of 720 slots containing the number of active seconds per hour
-# There are 720 hours in 30 days
-# The data will be used in an image 720 pixels wide
+# A sample size of 3600 is per hour but we get problems resolving full amplitude thin lines
+# So we sample per 2 hours and get 360 samples
 func get_samples(data: Array):
 	var midnight = OS.get_unix_time_from_datetime(OS.get_date()) + 86400
 	var t = midnight - thirty_days
-	var sample_size = 3600 # 1 hour
+	var sample_size = 7200 # 2 hours
 	var idx = 0
 	var sampling = true if data.size() > 0 else false
 	var active = false
@@ -63,7 +63,8 @@ func get_samples(data: Array):
 		total = 0
 		t1 = t
 		var next_t = t + sample_size
-		while data[idx] < next_t:
+		# Check if timestamp is within this hour
+		while data[idx] < next_t and data[idx] >= t:
 			if active:
 				total += data[idx] - t1
 				active = false
