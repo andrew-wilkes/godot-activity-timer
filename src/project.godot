@@ -34,6 +34,8 @@ _global_script_class_icons={
 
 config/name="Activity Timer"
 run/main_scene="res://Main.tscn"
+boot_splash/image="res://icons/splash.png"
+boot_splash/fullsize=false
 config/icon="res://icon.png"
 
 [autoload]

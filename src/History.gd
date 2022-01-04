@@ -9,6 +9,7 @@ func _ready():
 	#apply_data([])
 	#print(clean_data([3,2,4,30,20]))
 	#test_sampler(2)
+	#test_create_data_texture()
 
 
 func apply_data(timestamp_history: Array):
@@ -29,8 +30,8 @@ func get_texture_bytes_from_samples(samples: Array):
 	for s in samples:
 		var v = int(255 * s / normalization_factor)
 		# Make recent activity visible
-		if s > 0 and v < 2:
-			v = 2 # Min value to be visible
+		if s > 0 and v < 4:
+			v = 4 # Min value to be visible
 		bytes.append(v)
 	return bytes
 

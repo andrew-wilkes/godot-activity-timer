@@ -32,7 +32,7 @@ func setup(_id, _act: Activity):
 
 func update_history():
 	act.history = $VB/History.apply_data(act.history)
-	#$VB/History.apply_data($VB/History.get_test_data(4))
+	#$VB/History.apply_data($VB/History.get_test_data(0))
 	$VB/Days.update_days()	
 
 
