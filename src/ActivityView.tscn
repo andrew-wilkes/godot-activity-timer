@@ -36,6 +36,7 @@ font_data = ExtResource( 24 )
 [node name="ActivityView" type="VBoxContainer"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+size_flags_horizontal = 3
 size_flags_vertical = 3
 theme = ExtResource( 22 )
 custom_constants/separation = 20
@@ -260,8 +261,9 @@ text = "Notes"
 [node name="Notes" type="TextEdit" parent="."]
 margin_top = 924.0
 margin_right = 1080.0
-margin_bottom = 1524.0
+margin_bottom = 1920.0
 rect_min_size = Vector2( 0, 600 )
+size_flags_vertical = 3
 
 [node name="c" type="CanvasLayer" parent="."]
 

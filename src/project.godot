@@ -47,8 +47,9 @@ Data="*res://data.gd"
 window/size/width=1080
 window/size/height=1920
 window/size/resizable=false
+window/size/borderless=true
 window/size/test_width=600
-window/size/test_height=900
+window/size/test_height=800
 window/energy_saving/keep_screen_on=false
 window/handheld/orientation="portrait"
 window/stretch/mode="2d"
@@ -60,5 +61,6 @@ common/enable_pause_aware_picking=true
 
 [rendering]
 
+2d/snapping/use_gpu_pixel_snap=true
 environment/default_clear_color=Color( 0, 0, 0, 1 )
 environment/default_environment="res://default_env.tres"

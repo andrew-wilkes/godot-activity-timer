@@ -148,7 +148,7 @@ func test_create_data_texture():
 func test_impulses():
 	var data = PoolByteArray([])
 	for n in 720:
-		if n % 100 < 8:
+		if n % 20 < int(n / 64):
 			data.append(255)
 		else:
 			data.append(0)

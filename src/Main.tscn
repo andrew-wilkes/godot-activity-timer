@@ -7,10 +7,8 @@
 [ext_resource path="res://Info.tscn" type="PackedScene" id=5]
 
 [node name="Main" type="MarginContainer"]
-margin_right = 1080.0
-margin_bottom = 1920.0
-size_flags_horizontal = 3
-size_flags_vertical = 3
+anchor_right = 1.0
+anchor_bottom = 1.0
 theme = ExtResource( 4 )
 custom_constants/margin_right = 20
 custom_constants/margin_top = 120
@@ -25,6 +23,7 @@ margin_left = 20.0
 margin_top = 120.0
 margin_right = 1060.0
 margin_bottom = 1920.0
+size_flags_horizontal = 1
 
 [node name="ActivityView" parent="." instance=ExtResource( 3 )]
 visible = false
@@ -34,6 +33,8 @@ margin_left = 20.0
 margin_top = 120.0
 margin_right = 1060.0
 margin_bottom = 1920.0
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="Info" parent="." instance=ExtResource( 5 )]
 visible = false
