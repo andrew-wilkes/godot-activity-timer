@@ -14,3 +14,12 @@ func _on_Cancel_pressed():
 func _on_OK_pressed():
 	hide()
 	emit_signal("confirmed")
+
+
+func alert(txt):
+	set_label_text(txt)
+	popup_centered()
+
+
+func set_label_text(txt):
+	$VBox/Label.text = txt

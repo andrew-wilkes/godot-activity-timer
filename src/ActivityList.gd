@@ -3,6 +3,8 @@ extends VBoxContainer
 signal view_clicked(id)
 signal info_pressed
 
+const use_ssl = false
+
 var bar_scene = preload("res://ActivityBar.tscn")
 var drag_item
 var current_item_index
@@ -12,6 +14,7 @@ var top_margin = 0
 
 func _ready():
 	build_list()
+	var _e = $HTTPRequest.connect("request_completed", self, "_on_request_completed")
 
 
 func clear_list():
@@ -119,4 +122,43 @@ func _on_Info_pressed():
 
 
 func _on_Upload_pressed():
-	pass # Replace with function body.
+	# Test code
+	#show_server_response(200, "1z3465".to_utf8())
+	#return
+	var data_to_send: Array = get_activity_data()
+	if data_to_send.size() > 0:
+		var headers = ["Content-Type: application/json"]
+		var query = JSON.print(data_to_send)
+		var url
+		if use_ssl:
+			url = "https://urgentclick.com/api/activity-log.php"
+		else:
+			url = "http://urgentclick.test/api/activity-log.php"
+		$HTTPRequest.request(url, headers, use_ssl, HTTPClient.METHOD_POST, query)
+	else:
+		$AlertPopup.alert("There are no activities to upload.")
+
+
+func get_activity_data():
+	var data = []
+	for id in Data.activities.order:
+		var act = Data.activities.items[id]
+		data.append({ "title": act.title, "history": act.history })
+	return data
+
+
+func _on_request_completed(_result, response_code, _headers, body):
+	show_server_response(response_code, body)
+
+
+func show_server_response(response_code, body):
+	if response_code != 200:
+		$AlertPopup.alert("There was an error " + str(response_code) + " when uploading.")
+	else:
+		var num = body.get_string_from_utf8()
+		if num.is_valid_integer():
+			$AlertPopup.alert("Activity data was uploaded.\nPlease enter this number: " + num + """
+At this URL: https://urgentclick.com/activity-viewer/
+in your PC web browser to view your stats.\nIt will expire in 24 hours.""")
+		else:
+			$AlertPopup.alert("There was an error with the server response.")

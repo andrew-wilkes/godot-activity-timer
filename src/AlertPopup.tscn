@@ -1,0 +1,68 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://ConfirmPopup.gd" type="Script" id=1]
+[ext_resource path="res://assets/the_theme.tres" type="Theme" id=2]
+[ext_resource path="res://assets/icon-25.png" type="Texture" id=3]
+[ext_resource path="res://assets/icon-26.png" type="Texture" id=7]
+[ext_resource path="res://assets/icon-24.png" type="Texture" id=8]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.129412, 0.129412, 0.129412, 1 )
+corner_radius_top_left = 9
+corner_radius_top_right = 9
+corner_radius_bottom_right = 9
+corner_radius_bottom_left = 9
+expand_margin_left = 20.0
+expand_margin_right = 20.0
+expand_margin_top = 20.0
+expand_margin_bottom = 20.0
+
+[node name="AlertPopup" type="PopupPanel"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = ExtResource( 2 )
+custom_styles/panel = SubResource( 1 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBox" type="VBoxContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_constants/separation = 50
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="VBox"]
+margin_right = 1080.0
+margin_bottom = 60.0
+rect_min_size = Vector2( 0, 60 )
+
+[node name="HBox" type="HBoxContainer" parent="VBox"]
+margin_top = 110.0
+margin_right = 1080.0
+margin_bottom = 210.0
+
+[node name="Sp2" type="Control" parent="VBox/HBox"]
+margin_left = 396.0
+margin_right = 684.0
+margin_bottom = 100.0
+size_flags_horizontal = 3
+
+[node name="OK" type="TextureButton" parent="VBox/HBox"]
+margin_left = 688.0
+margin_right = 788.0
+margin_bottom = 100.0
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 8 )
+texture_hover = ExtResource( 7 )
+
+[node name="Sp3" type="Control" parent="VBox/HBox"]
+margin_left = 792.0
+margin_right = 1080.0
+margin_bottom = 100.0
+size_flags_horizontal = 3
+
+[connection signal="pressed" from="VBox/HBox/OK" to="." method="_on_OK_pressed"]
