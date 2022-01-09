@@ -1,5 +1,8 @@
 extends VBoxContainer
 
+# Activity bars are added below the Menu etc.
+# So be sure to adjust the index offsets if changing the number of non-activity bar nodes.
+
 signal view_clicked(id)
 signal info_pressed
 
@@ -11,16 +14,22 @@ var current_item_index
 var y_offset
 var row_height
 var top_margin = 0
+var window_safe_height
 
 func _ready():
 	build_list()
 	var _e = $HTTPRequest.connect("request_completed", self, "_on_request_completed")
+	# When using a test window size, the project window size is scaled down to the test
+	# window size, but the control positions are as if on the full sized project window
+	window_safe_height = ProjectSettings.get("display/window/size/height")
+	if OS.get_name() == "Android" or OS.get_name() == "iOS":
+		window_safe_height = OS.get_window_safe_area().size.y
 
 
 func clear_list():
 	hide()
 	for idx in get_child_count():
-		if idx > 0:
+		if idx > 2:
 			get_child(idx).queue_free()
 
 
@@ -43,7 +52,7 @@ func _on_Add_pressed():
 	# The previous node's history array is copied for some reason
 	act.history = []
 	act.node = bar_scene.instance()
-	add_child_below_node($Menu, act.node, true)
+	add_child_below_node(get_child(2), act.node, true)
 	connect_bar(act.node)
 	act.node.id = Data.activities.get_id_and_add_to_data(act)
 	act.node.setup(act)
@@ -59,12 +68,12 @@ func connect_bar(node):
 
 
 func check_if_space_to_add_new_bar():
-	var num_bars = get_child_count() - 1
+	var num_bars = get_child_count() - 3
 	if num_bars > 0:
-		var base = get_child(num_bars)
+		var base = get_child(num_bars + 2)
 		var sep = get("custom_constants/separation")
 		# The top and bottom margins subtract 50 from the safe area height
-		var limit = OS.get_window_safe_area().size.y - 50.0 - sep - base.rect_size.y 
+		var limit = window_safe_height - 50.0 - sep - base.rect_size.y 
 		if base.margin_bottom > limit:
 			$Menu/Add.visible = false
 		else:
@@ -158,7 +167,7 @@ func show_server_response(response_code, body):
 		var num = body.get_string_from_utf8()
 		if num.is_valid_integer():
 			$AlertPopup.alert("Activity data was uploaded.\nPlease enter this number: " + num + """
-At this URL: https://urgentclick.com/activity-viewer/
+At this URL: https://urgentclick.com/activity-viewer.php
 in your PC web browser to view your stats.\nIt will expire in 24 hours.""")
 		else:
 			$AlertPopup.alert("There was an error with the server response.")
