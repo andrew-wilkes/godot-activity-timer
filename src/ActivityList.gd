@@ -6,8 +6,6 @@ extends VBoxContainer
 signal view_clicked(id)
 signal info_pressed
 
-const use_ssl = false
-
 var bar_scene = preload("res://ActivityBar.tscn")
 var drag_item
 var current_item_index
@@ -15,6 +13,7 @@ var y_offset
 var row_height
 var top_margin = 0
 var window_safe_height
+var use_ssl = false
 
 func _ready():
 	build_list()
@@ -24,6 +23,7 @@ func _ready():
 	window_safe_height = ProjectSettings.get("display/window/size/height")
 	if OS.get_name() == "Android" or OS.get_name() == "iOS":
 		window_safe_height = OS.get_window_safe_area().size.y
+		use_ssl = true
 
 
 func clear_list():
@@ -131,9 +131,6 @@ func _on_Info_pressed():
 
 
 func _on_Upload_pressed():
-	# Test code
-	#show_server_response(200, "1z3465".to_utf8())
-	#return
 	var data_to_send: Array = get_activity_data()
 	if data_to_send.size() > 0:
 		var headers = ["Content-Type: application/json"]
@@ -143,20 +140,22 @@ func _on_Upload_pressed():
 			url = "https://urgentclick.com/api/activity-log.php"
 		else:
 			url = "http://urgentclick.test/api/activity-log.php"
+		$Menu/Upload.disabled = true
 		$HTTPRequest.request(url, headers, use_ssl, HTTPClient.METHOD_POST, query)
 	else:
 		$AlertPopup.alert("There are no activities to upload.")
 
 
 func get_activity_data():
-	var data = []
+	var data = [Data.get_time_secs()] # Need this to get the local time of the device
 	for id in Data.activities.order:
 		var act = Data.activities.items[id]
-		data.append({ "title": act.title, "history": act.history })
+		data.append({ "title": act.title, "notes": act.notes, "history": act.history })
 	return data
 
 
 func _on_request_completed(_result, response_code, _headers, body):
+	$Menu/Upload.disabled = false
 	show_server_response(response_code, body)
 
 
