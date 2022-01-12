@@ -17,7 +17,7 @@ var use_ssl = false
 
 func _ready():
 	build_list()
-	var _e = $HTTPRequest.connect("request_completed", self, "_on_request_completed")
+	var _e = $c/HTTPRequest.connect("request_completed", self, "_on_request_completed")
 	# When using a test window size, the project window size is scaled down to the test
 	# window size, but the control positions are as if on the full sized project window
 	window_safe_height = ProjectSettings.get("display/window/size/height")
@@ -52,7 +52,7 @@ func _on_Add_pressed():
 	# The previous node's history array is copied for some reason
 	act.history = []
 	act.node = bar_scene.instance()
-	add_child_below_node(get_child(2), act.node, true)
+	add_child_below_node(get_child(1), act.node, true)
 	connect_bar(act.node)
 	act.node.id = Data.activities.get_id_and_add_to_data(act)
 	act.node.setup(act)
@@ -68,9 +68,9 @@ func connect_bar(node):
 
 
 func check_if_space_to_add_new_bar():
-	var num_bars = get_child_count() - 3
+	var num_bars = get_child_count() - 2
 	if num_bars > 0:
-		var base = get_child(num_bars + 2)
+		var base = get_child(num_bars + 1)
 		var sep = get("custom_constants/separation")
 		# The top and bottom margins subtract 50 from the safe area height
 		var limit = window_safe_height - 50.0 - sep - base.rect_size.y 
@@ -82,7 +82,7 @@ func check_if_space_to_add_new_bar():
 
 func bar_clicked(item, pressed):
 	var mpos = get_viewport().get_mouse_position().y
-	row_height = get_child(1).rect_size.y + get("custom_constants/separation")
+	row_height = get_child(3).rect_size.y + get("custom_constants/separation")
 	current_item_index = get_item_index_from_viewport_position(mpos)
 	if pressed:
 		drag_item = item
@@ -96,7 +96,7 @@ func bar_clicked(item, pressed):
 
 func get_item_index_from_viewport_position(y_pos: float):
 	var id = (y_pos - 140 - top_margin) / row_height
-	id = clamp(id, 0, get_child_count() - 2)
+	id = clamp(id, 0, get_child_count() - 3)
 	return int(id)
 
 
@@ -109,7 +109,7 @@ func _input(event):
 		if drag_item != null:
 			var item_index = get_item_index_from_viewport_position(event.position.y)
 			if item_index != current_item_index:
-				move_child(drag_item, item_index + 1)
+				move_child(drag_item, item_index + 2)
 				current_item_index = item_index
 				call_deferred("rebuild_order")
 			drag_item.rect_position.y = event.position.y - y_offset
@@ -117,12 +117,9 @@ func _input(event):
 
 func rebuild_order():
 	var new_order = []
-	var skip_menu = true
 	for node in get_children():
-		if skip_menu:
-			skip_menu = false
-			continue
-		new_order.append(node.id)
+		if node is ActivityBar:
+			new_order.append(node.id)
 	Data.activities.order = new_order
 
 
@@ -141,9 +138,9 @@ func _on_Upload_pressed():
 		else:
 			url = "http://urgentclick.test/api/activity-log.php"
 		$Menu/Upload.disabled = true
-		$HTTPRequest.request(url, headers, use_ssl, HTTPClient.METHOD_POST, query)
+		$c/HTTPRequest.request(url, headers, use_ssl, HTTPClient.METHOD_POST, query)
 	else:
-		$AlertPopup.alert("There are no activities to upload.")
+		$c/AlertPopup.alert("There are no activities to upload.")
 
 
 func get_activity_data():
@@ -161,12 +158,12 @@ func _on_request_completed(_result, response_code, _headers, body):
 
 func show_server_response(response_code, body):
 	if response_code != 200:
-		$AlertPopup.alert("There was an error " + str(response_code) + " when uploading.")
+		$c/AlertPopup.alert("There was an error " + str(response_code) + " when uploading.")
 	else:
 		var num = body.get_string_from_utf8()
 		if num.is_valid_integer():
-			$AlertPopup.alert("Activity data was uploaded.\nPlease enter this number: " + num + """
+			$c/AlertPopup.alert("Activity data was uploaded.\nPlease enter this number: " + num + """
 At this URL: https://urgentclick.com/activity-viewer.php
 in your PC web browser to view your stats.\nIt will expire in 24 hours.""")
 		else:
-			$AlertPopup.alert("There was an error with the server response.")
+			$c/AlertPopup.alert("There was an error with the server response.")

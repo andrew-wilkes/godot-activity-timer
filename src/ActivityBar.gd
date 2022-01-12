@@ -1,5 +1,7 @@
 extends PanelContainer
 
+class_name ActivityBar
+ 
 signal view_request(id)
 signal drag_drop_request(this, pressed)
 

@@ -25,6 +25,12 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="c" type="CanvasLayer" parent="."]
+
+[node name="HTTPRequest" type="HTTPRequest" parent="c"]
+
+[node name="AlertPopup" parent="c" instance=ExtResource( 12 )]
+
 [node name="Menu" type="HBoxContainer" parent="."]
 margin_right = 1076.0
 margin_bottom = 100.0
@@ -81,10 +87,6 @@ margin_bottom = 100.0
 texture_normal = ExtResource( 7 )
 texture_pressed = ExtResource( 8 )
 texture_hover = ExtResource( 5 )
-
-[node name="AlertPopup" parent="." instance=ExtResource( 12 )]
-
-[node name="HTTPRequest" type="HTTPRequest" parent="."]
 
 [connection signal="pressed" from="Menu/Add" to="." method="_on_Add_pressed"]
 [connection signal="pressed" from="Menu/Upload" to="." method="_on_Upload_pressed"]
