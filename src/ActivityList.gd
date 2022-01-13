@@ -18,6 +18,7 @@ var use_ssl = false
 func _ready():
 	build_list()
 	var _e = $c/HTTPRequest.connect("request_completed", self, "_on_request_completed")
+	$Menu/Waiting.hide()
 	# When using a test window size, the project window size is scaled down to the test
 	# window size, but the control positions are as if on the full sized project window
 	window_safe_height = ProjectSettings.get("display/window/size/height")
@@ -138,6 +139,8 @@ func _on_Upload_pressed():
 		else:
 			url = "http://urgentclick.test/api/activity-log.php"
 		$Menu/Upload.disabled = true
+		$Menu/Upload.hide()
+		$Menu/Waiting.start()
 		$c/HTTPRequest.request(url, headers, use_ssl, HTTPClient.METHOD_POST, query)
 	else:
 		$c/AlertPopup.alert("There are no activities to upload.")
@@ -153,6 +156,8 @@ func get_activity_data():
 
 func _on_request_completed(_result, response_code, _headers, body):
 	$Menu/Upload.disabled = false
+	$Menu/Upload.show()
+	$Menu/Waiting.stop()
 	show_server_response(response_code, body)
 
 
@@ -162,8 +167,8 @@ func show_server_response(response_code, body):
 	else:
 		var num = body.get_string_from_utf8()
 		if num.is_valid_integer():
-			$c/AlertPopup.alert("Activity data was uploaded.\nPlease enter this number: " + num + """
-At this URL: https://urgentclick.com/activity-viewer.php
-in your PC web browser to view your stats.\nIt will expire in 24 hours.""")
+			$c/AlertPopup.alert("The activity data was uploaded.\n\nAccess code: " + num + """
+Access URL: https://urgentclick.com/activity-viewer.php
+Open in a web browser to view/download your stats.\nIt will expire in 24 hours.""")
 		else:
 			$c/AlertPopup.alert("There was an error with the server response.")

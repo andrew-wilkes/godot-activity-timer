@@ -205,9 +205,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.16"
-     inkscape:cx="-934.375"
-     inkscape:cy="612.5"
+     inkscape:zoom="0.32"
+     inkscape:cx="98.4375"
+     inkscape:cy="1081.25"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      inkscape:document-rotation="0"
@@ -1918,6 +1918,35 @@
          y="780"
          ry="40" />
     </g>
+    <rect
+       style="fill:#757575;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+       id="rect867-6-1-6-20-6-6"
+       width="400"
+       height="400"
+       x="1000"
+       y="960"
+       ry="40"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/add.png"
+       inkscape:export-xdpi="11.52"
+       inkscape:export-ydpi="11.52" />
+    <rect
+       style="display:inline;fill:#fafafa;fill-opacity:1;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.54614"
+       id="rect1632-2-7"
+       width="79.999977"
+       height="180"
+       x="1160"
+       y="1120" />
+    <rect
+       style="display:inline;fill:#fafafa;fill-opacity:1;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.54614"
+       id="rect1865-7-5"
+       width="80"
+       height="80"
+       x="840"
+       y="1040"
+       ry="40"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/dot.png"
+       inkscape:export-xdpi="11.52"
+       inkscape:export-ydpi="11.52" />
     <g
        id="g17961"
        inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
