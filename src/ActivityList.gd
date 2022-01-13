@@ -29,7 +29,7 @@ func _ready():
 func clear_list():
 	hide()
 	for idx in get_child_count():
-		if idx > 2:
+		if idx > 1:
 			get_child(idx).queue_free()
 
 

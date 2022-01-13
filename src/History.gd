@@ -42,7 +42,6 @@ func create_data_texture(data: PoolByteArray):
 	img.create_from_data(data.size(), 1, false, Image.FORMAT_R8, data) # Only use the red component
 	var texture = ImageTexture.new()
 	texture.create_from_image(img, 0)
-	img.save_png("res://temp.png")
 	return texture
 
 
