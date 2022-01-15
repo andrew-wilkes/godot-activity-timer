@@ -264,6 +264,7 @@ margin_right = 1080.0
 margin_bottom = 1920.0
 rect_min_size = Vector2( 0, 600 )
 size_flags_vertical = 3
+wrap_enabled = true
 
 [node name="c" type="CanvasLayer" parent="."]
 

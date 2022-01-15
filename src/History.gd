@@ -51,19 +51,23 @@ func get_samples(data: Array):
 	var midnight = OS.get_unix_time_from_datetime(OS.get_date()) + 86400
 	var t = midnight - thirty_days
 	var sample_size = 7200 # 2 hours
-	var idx = 0
-	var sampling = true if data.size() > 0 else false
 	var active = false
+	var idx = 0
 	var t1
 	var samples = []
 	var total = 0
 	var now = Data.get_time_secs()
+	# Set active status for timestamps before t
+	while idx < data.size() and data[idx] < t:
+		active = !active
+		idx += 1
+	var sampling = true if data.size() > idx else false
 	while sampling and t < midnight:
 		total = 0
 		t1 = t
 		var next_t = t + sample_size
 		# Check if timestamp is within this hour
-		while data[idx] < next_t and data[idx] >= t:
+		while data[idx] < next_t:
 			if active:
 				total += data[idx] - t1
 				active = false

@@ -2,6 +2,7 @@ extends Resource
 
 class_name Activity
 
+# start_time is used to calculate the elapsed time
 export var start_time = 0
 export var history = []
 export var title = ""
@@ -49,6 +50,7 @@ func add_timestamp():
 
 func reset():
 	if stopped():
+		# See add_timestamp() function for why this is needed 
 		start_time = history[-1]
 	else:
 		start_time = Data.get_time_secs()
