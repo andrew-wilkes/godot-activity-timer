@@ -1,4 +1,4 @@
-[gd_scene load_steps=31 format=2]
+[gd_scene load_steps=30 format=2]
 
 [ext_resource path="res://ActivityView.gd" type="Script" id=1]
 [ext_resource path="res://History.tscn" type="PackedScene" id=2]
@@ -11,7 +11,6 @@
 [ext_resource path="res://assets/icon-18.png" type="Texture" id=9]
 [ext_resource path="res://assets/icon-20.png" type="Texture" id=10]
 [ext_resource path="res://assets/icon-19.png" type="Texture" id=11]
-[ext_resource path="res://assets/icon-21.png" type="Texture" id=12]
 [ext_resource path="res://TimeDisplay.tscn" type="PackedScene" id=13]
 [ext_resource path="res://assets/icon-17.png" type="Texture" id=14]
 [ext_resource path="res://assets/icon-15.png" type="Texture" id=15]
@@ -118,12 +117,14 @@ margin_right = 1080.0
 margin_bottom = 408.0
 custom_constants/separation = 20
 
-[node name="Sprite" type="Sprite" parent="Time"]
-texture = ExtResource( 12 )
-centered = false
+[node name="ColorRect" type="ColorRect" parent="Time"]
+margin_right = 16.0
+margin_bottom = 100.0
+rect_min_size = Vector2( 16, 0 )
 
 [node name="ColorPicker" type="TextureButton" parent="Time"]
-margin_right = 100.0
+margin_left = 36.0
+margin_right = 136.0
 margin_bottom = 100.0
 rect_min_size = Vector2( 48, 0 )
 hint_tooltip = "Color marker"
@@ -131,7 +132,7 @@ action_mode = 0
 texture_normal = ExtResource( 29 )
 
 [node name="Sp" type="Control" parent="Time"]
-margin_left = 120.0
+margin_left = 156.0
 margin_right = 500.0
 margin_bottom = 100.0
 size_flags_horizontal = 3
