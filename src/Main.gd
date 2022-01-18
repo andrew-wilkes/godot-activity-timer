@@ -7,6 +7,16 @@ func _ready():
 	set("custom_constants/margin_top", top_margin)
 	set("custom_constants/margin_bottom", ws.end.y + 10.0)
 	$ActivityView.rect_size.y = ws.size.y
+	var _e = $Guide/HBox/Back.connect("pressed", self, "_on_guide_closed")
+	if not Data.new:
+		$ActivityList.hide()
+		show_guide()
+
+
+func show_guide():
+	$Guide.show()
+	#yield(get_tree(), "idle_frame")
+	#$Guide.margin_bottom = rect_size.y
 
 
 func _on_ActivityList_view_clicked(id):
@@ -17,6 +27,11 @@ func _on_ActivityList_view_clicked(id):
 func _on_ActivityView_show_list():
 	$ActivityList.build_list()
 	$ActivityView.hide()
+
+
+func _on_guide_closed():
+	$Guide.hide()
+	$ActivityList.show()
 
 
 func _on_Info_show_list():

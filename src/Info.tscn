@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://assets/icon-17.png" type="Texture" id=1]
 [ext_resource path="res://assets/icon-16.png" type="Texture" id=2]
@@ -9,6 +9,9 @@
 [ext_resource path="res://assets/icon-34.png" type="Texture" id=7]
 [ext_resource path="res://assets/icon-33.png" type="Texture" id=8]
 [ext_resource path="res://assets/icon-35.png" type="Texture" id=9]
+[ext_resource path="res://assets/icon-32.png" type="Texture" id=10]
+[ext_resource path="res://assets/icon-30.png" type="Texture" id=11]
+[ext_resource path="res://assets/icon-31.png" type="Texture" id=12]
 
 [sub_resource type="DynamicFont" id=1]
 size = 32
@@ -24,12 +27,30 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="List" type="TextureButton" parent="."]
+[node name="HBox2" type="HBoxContainer" parent="."]
 margin_right = 1080.0
+margin_bottom = 100.0
+
+[node name="List" type="TextureButton" parent="HBox2"]
+margin_right = 100.0
 margin_bottom = 100.0
 texture_normal = ExtResource( 1 )
 texture_pressed = ExtResource( 2 )
 texture_hover = ExtResource( 3 )
+
+[node name="sp" type="Control" parent="HBox2"]
+margin_left = 104.0
+margin_right = 976.0
+margin_bottom = 100.0
+size_flags_horizontal = 3
+
+[node name="ShowButtons" type="TextureButton" parent="HBox2"]
+margin_left = 980.0
+margin_right = 1080.0
+margin_bottom = 100.0
+texture_normal = ExtResource( 12 )
+texture_pressed = ExtResource( 11 )
+texture_hover = ExtResource( 10 )
 
 [node name="Label2" type="Label" parent="."]
 margin_top = 150.0
@@ -143,5 +164,6 @@ Unless required by applicable law or agreed to in writing, software distributed 
 "
 autowrap = true
 
-[connection signal="pressed" from="List" to="." method="_on_List_pressed"]
+[connection signal="pressed" from="HBox2/List" to="." method="_on_List_pressed"]
+[connection signal="pressed" from="HBox2/ShowButtons" to="." method="_on_ShowButtons_pressed"]
 [connection signal="pressed" from="HBox/Donate" to="." method="_on_Donate_pressed"]

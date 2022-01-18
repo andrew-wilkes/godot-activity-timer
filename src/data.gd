@@ -6,6 +6,7 @@ const ACTIVITIES_FILE_NAME = "user://activities.res"
 var settings: Settings
 var settings_changed = false
 var activities: Activities
+var new = false
 
 func _ready():
 	var data = load_data(SETTINGS_FILE_NAME)
@@ -18,6 +19,7 @@ func _ready():
 		activities = data
 	else:
 		activities = Activities.new()
+		new = true
 
 
 func load_data(file_name):

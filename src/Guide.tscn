@@ -1,0 +1,282 @@
+[gd_scene load_steps=16 format=2]
+
+[ext_resource path="res://assets/the_theme.tres" type="Theme" id=1]
+[ext_resource path="res://assets/icon-4.png" type="Texture" id=2]
+[ext_resource path="res://assets/icon-1.png" type="Texture" id=3]
+[ext_resource path="res://assets/icon-7.png" type="Texture" id=4]
+[ext_resource path="res://assets/icon-28.png" type="Texture" id=5]
+[ext_resource path="res://assets/icon-15.png" type="Texture" id=6]
+[ext_resource path="res://assets/icon-19.png" type="Texture" id=7]
+[ext_resource path="res://assets/icon-16.png" type="Texture" id=8]
+[ext_resource path="res://assets/icon-13.png" type="Texture" id=9]
+[ext_resource path="res://assets/icon-10.png" type="Texture" id=10]
+[ext_resource path="res://assets/icon-25.png" type="Texture" id=11]
+[ext_resource path="res://assets/icon-17.png" type="Texture" id=12]
+[ext_resource path="res://assets/icon-22.png" type="Texture" id=13]
+[ext_resource path="res://assets/icon-39.png" type="Texture" id=14]
+[ext_resource path="res://assets/icon-37.png" type="Texture" id=15]
+
+[node name="Guide" type="VBoxContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_vertical = 3
+theme = ExtResource( 1 )
+custom_constants/separation = 20
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBox" type="HBoxContainer" parent="."]
+margin_right = 1080.0
+margin_bottom = 100.0
+
+[node name="Label" type="Label" parent="HBox"]
+margin_top = 21.0
+margin_right = 976.0
+margin_bottom = 79.0
+size_flags_horizontal = 3
+text = "Button Guide"
+
+[node name="Back" type="TextureButton" parent="HBox"]
+margin_left = 980.0
+margin_right = 1080.0
+margin_bottom = 100.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 12 )
+texture_hover = ExtResource( 6 )
+
+[node name="SC" type="ScrollContainer" parent="."]
+margin_top = 120.0
+margin_right = 1080.0
+margin_bottom = 1920.0
+rect_min_size = Vector2( 0, 1500 )
+size_flags_vertical = 3
+scroll_horizontal_enabled = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Guide" type="VBoxContainer" parent="SC"]
+margin_right = 1080.0
+margin_bottom = 1769.0
+size_flags_horizontal = 3
+custom_constants/separation = 50
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBox" type="HBoxContainer" parent="SC/Guide"]
+margin_right = 1080.0
+margin_bottom = 100.0
+custom_constants/separation = 20
+
+[node name="Icon" type="TextureRect" parent="SC/Guide/HBox"]
+margin_right = 100.0
+margin_bottom = 100.0
+texture = ExtResource( 10 )
+
+[node name="Label" type="Label" parent="SC/Guide/HBox"]
+margin_left = 120.0
+margin_top = 21.0
+margin_right = 493.0
+margin_bottom = 79.0
+text = "Create a new timer"
+
+[node name="HBox3" type="HBoxContainer" parent="SC/Guide"]
+margin_top = 150.0
+margin_right = 1080.0
+margin_bottom = 250.0
+custom_constants/separation = 20
+
+[node name="Icon" type="TextureRect" parent="SC/Guide/HBox3"]
+margin_right = 100.0
+margin_bottom = 100.0
+texture = ExtResource( 3 )
+
+[node name="Label" type="Label" parent="SC/Guide/HBox3"]
+margin_left = 120.0
+margin_top = 21.0
+margin_right = 330.0
+margin_bottom = 79.0
+text = "Start timer"
+
+[node name="HBox4" type="HBoxContainer" parent="SC/Guide"]
+margin_top = 300.0
+margin_right = 1080.0
+margin_bottom = 400.0
+custom_constants/separation = 20
+
+[node name="Icon" type="TextureRect" parent="SC/Guide/HBox4"]
+margin_right = 100.0
+margin_bottom = 100.0
+texture = ExtResource( 4 )
+
+[node name="Label" type="Label" parent="SC/Guide/HBox4"]
+margin_left = 120.0
+margin_top = 21.0
+margin_right = 326.0
+margin_bottom = 79.0
+text = "Stop timer"
+
+[node name="HBox5" type="HBoxContainer" parent="SC/Guide"]
+margin_top = 450.0
+margin_right = 1080.0
+margin_bottom = 550.0
+custom_constants/separation = 20
+
+[node name="Icon" type="TextureRect" parent="SC/Guide/HBox5"]
+margin_right = 100.0
+margin_bottom = 100.0
+texture = ExtResource( 9 )
+
+[node name="Label" type="Label" parent="SC/Guide/HBox5"]
+margin_left = 120.0
+margin_top = 21.0
+margin_right = 476.0
+margin_bottom = 79.0
+text = "Reset time to zero"
+
+[node name="HBox6" type="HBoxContainer" parent="SC/Guide"]
+margin_top = 600.0
+margin_right = 1080.0
+margin_bottom = 700.0
+custom_constants/separation = 20
+
+[node name="Icon" type="TextureRect" parent="SC/Guide/HBox6"]
+margin_right = 100.0
+margin_bottom = 100.0
+texture = ExtResource( 7 )
+
+[node name="Label" type="Label" parent="SC/Guide/HBox6"]
+margin_left = 120.0
+margin_top = 21.0
+margin_right = 366.0
+margin_bottom = 79.0
+text = "Delete timer"
+
+[node name="HBox7" type="HBoxContainer" parent="SC/Guide"]
+margin_top = 750.0
+margin_right = 1080.0
+margin_bottom = 850.0
+custom_constants/separation = 20
+
+[node name="Icon" type="TextureRect" parent="SC/Guide/HBox7"]
+margin_right = 100.0
+margin_bottom = 100.0
+texture = ExtResource( 13 )
+
+[node name="Label" type="Label" parent="SC/Guide/HBox7"]
+margin_left = 120.0
+margin_top = 21.0
+margin_right = 446.0
+margin_bottom = 79.0
+text = "Pick color for tag"
+
+[node name="HBox8" type="HBoxContainer" parent="SC/Guide"]
+margin_top = 900.0
+margin_right = 1080.0
+margin_bottom = 1000.0
+custom_constants/separation = 20
+
+[node name="Icon" type="TextureRect" parent="SC/Guide/HBox8"]
+margin_right = 100.0
+margin_bottom = 100.0
+texture = ExtResource( 14 )
+
+[node name="Label" type="Label" parent="SC/Guide/HBox8"]
+margin_left = 120.0
+margin_top = 21.0
+margin_right = 477.0
+margin_bottom = 79.0
+text = "Close notes editor"
+
+[node name="HBox9" type="HBoxContainer" parent="SC/Guide"]
+margin_top = 1050.0
+margin_right = 1080.0
+margin_bottom = 1150.0
+custom_constants/separation = 20
+
+[node name="Icon" type="TextureRect" parent="SC/Guide/HBox9"]
+margin_right = 100.0
+margin_bottom = 100.0
+texture = ExtResource( 11 )
+
+[node name="Label" type="Label" parent="SC/Guide/HBox9"]
+margin_left = 120.0
+margin_top = 21.0
+margin_right = 410.0
+margin_bottom = 79.0
+text = "Confirm action"
+
+[node name="HBox10" type="HBoxContainer" parent="SC/Guide"]
+margin_top = 1200.0
+margin_right = 1080.0
+margin_bottom = 1300.0
+custom_constants/separation = 20
+
+[node name="Icon" type="TextureRect" parent="SC/Guide/HBox10"]
+margin_right = 100.0
+margin_bottom = 100.0
+texture = ExtResource( 5 )
+
+[node name="Label" type="Label" parent="SC/Guide/HBox10"]
+margin_left = 120.0
+margin_top = 21.0
+margin_right = 382.0
+margin_bottom = 79.0
+text = "Cancel action"
+
+[node name="HBox11" type="HBoxContainer" parent="SC/Guide"]
+margin_top = 1350.0
+margin_right = 1080.0
+margin_bottom = 1450.0
+custom_constants/separation = 20
+
+[node name="Icon" type="TextureRect" parent="SC/Guide/HBox11"]
+margin_right = 100.0
+margin_bottom = 100.0
+texture = ExtResource( 8 )
+
+[node name="Label" type="Label" parent="SC/Guide/HBox11"]
+margin_left = 120.0
+margin_top = 21.0
+margin_right = 545.0
+margin_bottom = 79.0
+text = "Go back to activity list"
+
+[node name="HBox12" type="HBoxContainer" parent="SC/Guide"]
+margin_top = 1500.0
+margin_right = 1080.0
+margin_bottom = 1600.0
+custom_constants/separation = 20
+
+[node name="Icon" type="TextureRect" parent="SC/Guide/HBox12"]
+margin_right = 100.0
+margin_bottom = 100.0
+texture = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="SC/Guide/HBox12"]
+margin_left = 120.0
+margin_top = 21.0
+margin_right = 551.0
+margin_bottom = 79.0
+text = "View details of activity"
+
+[node name="HBox2" type="HBoxContainer" parent="SC/Guide"]
+margin_top = 1650.0
+margin_right = 1080.0
+margin_bottom = 1769.0
+custom_constants/separation = 20
+
+[node name="Icon" type="TextureRect" parent="SC/Guide/HBox2"]
+margin_right = 100.0
+margin_bottom = 119.0
+texture = ExtResource( 15 )
+
+[node name="Label" type="Label" parent="SC/Guide/HBox2"]
+margin_left = 120.0
+margin_right = 1080.0
+margin_bottom = 119.0
+size_flags_horizontal = 3
+text = "Upload data to online activity viewer where you may also download a .csv file of your data."
+autowrap = true
