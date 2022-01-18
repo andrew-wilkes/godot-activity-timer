@@ -869,9 +869,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.16"
-     inkscape:cx="-2403.125"
-     inkscape:cy="1018.75"
+     inkscape:zoom="0.11313709"
+     inkscape:cx="-3557.631"
+     inkscape:cy="945.75532"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -1219,6 +1219,28 @@
        inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24" />
+    <rect
+       style="display:inline;fill:#3786d6;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+       id="rect867-6"
+       width="400"
+       height="400"
+       x="-1000"
+       y="-480"
+       ry="40"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <rect
+       style="display:inline;fill:#3176bd;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+       id="rect867-6-1"
+       width="400"
+       height="400"
+       x="-600"
+       y="-480"
+       ry="40"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1486,28 +1508,6 @@
        d="m 140,490 v 60 H 60 v 50 l -70,-80 70,-80 v 50 z"
        id="path22492-8-9-8-1"
        sodipodi:nodetypes="cccccccc"
-       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
-       inkscape:export-xdpi="24"
-       inkscape:export-ydpi="24" />
-    <rect
-       style="fill:#3786d6;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-       id="rect867-6"
-       width="400"
-       height="400"
-       x="-1000"
-       y="-480"
-       ry="40"
-       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
-       inkscape:export-xdpi="24"
-       inkscape:export-ydpi="24" />
-    <rect
-       style="fill:#3176bd;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-       id="rect867-6-1"
-       width="400"
-       height="400"
-       x="-600"
-       y="-480"
-       ry="40"
        inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24" />
@@ -2605,7 +2605,8 @@
        inkscape:original-d="m -160,-260 c 0,0 40,-120 160,-120 120,0 160,120 160,120 z"
        inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
-       inkscape:export-ydpi="24" />
+       inkscape:export-ydpi="24"
+       transform="translate(-1.031e-4,-20.099485)" />
     <path
        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m -160,-260 c 0,0 40,120 160,120 120,0 160,-120 160,-120 z"
@@ -2616,19 +2617,20 @@
        inkscape:original-d="m -160,-260 c 0,0 40,120 160,120 120,0 160,-120 160,-120 z"
        inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
-       inkscape:export-ydpi="24" />
+       inkscape:export-ydpi="24"
+       transform="translate(-1.031e-4,-20.099485)" />
     <path
        style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
        id="path3721"
        sodipodi:type="arc"
-       sodipodi:cx="0"
-       sodipodi:cy="-260"
+       sodipodi:cx="-0.00010288818"
+       sodipodi:cy="-280.09949"
        sodipodi:rx="50"
        sodipodi:ry="50"
        sodipodi:start="0"
        sodipodi:end="6.2811956"
        sodipodi:arc-type="slice"
-       d="m 50,-260 a 50,50 0 0 1 -49.97512906,49.99999 50,50 0 0 1 -50.02484594,-49.95025 50,50 0 0 1 49.9253622,-50.04968 50,50 0 0 1 50.0745138,49.90046 L 0,-260 Z"
+       d="m 49.999897,-280.09949 a 50,50 0 0 1 -49.97512855,50 50,50 0 0 1 -50.02484645,-49.95025 50,50 0 0 1 49.92536112,-50.04969 50,50 0 0 1 50.07451488,49.90046 l -49.99990088818,0.0995 z"
        inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24" />
@@ -2640,7 +2642,7 @@
        clip-path="url(#clipath_lpe_path-effect4825)"
        inkscape:path-effect="#path-effect4825"
        inkscape:original-d="m -160,-260 c 0,0 40,-120 160,-120 120,0 160,120 160,120 z"
-       transform="translate(-399.9999,0.09948529)"
+       transform="translate(-400,-20)"
        inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24" />
@@ -2652,7 +2654,7 @@
        clip-path="url(#clipath_lpe_path-effect4829)"
        inkscape:path-effect="#path-effect4829"
        inkscape:original-d="m -160,-260 c 0,0 40,120 160,120 120,0 160,-120 160,-120 z"
-       transform="translate(-399.9999,0.09948529)"
+       transform="translate(-400,-20)"
        inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24" />
@@ -2660,14 +2662,14 @@
        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
        id="path3721-7"
        sodipodi:type="arc"
-       sodipodi:cx="-399.99991"
-       sodipodi:cy="-259.90051"
+       sodipodi:cx="-400.00003"
+       sodipodi:cy="-280"
        sodipodi:rx="50"
        sodipodi:ry="50"
        sodipodi:start="0"
        sodipodi:end="6.2811956"
        sodipodi:arc-type="slice"
-       d="m -349.99991,-259.90051 a 50,50 0 0 1 -49.97513,49.99999 50,50 0 0 1 -50.02484,-49.95025 50,50 0 0 1 49.92536,-50.04969 50,50 0 0 1 50.07451,49.90046 l -49.9999,0.0995 z"
+       d="m -350.00003,-280 a 50,50 0 0 1 -49.97513,49.99999 50,50 0 0 1 -50.02485,-49.95025 50,50 0 0 1 49.92537,-50.04968 50,50 0 0 1 50.07451,49.90045 l -49.9999,0.0995 z"
        inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24" />
@@ -2679,7 +2681,7 @@
        clip-path="url(#clipath_lpe_path-effect4886)"
        inkscape:path-effect="#path-effect4886"
        inkscape:original-d="m -160,-260 c 0,0 40,-120 160,-120 120,0 160,120 160,120 z"
-       transform="translate(-799.9999,0.09948529)"
+       transform="translate(-800,-20)"
        inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24" />
@@ -2691,7 +2693,7 @@
        clip-path="url(#clipath_lpe_path-effect4890)"
        inkscape:path-effect="#path-effect4890"
        inkscape:original-d="m -160,-260 c 0,0 40,120 160,120 120,0 160,-120 160,-120 z"
-       transform="translate(-799.9999,0.09948529)"
+       transform="translate(-800,-20)"
        inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24" />
@@ -2699,14 +2701,14 @@
        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
        id="path3721-8"
        sodipodi:type="arc"
-       sodipodi:cx="-799.99988"
-       sodipodi:cy="-259.90051"
+       sodipodi:cx="-799.99994"
+       sodipodi:cy="-280"
        sodipodi:rx="50"
        sodipodi:ry="50"
        sodipodi:start="0"
        sodipodi:end="6.2811956"
        sodipodi:arc-type="slice"
-       d="m -749.99988,-259.90051 a 50,50 0 0 1 -49.97513,49.99999 50,50 0 0 1 -50.02484,-49.95025 50,50 0 0 1 49.92536,-50.04969 50,50 0 0 1 50.07451,49.90046 l -49.9999,0.0995 z"
+       d="m -749.99994,-280 a 50,50 0 0 1 -49.97513,49.99999 50,50 0 0 1 -50.02484,-49.95025 50,50 0 0 1 49.92536,-50.04968 50,50 0 0 1 50.07451,49.90045 l -49.9999,0.0995 z"
        inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24" />
