@@ -13,7 +13,7 @@ var y_offset
 var row_height
 var top_margin = 0
 var window_safe_height
-var use_ssl = false
+var use_ssl = true
 
 func _ready():
 	build_list()
@@ -24,7 +24,6 @@ func _ready():
 	window_safe_height = ProjectSettings.get("display/window/size/height")
 	if OS.get_name() == "Android" or OS.get_name() == "iOS":
 		window_safe_height = OS.get_window_safe_area().size.y
-		use_ssl = true
 
 
 func clear_list():

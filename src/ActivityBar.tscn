@@ -54,7 +54,7 @@ color = Color( 0.0745098, 0.729412, 0, 1 )
 
 [node name="Title" type="Button" parent="H"]
 margin_left = 36.0
-margin_right = 476.0
+margin_right = 451.0
 margin_bottom = 100.0
 focus_mode = 0
 size_flags_horizontal = 3
@@ -65,8 +65,8 @@ clip_text = true
 align = 0
 
 [node name="Start" type="TextureButton" parent="H"]
-margin_left = 496.0
-margin_right = 596.0
+margin_left = 471.0
+margin_right = 571.0
 margin_bottom = 100.0
 hint_tooltip = "Start / re-start  timer"
 texture_normal = ExtResource( 10 )
@@ -74,18 +74,20 @@ texture_pressed = ExtResource( 9 )
 texture_hover = ExtResource( 7 )
 
 [node name="Stop" type="TextureButton" parent="H"]
-margin_left = 616.0
-margin_right = 716.0
+margin_left = 591.0
+margin_right = 691.0
 margin_bottom = 100.0
 texture_normal = ExtResource( 11 )
 texture_pressed = ExtResource( 6 )
 texture_hover = ExtResource( 4 )
 
 [node name="TimeDisplay" parent="H" instance=ExtResource( 3 )]
-margin_left = 736.0
+margin_left = 711.0
 margin_top = 25.0
 margin_right = 936.0
 margin_bottom = 74.0
+rect_min_size = Vector2( 228, 0 )
+align = 2
 
 [node name="View" type="TextureButton" parent="H"]
 margin_left = 956.0

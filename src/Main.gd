@@ -8,7 +8,7 @@ func _ready():
 	set("custom_constants/margin_bottom", ws.end.y + 10.0)
 	$ActivityView.rect_size.y = ws.size.y
 	var _e = $Guide/HBox/Back.connect("pressed", self, "_on_guide_closed")
-	if not Data.new:
+	if Data.new:
 		$ActivityList.hide()
 		show_guide()
 

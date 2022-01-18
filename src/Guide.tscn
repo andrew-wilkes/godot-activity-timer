@@ -190,46 +190,10 @@ margin_right = 477.0
 margin_bottom = 79.0
 text = "Close notes editor"
 
-[node name="HBox9" type="HBoxContainer" parent="SC/Guide"]
+[node name="HBox11" type="HBoxContainer" parent="SC/Guide"]
 margin_top = 1050.0
 margin_right = 1080.0
 margin_bottom = 1150.0
-custom_constants/separation = 20
-
-[node name="Icon" type="TextureRect" parent="SC/Guide/HBox9"]
-margin_right = 100.0
-margin_bottom = 100.0
-texture = ExtResource( 11 )
-
-[node name="Label" type="Label" parent="SC/Guide/HBox9"]
-margin_left = 120.0
-margin_top = 21.0
-margin_right = 410.0
-margin_bottom = 79.0
-text = "Confirm action"
-
-[node name="HBox10" type="HBoxContainer" parent="SC/Guide"]
-margin_top = 1200.0
-margin_right = 1080.0
-margin_bottom = 1300.0
-custom_constants/separation = 20
-
-[node name="Icon" type="TextureRect" parent="SC/Guide/HBox10"]
-margin_right = 100.0
-margin_bottom = 100.0
-texture = ExtResource( 5 )
-
-[node name="Label" type="Label" parent="SC/Guide/HBox10"]
-margin_left = 120.0
-margin_top = 21.0
-margin_right = 382.0
-margin_bottom = 79.0
-text = "Cancel action"
-
-[node name="HBox11" type="HBoxContainer" parent="SC/Guide"]
-margin_top = 1350.0
-margin_right = 1080.0
-margin_bottom = 1450.0
 custom_constants/separation = 20
 
 [node name="Icon" type="TextureRect" parent="SC/Guide/HBox11"]
@@ -245,9 +209,9 @@ margin_bottom = 79.0
 text = "Go back to activity list"
 
 [node name="HBox12" type="HBoxContainer" parent="SC/Guide"]
-margin_top = 1500.0
+margin_top = 1200.0
 margin_right = 1080.0
-margin_bottom = 1600.0
+margin_bottom = 1300.0
 custom_constants/separation = 20
 
 [node name="Icon" type="TextureRect" parent="SC/Guide/HBox12"]
@@ -263,9 +227,9 @@ margin_bottom = 79.0
 text = "View details of activity"
 
 [node name="HBox2" type="HBoxContainer" parent="SC/Guide"]
-margin_top = 1650.0
+margin_top = 1350.0
 margin_right = 1080.0
-margin_bottom = 1769.0
+margin_bottom = 1469.0
 custom_constants/separation = 20
 
 [node name="Icon" type="TextureRect" parent="SC/Guide/HBox2"]
@@ -280,3 +244,39 @@ margin_bottom = 119.0
 size_flags_horizontal = 3
 text = "Upload data to online activity viewer where you may also download a .csv file of your data."
 autowrap = true
+
+[node name="HBox9" type="HBoxContainer" parent="SC/Guide"]
+margin_top = 1519.0
+margin_right = 1080.0
+margin_bottom = 1619.0
+custom_constants/separation = 20
+
+[node name="Icon" type="TextureRect" parent="SC/Guide/HBox9"]
+margin_right = 100.0
+margin_bottom = 100.0
+texture = ExtResource( 11 )
+
+[node name="Label" type="Label" parent="SC/Guide/HBox9"]
+margin_left = 120.0
+margin_top = 21.0
+margin_right = 410.0
+margin_bottom = 79.0
+text = "Confirm action"
+
+[node name="HBox10" type="HBoxContainer" parent="SC/Guide"]
+margin_top = 1669.0
+margin_right = 1080.0
+margin_bottom = 1769.0
+custom_constants/separation = 20
+
+[node name="Icon" type="TextureRect" parent="SC/Guide/HBox10"]
+margin_right = 100.0
+margin_bottom = 100.0
+texture = ExtResource( 5 )
+
+[node name="Label" type="Label" parent="SC/Guide/HBox10"]
+margin_left = 120.0
+margin_top = 21.0
+margin_right = 382.0
+margin_bottom = 79.0
+text = "Cancel action"
