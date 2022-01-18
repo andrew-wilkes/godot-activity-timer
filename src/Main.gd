@@ -27,3 +27,9 @@ func _on_Info_show_list():
 func _on_ActivityList_info_pressed():
 	$ActivityList.hide()
 	$Info.show()
+
+
+func _unhandled_input(event):
+	if event is InputEventKey:
+		if event.pressed and event.scancode == KEY_ESCAPE:
+			get_tree().quit()

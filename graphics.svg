@@ -19,6 +19,159 @@
      id="defs390">
     <inkscape:path-effect
        effect="powerclip"
+       id="path-effect13194"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." />
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect13153"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." />
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect9693"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." />
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect9192"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." />
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect9151"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." />
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect8938"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." />
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect7774"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." />
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect7725"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." />
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect7341"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." />
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect4890"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." />
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect4886"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." />
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect4829"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." />
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect4825"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." />
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect4433"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." />
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect4429"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." />
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect3695"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." />
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect3691"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." />
+    <inkscape:path-effect
+       effect="powerclip"
        id="path-effect62250"
        is_visible="true"
        lpeversion="1"
@@ -197,6 +350,517 @@
          class="powerclip"
          d="m -1080,1054.8951 h 78.1611 v 50 H -1080 Z m 64.8749,26.6651 a 25.514772,14.973209 0 0 0 -25.5148,-14.9732 25.514772,14.973209 0 0 0 -25.5148,14.9732 25.514772,14.973209 0 0 0 25.5148,14.9732 25.514772,14.973209 0 0 0 25.5148,-14.9732 z" />
     </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4421">
+      <path
+         style="display:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="path4423"
+         sodipodi:type="arc"
+         sodipodi:cx="0"
+         sodipodi:cy="-260"
+         sodipodi:rx="90"
+         sodipodi:ry="90"
+         sodipodi:start="0"
+         sodipodi:end="6.2811956"
+         sodipodi:arc-type="slice"
+         d="M 90,-260 A 90,90 0 0 1 0.04476841,-170.00001 90,90 0 0 1 -89.999955,-259.91046 90,90 0 0 1 -0.13430518,-349.9999 90,90 0 0 1 89.999822,-260.17907 L 0,-260 Z" />
+      <path
+         id="lpe_path-effect4429"
+         style="display:block;fill:#000000;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         class="powerclip"
+         d="m -165,-265 h 330 v 130 h -330 z m 255,5 H 0 l 89.999822,-0.17907 A 90,90 0 0 0 -0.13430518,-349.9999 90,90 0 0 0 -89.999955,-259.91046 90,90 0 0 0 0.04476841,-170.00001 90,90 0 0 0 90,-260 Z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4425">
+      <path
+         style="display:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="path4427"
+         sodipodi:type="arc"
+         sodipodi:cx="0"
+         sodipodi:cy="-260"
+         sodipodi:rx="90"
+         sodipodi:ry="90"
+         sodipodi:start="0"
+         sodipodi:end="6.2811956"
+         sodipodi:arc-type="slice"
+         d="M 90,-260 A 90,90 0 0 1 0.04476841,-170.00001 90,90 0 0 1 -89.999955,-259.91046 90,90 0 0 1 -0.13430518,-349.9999 90,90 0 0 1 89.999822,-260.17907 L 0,-260 Z" />
+      <path
+         id="lpe_path-effect4433"
+         style="display:block;fill:#000000;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         class="powerclip"
+         d="m -165,-385 h 330 v 130 H -165 Z M 90,-260 H 0 l 89.999822,-0.17907 A 90,90 0 0 0 -0.13430518,-349.9999 90,90 0 0 0 -89.999955,-259.91046 90,90 0 0 0 0.04476841,-170.00001 90,90 0 0 0 90,-260 Z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4425-5">
+      <path
+         style="display:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="path4427-3"
+         sodipodi:type="arc"
+         sodipodi:cx="0"
+         sodipodi:cy="-260"
+         sodipodi:rx="90"
+         sodipodi:ry="90"
+         sodipodi:start="0"
+         sodipodi:end="6.2811956"
+         sodipodi:arc-type="slice"
+         d="M 90,-260 A 90,90 0 0 1 0.04476841,-170.00001 90,90 0 0 1 -89.999955,-259.91046 90,90 0 0 1 -0.13430518,-349.9999 90,90 0 0 1 89.999822,-260.17907 L 0,-260 Z" />
+      <path
+         id="lpe_path-effect4433-5"
+         style="display:block;fill:#000000;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         class="powerclip"
+         d="m -165,-385 h 330 v 130 H -165 Z M 90,-260 H 0 l 89.999822,-0.17907 A 90,90 0 0 0 -0.13430518,-349.9999 90,90 0 0 0 -89.999955,-259.91046 90,90 0 0 0 0.04476841,-170.00001 90,90 0 0 0 90,-260 Z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4421-6">
+      <path
+         style="display:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="path4423-2"
+         sodipodi:type="arc"
+         sodipodi:cx="0"
+         sodipodi:cy="-260"
+         sodipodi:rx="90"
+         sodipodi:ry="90"
+         sodipodi:start="0"
+         sodipodi:end="6.2811956"
+         sodipodi:arc-type="slice"
+         d="M 90,-260 A 90,90 0 0 1 0.04476841,-170.00001 90,90 0 0 1 -89.999955,-259.91046 90,90 0 0 1 -0.13430518,-349.9999 90,90 0 0 1 89.999822,-260.17907 L 0,-260 Z" />
+      <path
+         id="lpe_path-effect4429-9"
+         style="display:block;fill:#000000;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         class="powerclip"
+         d="m -165,-265 h 330 v 130 h -330 z m 255,5 H 0 l 89.999822,-0.17907 A 90,90 0 0 0 -0.13430518,-349.9999 90,90 0 0 0 -89.999955,-259.91046 90,90 0 0 0 0.04476841,-170.00001 90,90 0 0 0 90,-260 Z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipath_lpe_path-effect4829">
+      <path
+         style="display:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="path4831"
+         sodipodi:type="arc"
+         sodipodi:cx="0"
+         sodipodi:cy="-260"
+         sodipodi:rx="90"
+         sodipodi:ry="90"
+         sodipodi:start="0"
+         sodipodi:end="6.2811956"
+         sodipodi:arc-type="slice"
+         d="M 90,-260 A 90,90 0 0 1 0.04476841,-170.00001 90,90 0 0 1 -89.999955,-259.91046 90,90 0 0 1 -0.13430518,-349.9999 90,90 0 0 1 89.999822,-260.17907 L 0,-260 Z" />
+      <path
+         id="lpe_path-effect4829"
+         style="display:block;fill:#000000;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         class="powerclip"
+         d="m -165,-265 h 330 v 130 h -330 z m 255,5 H 0 l 89.999822,-0.17907 A 90,90 0 0 0 -0.13430518,-349.9999 90,90 0 0 0 -89.999955,-259.91046 90,90 0 0 0 0.04476841,-170.00001 90,90 0 0 0 90,-260 Z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipath_lpe_path-effect4825">
+      <path
+         style="display:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="path4836"
+         sodipodi:type="arc"
+         sodipodi:cx="0"
+         sodipodi:cy="-260"
+         sodipodi:rx="90"
+         sodipodi:ry="90"
+         sodipodi:start="0"
+         sodipodi:end="6.2811956"
+         sodipodi:arc-type="slice"
+         d="M 90,-260 A 90,90 0 0 1 0.04476841,-170.00001 90,90 0 0 1 -89.999955,-259.91046 90,90 0 0 1 -0.13430518,-349.9999 90,90 0 0 1 89.999822,-260.17907 L 0,-260 Z" />
+      <path
+         id="lpe_path-effect4825"
+         style="display:block;fill:#000000;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         class="powerclip"
+         d="m -165,-385 h 330 v 130 H -165 Z M 90,-260 H 0 l 89.999822,-0.17907 A 90,90 0 0 0 -0.13430518,-349.9999 90,90 0 0 0 -89.999955,-259.91046 90,90 0 0 0 0.04476841,-170.00001 90,90 0 0 0 90,-260 Z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4425-0">
+      <path
+         style="display:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="path4427-9"
+         sodipodi:type="arc"
+         sodipodi:cx="0"
+         sodipodi:cy="-260"
+         sodipodi:rx="90"
+         sodipodi:ry="90"
+         sodipodi:start="0"
+         sodipodi:end="6.2811956"
+         sodipodi:arc-type="slice"
+         d="M 90,-260 A 90,90 0 0 1 0.04476841,-170.00001 90,90 0 0 1 -89.999955,-259.91046 90,90 0 0 1 -0.13430518,-349.9999 90,90 0 0 1 89.999822,-260.17907 L 0,-260 Z" />
+      <path
+         id="lpe_path-effect4433-3"
+         style="display:block;fill:#000000;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         class="powerclip"
+         d="m -165,-385 h 330 v 130 H -165 Z M 90,-260 H 0 l 89.999822,-0.17907 A 90,90 0 0 0 -0.13430518,-349.9999 90,90 0 0 0 -89.999955,-259.91046 90,90 0 0 0 0.04476841,-170.00001 90,90 0 0 0 90,-260 Z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4421-60">
+      <path
+         style="display:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="path4423-6"
+         sodipodi:type="arc"
+         sodipodi:cx="0"
+         sodipodi:cy="-260"
+         sodipodi:rx="90"
+         sodipodi:ry="90"
+         sodipodi:start="0"
+         sodipodi:end="6.2811956"
+         sodipodi:arc-type="slice"
+         d="M 90,-260 A 90,90 0 0 1 0.04476841,-170.00001 90,90 0 0 1 -89.999955,-259.91046 90,90 0 0 1 -0.13430518,-349.9999 90,90 0 0 1 89.999822,-260.17907 L 0,-260 Z" />
+      <path
+         id="lpe_path-effect4429-2"
+         style="display:block;fill:#000000;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         class="powerclip"
+         d="m -165,-265 h 330 v 130 h -330 z m 255,5 H 0 l 89.999822,-0.17907 A 90,90 0 0 0 -0.13430518,-349.9999 90,90 0 0 0 -89.999955,-259.91046 90,90 0 0 0 0.04476841,-170.00001 90,90 0 0 0 90,-260 Z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipath_lpe_path-effect4890">
+      <path
+         style="display:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="path4892"
+         sodipodi:type="arc"
+         sodipodi:cx="0"
+         sodipodi:cy="-260"
+         sodipodi:rx="90"
+         sodipodi:ry="90"
+         sodipodi:start="0"
+         sodipodi:end="6.2811956"
+         sodipodi:arc-type="slice"
+         d="M 90,-260 A 90,90 0 0 1 0.04476841,-170.00001 90,90 0 0 1 -89.999955,-259.91046 90,90 0 0 1 -0.13430518,-349.9999 90,90 0 0 1 89.999822,-260.17907 L 0,-260 Z" />
+      <path
+         id="lpe_path-effect4890"
+         style="display:block;fill:#000000;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         class="powerclip"
+         d="m -165,-265 h 330 v 130 h -330 z m 255,5 H 0 l 89.999822,-0.17907 A 90,90 0 0 0 -0.13430518,-349.9999 90,90 0 0 0 -89.999955,-259.91046 90,90 0 0 0 0.04476841,-170.00001 90,90 0 0 0 90,-260 Z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipath_lpe_path-effect4886">
+      <path
+         style="display:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="path4897"
+         sodipodi:type="arc"
+         sodipodi:cx="0"
+         sodipodi:cy="-260"
+         sodipodi:rx="90"
+         sodipodi:ry="90"
+         sodipodi:start="0"
+         sodipodi:end="6.2811956"
+         sodipodi:arc-type="slice"
+         d="M 90,-260 A 90,90 0 0 1 0.04476841,-170.00001 90,90 0 0 1 -89.999955,-259.91046 90,90 0 0 1 -0.13430518,-349.9999 90,90 0 0 1 89.999822,-260.17907 L 0,-260 Z" />
+      <path
+         id="lpe_path-effect4886"
+         style="display:block;fill:#000000;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         class="powerclip"
+         d="m -165,-385 h 330 v 130 H -165 Z M 90,-260 H 0 l 89.999822,-0.17907 A 90,90 0 0 0 -0.13430518,-349.9999 90,90 0 0 0 -89.999955,-259.91046 90,90 0 0 0 0.04476841,-170.00001 90,90 0 0 0 90,-260 Z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7337">
+      <path
+         style="display:none;fill:#204a87;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -2030.0002,2169.8408 h 60 v -80 h 50 l -80,-70 -80,70 h 50 z"
+         id="path7339"
+         sodipodi:nodetypes="cccccccc" />
+      <path
+         id="lpe_path-effect7341"
+         style="display:inline;fill:#204a87;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         class="powerclip"
+         d="m -2165,1955 h 330 v 250 h -330 z m 134.9998,214.8408 h 60 v -80 h 50 l -80,-70 -80,70 h 50 z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7337-7">
+      <path
+         style="display:none;fill:#204a87;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -2030.0002,2169.8408 h 60 v -80 h 50 l -80,-70 -80,70 h 50 z"
+         id="path7339-5"
+         sodipodi:nodetypes="cccccccc" />
+      <path
+         id="lpe_path-effect7341-9"
+         style="display:inline;fill:#204a87;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         class="powerclip"
+         d="m -2165,1955 h 330 v 250 h -330 z m 134.9998,214.8408 h 60 v -80 h 50 l -80,-70 -80,70 h 50 z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipath_lpe_path-effect7725">
+      <path
+         style="display:none;fill:#204a87;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -2030.0002,2169.8408 h 60 v -80 h 50 l -80,-70 -80,70 h 50 z"
+         id="path7727"
+         sodipodi:nodetypes="cccccccc" />
+      <path
+         id="lpe_path-effect7725"
+         style="display:inline;fill:#204a87;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         class="powerclip"
+         d="m -2165,1955 h 330 v 250 h -330 z m 134.9998,214.8408 h 60 v -80 h 50 l -80,-70 -80,70 h 50 z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7337-3">
+      <path
+         style="display:none;fill:#204a87;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -2030.0002,2169.8408 h 60 v -80 h 50 l -80,-70 -80,70 h 50 z"
+         id="path7339-6"
+         sodipodi:nodetypes="cccccccc" />
+      <path
+         id="lpe_path-effect7341-1"
+         style="display:inline;fill:#204a87;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         class="powerclip"
+         d="m -2165,1955 h 330 v 250 h -330 z m 134.9998,214.8408 h 60 v -80 h 50 l -80,-70 -80,70 h 50 z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipath_lpe_path-effect7774">
+      <path
+         style="display:none;fill:#204a87;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -2030.0002,2169.8408 h 60 v -80 h 50 l -80,-70 -80,70 h 50 z"
+         id="path7776"
+         sodipodi:nodetypes="cccccccc" />
+      <path
+         id="lpe_path-effect7774"
+         style="display:inline;fill:#204a87;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         class="powerclip"
+         d="m -2165,1955 h 330 v 250 h -330 z m 134.9998,214.8408 h 60 v -80 h 50 l -80,-70 -80,70 h 50 z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8934">
+      <path
+         style="display:none;fill:#c17d11;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="path8936"
+         sodipodi:type="arc"
+         sodipodi:cx="-2000"
+         sodipodi:cy="-280"
+         sodipodi:rx="120"
+         sodipodi:ry="120"
+         sodipodi:start="0"
+         sodipodi:end="6.2811956"
+         sodipodi:arc-type="slice"
+         d="m -1880,-280 a 120,120 0 0 1 -119.9403,119.99999 120,120 0 0 1 -120.0596,-119.88061 120,120 0 0 1 119.8208,-120.11925 120,120 0 0 1 120.1789,119.76111 L -2000,-280 Z" />
+      <path
+         id="lpe_path-effect8938"
+         style="display:inline;fill:#c17d11;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         class="powerclip"
+         d="m -2165,-445 h 330 v 330 h -330 z m 285,165 h -120 l 119.9998,-0.23876 a 120,120 0 0 0 -120.1789,-119.76111 120,120 0 0 0 -119.8208,120.11925 120,120 0 0 0 120.0596,119.88061 A 120,120 0 0 0 -1880,-280 Z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8934-0">
+      <path
+         style="display:none;fill:#c17d11;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="path8936-3"
+         sodipodi:type="arc"
+         sodipodi:cx="-2000"
+         sodipodi:cy="-280"
+         sodipodi:rx="120"
+         sodipodi:ry="120"
+         sodipodi:start="0"
+         sodipodi:end="6.2811956"
+         sodipodi:arc-type="slice"
+         d="m -1880,-280 a 120,120 0 0 1 -119.9403,119.99999 120,120 0 0 1 -120.0596,-119.88061 120,120 0 0 1 119.8208,-120.11925 120,120 0 0 1 120.1789,119.76111 L -2000,-280 Z" />
+      <path
+         id="lpe_path-effect8938-6"
+         style="display:inline;fill:#c17d11;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         class="powerclip"
+         d="m -2165,-445 h 330 v 330 h -330 z m 285,165 h -120 l 119.9998,-0.23876 a 120,120 0 0 0 -120.1789,-119.76111 120,120 0 0 0 -119.8208,120.11925 120,120 0 0 0 120.0596,119.88061 A 120,120 0 0 0 -1880,-280 Z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipath_lpe_path-effect9151">
+      <path
+         style="display:none;fill:#c17d11;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="path9153"
+         sodipodi:type="arc"
+         sodipodi:cx="-2000"
+         sodipodi:cy="-280"
+         sodipodi:rx="120"
+         sodipodi:ry="120"
+         sodipodi:start="0"
+         sodipodi:end="6.2811956"
+         sodipodi:arc-type="slice"
+         d="m -1880,-280 a 120,120 0 0 1 -119.9403,119.99999 120,120 0 0 1 -120.0596,-119.88061 120,120 0 0 1 119.8208,-120.11925 120,120 0 0 1 120.1789,119.76111 L -2000,-280 Z" />
+      <path
+         id="lpe_path-effect9151"
+         style="display:inline;fill:#c17d11;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         class="powerclip"
+         d="m -2165,-445 h 330 v 330 h -330 z m 285,165 h -120 l 119.9998,-0.23876 a 120,120 0 0 0 -120.1789,-119.76111 120,120 0 0 0 -119.8208,120.11925 120,120 0 0 0 120.0596,119.88061 A 120,120 0 0 0 -1880,-280 Z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8934-3">
+      <path
+         style="display:none;fill:#c17d11;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="path8936-2"
+         sodipodi:type="arc"
+         sodipodi:cx="-2000"
+         sodipodi:cy="-280"
+         sodipodi:rx="120"
+         sodipodi:ry="120"
+         sodipodi:start="0"
+         sodipodi:end="6.2811956"
+         sodipodi:arc-type="slice"
+         d="m -1880,-280 a 120,120 0 0 1 -119.9403,119.99999 120,120 0 0 1 -120.0596,-119.88061 120,120 0 0 1 119.8208,-120.11925 120,120 0 0 1 120.1789,119.76111 L -2000,-280 Z" />
+      <path
+         id="lpe_path-effect8938-0"
+         style="display:inline;fill:#c17d11;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         class="powerclip"
+         d="m -2165,-445 h 330 v 330 h -330 z m 285,165 h -120 l 119.9998,-0.23876 a 120,120 0 0 0 -120.1789,-119.76111 120,120 0 0 0 -119.8208,120.11925 120,120 0 0 0 120.0596,119.88061 A 120,120 0 0 0 -1880,-280 Z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipath_lpe_path-effect9192">
+      <path
+         style="display:none;fill:#c17d11;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="path9194"
+         sodipodi:type="arc"
+         sodipodi:cx="-2000"
+         sodipodi:cy="-280"
+         sodipodi:rx="120"
+         sodipodi:ry="120"
+         sodipodi:start="0"
+         sodipodi:end="6.2811956"
+         sodipodi:arc-type="slice"
+         d="m -1880,-280 a 120,120 0 0 1 -119.9403,119.99999 120,120 0 0 1 -120.0596,-119.88061 120,120 0 0 1 119.8208,-120.11925 120,120 0 0 1 120.1789,119.76111 L -2000,-280 Z" />
+      <path
+         id="lpe_path-effect9192"
+         style="display:inline;fill:#c17d11;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         class="powerclip"
+         d="m -2165,-445 h 330 v 330 h -330 z m 285,165 h -120 l 119.9998,-0.23876 a 120,120 0 0 0 -120.1789,-119.76111 120,120 0 0 0 -119.8208,120.11925 120,120 0 0 0 120.0596,119.88061 A 120,120 0 0 0 -1880,-280 Z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8934-5">
+      <path
+         style="display:none;fill:#c17d11;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="path8936-4"
+         sodipodi:type="arc"
+         sodipodi:cx="-2000"
+         sodipodi:cy="-280"
+         sodipodi:rx="120"
+         sodipodi:ry="120"
+         sodipodi:start="0"
+         sodipodi:end="6.2811956"
+         sodipodi:arc-type="slice"
+         d="m -1880,-280 a 120,120 0 0 1 -119.9403,119.99999 120,120 0 0 1 -120.0596,-119.88061 120,120 0 0 1 119.8208,-120.11925 120,120 0 0 1 120.1789,119.76111 L -2000,-280 Z" />
+      <path
+         id="lpe_path-effect8938-7"
+         style="display:inline;fill:#c17d11;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         class="powerclip"
+         d="m -2165,-445 h 330 v 330 h -330 z m 285,165 h -120 l 119.9998,-0.23876 a 120,120 0 0 0 -120.1789,-119.76111 120,120 0 0 0 -119.8208,120.11925 120,120 0 0 0 120.0596,119.88061 A 120,120 0 0 0 -1880,-280 Z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipath_lpe_path-effect9693">
+      <path
+         style="display:none;fill:#c17d11;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="path9695"
+         sodipodi:type="arc"
+         sodipodi:cx="-2000"
+         sodipodi:cy="-280"
+         sodipodi:rx="120"
+         sodipodi:ry="120"
+         sodipodi:start="0"
+         sodipodi:end="6.2811956"
+         sodipodi:arc-type="slice"
+         d="m -1880,-280 a 120,120 0 0 1 -119.9403,119.99999 120,120 0 0 1 -120.0596,-119.88061 120,120 0 0 1 119.8208,-120.11925 120,120 0 0 1 120.1789,119.76111 L -2000,-280 Z" />
+      <path
+         id="lpe_path-effect9693"
+         style="display:inline;fill:#c17d11;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         class="powerclip"
+         d="m -2165,-445 h 330 v 330 h -330 z m 285,165 h -120 l 119.9998,-0.23876 a 120,120 0 0 0 -120.1789,-119.76111 120,120 0 0 0 -119.8208,120.11925 120,120 0 0 0 120.0596,119.88061 A 120,120 0 0 0 -1880,-280 Z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipath_lpe_path-effect9693-5">
+      <path
+         style="display:none;fill:#c17d11;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="path9695-2"
+         sodipodi:type="arc"
+         sodipodi:cx="-2000"
+         sodipodi:cy="-280"
+         sodipodi:rx="120"
+         sodipodi:ry="120"
+         sodipodi:start="0"
+         sodipodi:end="6.2811956"
+         sodipodi:arc-type="slice"
+         d="m -1880,-280 a 120,120 0 0 1 -119.9403,119.99999 120,120 0 0 1 -120.0596,-119.88061 120,120 0 0 1 119.8208,-120.11925 120,120 0 0 1 120.1789,119.76111 L -2000,-280 Z" />
+      <path
+         id="lpe_path-effect9693-5"
+         style="display:inline;fill:#c17d11;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         class="powerclip"
+         d="m -2165,-445 h 330 v 330 h -330 z m 285,165 h -120 l 119.9998,-0.23876 a 120,120 0 0 0 -120.1789,-119.76111 120,120 0 0 0 -119.8208,120.11925 120,120 0 0 0 120.0596,119.88061 A 120,120 0 0 0 -1880,-280 Z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipath_lpe_path-effect13153">
+      <path
+         style="display:none;fill:#c17d11;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="path13155"
+         sodipodi:type="arc"
+         sodipodi:cx="-2000"
+         sodipodi:cy="-280"
+         sodipodi:rx="120"
+         sodipodi:ry="120"
+         sodipodi:start="0"
+         sodipodi:end="6.2811956"
+         sodipodi:arc-type="slice"
+         d="m -1880,-280 a 120,120 0 0 1 -119.9403,119.99999 120,120 0 0 1 -120.0596,-119.88061 120,120 0 0 1 119.8208,-120.11925 120,120 0 0 1 120.1789,119.76111 L -2000,-280 Z" />
+      <path
+         id="lpe_path-effect13153"
+         style="display:inline;fill:#c17d11;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         class="powerclip"
+         d="m -2165,-445 h 330 v 330 h -330 z m 285,165 h -120 l 119.9998,-0.23876 a 120,120 0 0 0 -120.1789,-119.76111 120,120 0 0 0 -119.8208,120.11925 120,120 0 0 0 120.0596,119.88061 A 120,120 0 0 0 -1880,-280 Z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipath_lpe_path-effect9693-4">
+      <path
+         style="display:none;fill:#c17d11;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="path9695-3"
+         sodipodi:type="arc"
+         sodipodi:cx="-2000"
+         sodipodi:cy="-280"
+         sodipodi:rx="120"
+         sodipodi:ry="120"
+         sodipodi:start="0"
+         sodipodi:end="6.2811956"
+         sodipodi:arc-type="slice"
+         d="m -1880,-280 a 120,120 0 0 1 -119.9403,119.99999 120,120 0 0 1 -120.0596,-119.88061 120,120 0 0 1 119.8208,-120.11925 120,120 0 0 1 120.1789,119.76111 L -2000,-280 Z" />
+      <path
+         id="lpe_path-effect9693-0"
+         style="display:inline;fill:#c17d11;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         class="powerclip"
+         d="m -2165,-445 h 330 v 330 h -330 z m 285,165 h -120 l 119.9998,-0.23876 a 120,120 0 0 0 -120.1789,-119.76111 120,120 0 0 0 -119.8208,120.11925 120,120 0 0 0 120.0596,119.88061 A 120,120 0 0 0 -1880,-280 Z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipath_lpe_path-effect13194">
+      <path
+         style="display:none;fill:#c17d11;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="path13196"
+         sodipodi:type="arc"
+         sodipodi:cx="-2000"
+         sodipodi:cy="-280"
+         sodipodi:rx="120"
+         sodipodi:ry="120"
+         sodipodi:start="0"
+         sodipodi:end="6.2811956"
+         sodipodi:arc-type="slice"
+         d="m -1880,-280 a 120,120 0 0 1 -119.9403,119.99999 120,120 0 0 1 -120.0596,-119.88061 120,120 0 0 1 119.8208,-120.11925 120,120 0 0 1 120.1789,119.76111 L -2000,-280 Z" />
+      <path
+         id="lpe_path-effect13194"
+         style="display:inline;fill:#c17d11;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         class="powerclip"
+         d="m -2165,-445 h 330 v 330 h -330 z m 285,165 h -120 l 119.9998,-0.23876 a 120,120 0 0 0 -120.1789,-119.76111 120,120 0 0 0 -119.8208,120.11925 120,120 0 0 0 120.0596,119.88061 A 120,120 0 0 0 -1880,-280 Z" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -205,9 +869,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.32"
-     inkscape:cx="98.4375"
-     inkscape:cy="1081.25"
+     inkscape:zoom="0.22627417"
+     inkscape:cx="-1663.9106"
+     inkscape:cy="875.04464"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      inkscape:document-rotation="0"
@@ -224,6 +888,10 @@
     <inkscape:grid
        type="xygrid"
        id="grid398" />
+    <sodipodi:guide
+       position="539.99999,1102.5197"
+       orientation="1,0"
+       id="guide1753" />
   </sodipodi:namedview>
   <metadata
      id="metadata393">
@@ -335,305 +1003,404 @@
        x="-3320"
        y="-1640"
        ry="103.33334" />
+    <rect
+       style="display:inline;fill:#2a66a3;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+       id="rect867-6-0"
+       width="400"
+       height="400"
+       x="-200.00003"
+       y="-480"
+       ry="40"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <rect
+       style="display:inline;fill:#2a66a3;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+       id="rect867-6-0-61-9"
+       width="400"
+       height="400"
+       x="-2200"
+       y="1920"
+       ry="40"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <rect
+       style="display:inline;fill:#3786d6;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+       id="rect867-6-9-3"
+       width="400"
+       height="400"
+       x="-1400"
+       y="1920"
+       ry="40"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <rect
+       style="display:inline;fill:#3176bd;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+       id="rect867-6-1-0-8-6"
+       width="400"
+       height="400"
+       x="-1800"
+       y="1920"
+       ry="40"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <rect
+       style="display:inline;fill:#11a300;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+       id="rect867-0"
+       width="400"
+       height="400"
+       x="-2200"
+       y="-480"
+       ry="40"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <rect
+       style="display:inline;fill:#14bd00;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+       id="rect867-2"
+       width="400"
+       height="400"
+       x="-1800"
+       y="-480"
+       ry="40"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <rect
+       style="display:inline;fill:#a33227;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+       id="rect867-3-7-9"
+       width="400"
+       height="400"
+       x="-2200"
+       y="-80"
+       ry="40"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <rect
+       style="display:inline;fill:#bd2d2d;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+       id="rect867-3-7"
+       width="400"
+       height="400"
+       x="-1800"
+       y="-80"
+       ry="40"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <rect
+       style="display:inline;fill:#d64033;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+       id="rect867-3"
+       width="400"
+       height="400"
+       x="-1400"
+       y="-80"
+       ry="40"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <rect
+       style="display:inline;fill:#3786d6;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+       id="rect867-7-5"
+       width="400"
+       height="400"
+       x="-1000"
+       y="320"
+       ry="40"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <rect
+       style="display:inline;fill:#3176bd;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+       id="rect867-6-1-0"
+       width="400"
+       height="400"
+       x="-600"
+       y="320"
+       ry="40"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <rect
+       style="display:inline;fill:#2a66a3;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+       id="rect867-6-0-2"
+       width="400"
+       height="400"
+       x="-200"
+       y="320"
+       ry="40"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <rect
+       style="display:inline;fill:#2a66a3;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+       id="rect867-6-0-61-9-7"
+       width="400"
+       height="400"
+       x="-1000"
+       y="1920"
+       ry="40"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <rect
+       style="display:inline;fill:#3176bd;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+       id="rect867-6-1-0-8-6-6"
+       width="400"
+       height="400"
+       x="-600"
+       y="1920"
+       ry="40"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <rect
+       style="display:inline;fill:#3786d6;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+       id="rect867-6-9-3-2"
+       width="400"
+       height="400"
+       x="-200"
+       y="1920"
+       ry="40"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer 2"
      style="display:inline">
-    <path
-       sodipodi:type="star"
-       style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-       id="path3654"
-       inkscape:flatsided="false"
-       sodipodi:sides="3"
-       sodipodi:cx="-1217.735"
-       sodipodi:cy="-280"
-       sodipodi:r1="137.73499"
-       sodipodi:r2="68.867493"
-       sodipodi:arg1="0"
-       sodipodi:arg2="1.0471976"
-       inkscape:rounded="0"
-       inkscape:randomized="0"
-       d="m -1080,-280 -103.3012,59.641 -103.3013,59.641 V -280 -399.282 l 103.3013,59.641 z"
-       inkscape:transform-center-x="-34.433799"
-       inkscape:transform-center-y="9.5996444e-06"
+    <g
+       id="g15002"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24">
+      <rect
+         style="fill:#fce94f;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+         id="rect7668-3-9"
+         width="20"
+         height="40"
+         x="-940"
+         y="470" />
+      <rect
+         style="fill:#ad7fa8;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+         id="rect7670-1-2"
+         width="20"
+         height="40"
+         x="-940"
+         y="590" />
+      <rect
+         style="fill:#f57900;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+         id="rect7670-6-9-0"
+         width="20"
+         height="40"
+         x="-940"
+         y="530" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+         id="rect7672-4-6"
+         width="200"
+         height="40"
+         x="-920"
+         y="410" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+         id="rect7674-7-8"
+         width="200"
+         height="40"
+         x="-920"
+         y="470" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+         id="rect7676-8-9"
+         width="200"
+         height="40"
+         x="-920"
+         y="530" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+         id="rect7676-2-4-2"
+         width="200"
+         height="40"
+         x="-920"
+         y="590" />
+      <rect
+         style="fill:#73d216;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+         id="rect6977"
+         width="20"
+         height="40"
+         x="-940"
+         y="410" />
+      <path
+         style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -660,490 v 60 h -80 v 50 l -70,-80 70,-80 v 50 z"
+         id="path22492-8-9-8"
+         sodipodi:nodetypes="cccccccc" />
+    </g>
+    <g
+       id="g15002-8"
+       style="display:inline"
+       transform="translate(400)"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24">
+      <rect
+         style="fill:#fce94f;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+         id="rect7668-3-9-4"
+         width="20"
+         height="40"
+         x="-940"
+         y="470" />
+      <rect
+         style="fill:#ad7fa8;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+         id="rect7670-1-2-3"
+         width="20"
+         height="40"
+         x="-940"
+         y="590" />
+      <rect
+         style="fill:#f57900;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+         id="rect7670-6-9-0-1"
+         width="20"
+         height="40"
+         x="-940"
+         y="530" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+         id="rect7672-4-6-4"
+         width="200"
+         height="40"
+         x="-920"
+         y="410" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+         id="rect7674-7-8-9"
+         width="200"
+         height="40"
+         x="-920"
+         y="470" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+         id="rect7676-8-9-2"
+         width="200"
+         height="40"
+         x="-920"
+         y="530" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+         id="rect7676-2-4-2-0"
+         width="200"
+         height="40"
+         x="-920"
+         y="590" />
+      <rect
+         style="fill:#73d216;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+         id="rect6977-6"
+         width="20"
+         height="40"
+         x="-940"
+         y="410" />
+      <path
+         style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -660,490 v 60 h -80 v 50 l -70,-80 70,-80 v 50 z"
+         id="path22492-8-9-8-8"
+         sodipodi:nodetypes="cccccccc" />
+    </g>
+    <g
+       id="g15002-9"
+       style="display:inline"
+       transform="translate(800)"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24">
+      <rect
+         style="fill:#fce94f;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+         id="rect7668-3-9-2"
+         width="20"
+         height="40"
+         x="-940"
+         y="470" />
+      <rect
+         style="fill:#ad7fa8;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+         id="rect7670-1-2-6"
+         width="20"
+         height="40"
+         x="-940"
+         y="590" />
+      <rect
+         style="fill:#f57900;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+         id="rect7670-6-9-0-6"
+         width="20"
+         height="40"
+         x="-940"
+         y="530" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+         id="rect7672-4-6-49"
+         width="200"
+         height="40"
+         x="-920"
+         y="410" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+         id="rect7674-7-8-5"
+         width="200"
+         height="40"
+         x="-920"
+         y="470" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+         id="rect7676-8-9-0"
+         width="200"
+         height="40"
+         x="-920"
+         y="530" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+         id="rect7676-2-4-2-4"
+         width="200"
+         height="40"
+         x="-920"
+         y="590" />
+      <rect
+         style="fill:#73d216;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+         id="rect6977-8"
+         width="20"
+         height="40"
+         x="-940"
+         y="410" />
+      <path
+         style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -660,490 v 60 h -80 v 50 l -70,-80 70,-80 v 50 z"
+         id="path22492-8-9-8-7"
+         sodipodi:nodetypes="cccccccc" />
+    </g>
+    <rect
+       style="fill:#3786d6;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+       id="rect867-6"
+       width="400"
+       height="400"
+       x="-1000"
+       y="-480"
+       ry="40"
        inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
        inkscape:export-ydpi="24" />
-    <g
-       id="g1912"
+    <rect
+       style="fill:#3176bd;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+       id="rect867-6-1"
+       width="400"
+       height="400"
+       x="-600"
+       y="-480"
+       ry="40"
        inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
-       inkscape:export-ydpi="24"
-       transform="translate(-80.00003)">
-      <rect
-         style="fill:#14bd00;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-         id="rect867-2"
-         width="400"
-         height="400"
-         x="-1720"
-         y="-480"
-         ry="40"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/start.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52" />
-      <path
-         sodipodi:type="star"
-         style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-         id="path3654-2"
-         inkscape:flatsided="false"
-         sodipodi:sides="3"
-         sodipodi:cx="-1068.4337"
-         sodipodi:cy="-280"
-         sodipodi:r1="137.73499"
-         sodipodi:r2="68.867493"
-         sodipodi:arg1="0"
-         sodipodi:arg2="1.0471976"
-         inkscape:rounded="0"
-         inkscape:randomized="0"
-         inkscape:transform-center-x="-34.433799"
-         inkscape:transform-center-y="9.5996444e-06"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/start.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52"
-         d="M -930.69873,-280 -1034,-220.359 l -103.3012,59.641 V -280 -399.282 L -1034,-339.641 Z"
-         transform="translate(-469.30127)" />
-    </g>
-    <g
-       id="g1918"
-       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
-       inkscape:export-xdpi="24"
-       inkscape:export-ydpi="24"
-       transform="translate(-260.00003)">
-      <rect
-         style="fill:#3786d6;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-         id="rect867-6"
-         width="400"
-         height="400"
-         x="-740"
-         y="-480"
-         ry="40"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/view-light.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52" />
-      <path
-         sodipodi:type="star"
-         style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-         id="path3654-5"
-         inkscape:flatsided="false"
-         sodipodi:sides="3"
-         sodipodi:cx="-1068.4337"
-         sodipodi:cy="-280"
-         sodipodi:r1="137.73499"
-         sodipodi:r2="68.867493"
-         sodipodi:arg1="0"
-         sodipodi:arg2="1.0471976"
-         inkscape:rounded="0"
-         inkscape:randomized="0"
-         inkscape:transform-center-x="-34.433799"
-         inkscape:transform-center-y="9.5996444e-06"
-         d="M -930.69873,-280 -1034,-220.359 l -103.3012,59.641 V -280 -399.282 L -1034,-339.641 Z"
-         transform="translate(530.69873)"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/view-light.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52" />
-      <rect
-         style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-         id="rect4497"
-         width="100"
-         height="80"
-         x="-680"
-         y="-320"
-         ry="0"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/view-light.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52" />
-    </g>
-    <g
-       id="g1923"
-       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
-       inkscape:export-xdpi="24"
-       inkscape:export-ydpi="24"
-       transform="translate(-360.00003)">
-      <rect
-         style="fill:#3176bd;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-         id="rect867-6-1"
-         width="400"
-         height="400"
-         x="-240"
-         y="-480"
-         ry="40"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/view.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52" />
-      <path
-         sodipodi:type="star"
-         style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-         id="path3654-5-2"
-         inkscape:flatsided="false"
-         sodipodi:sides="3"
-         sodipodi:cx="-1068.4337"
-         sodipodi:cy="-280"
-         sodipodi:r1="137.73499"
-         sodipodi:r2="68.867493"
-         sodipodi:arg1="0"
-         sodipodi:arg2="1.0471976"
-         inkscape:rounded="0"
-         inkscape:randomized="0"
-         inkscape:transform-center-x="-34.433799"
-         inkscape:transform-center-y="9.5996444e-06"
-         transform="translate(1030.6987)"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/view.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52"
-         d="M -930.69873,-280 -1034,-220.359 l -103.3012,59.641 V -280 -399.282 L -1034,-339.641 Z" />
-      <rect
-         style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-         id="rect4497-7"
-         width="100"
-         height="80"
-         x="-180"
-         y="-320"
-         ry="0"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/view.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52" />
-    </g>
-    <g
-       id="g1928"
-       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
-       inkscape:export-xdpi="24"
-       inkscape:export-ydpi="24"
-       transform="translate(-460.00003)">
-      <rect
-         style="fill:#2a66a3;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-         id="rect867-6-0"
-         width="400"
-         height="400"
-         x="260"
-         y="-480"
-         ry="40"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/view-dark.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52" />
-      <path
-         sodipodi:type="star"
-         style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-         id="path3654-5-9"
-         inkscape:flatsided="false"
-         sodipodi:sides="3"
-         sodipodi:cx="-1068.4337"
-         sodipodi:cy="-280"
-         sodipodi:r1="137.73499"
-         sodipodi:r2="68.867493"
-         sodipodi:arg1="0"
-         sodipodi:arg2="1.0471976"
-         inkscape:rounded="0"
-         inkscape:randomized="0"
-         inkscape:transform-center-x="-34.433799"
-         inkscape:transform-center-y="9.5996444e-06"
-         transform="translate(1530.6987)"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/view-dark.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52"
-         d="M -930.69873,-280 -1034,-220.359 l -103.3012,59.641 V -280 -399.282 L -1034,-339.641 Z" />
-      <rect
-         style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-         id="rect4497-3"
-         width="100"
-         height="80"
-         x="320"
-         y="-320"
-         ry="0"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/view-dark.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52" />
-    </g>
-    <g
-       id="g1943"
-       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
-       inkscape:export-xdpi="24"
-       inkscape:export-ydpi="24"
-       transform="translate(-160,-100)">
-      <rect
-         style="fill:#d64033;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-         id="rect867-3"
-         width="400"
-         height="400"
-         x="-1240"
-         y="20"
-         ry="40"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/stop-light.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52" />
-      <rect
-         style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-         id="rect4620"
-         width="200"
-         height="200"
-         x="-1140"
-         y="120"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/stop-light.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52" />
-    </g>
-    <g
-       id="g1938"
-       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
-       inkscape:export-xdpi="24"
-       inkscape:export-ydpi="24"
-       transform="translate(-80.00003,-100)">
-      <rect
-         style="fill:#bd2d2d;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-         id="rect867-3-7"
-         width="400"
-         height="400"
-         x="-1720"
-         y="20"
-         ry="40"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/stop.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52" />
-      <rect
-         style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-         id="rect4620-7"
-         width="200"
-         height="200"
-         x="-1620"
-         y="120"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/stop.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52" />
-    </g>
-    <g
-       id="g1933"
-       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
-       inkscape:export-xdpi="24"
-       inkscape:export-ydpi="24"
-       transform="translate(20,-100)">
-      <rect
-         style="fill:#a33227;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-         id="rect867-3-7-9"
-         width="400"
-         height="400"
-         x="-2220"
-         y="20"
-         ry="40"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/stop-dark.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52" />
-      <rect
-         style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-         id="rect4620-5"
-         width="200"
-         height="200"
-         x="-2120"
-         y="120"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/stop-dark.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52" />
-    </g>
+       inkscape:export-ydpi="24" />
     <g
        id="g1950"
        inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
@@ -862,148 +1629,6 @@
       </g>
     </g>
     <g
-       id="g2016"
-       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
-       inkscape:export-xdpi="24"
-       inkscape:export-ydpi="24"
-       transform="translate(-260,-200)">
-      <rect
-         style="fill:#3786d6;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-         id="rect867-7-5"
-         width="400"
-         height="400"
-         x="-740"
-         y="520"
-         ry="40"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/list-light.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52" />
-      <g
-         id="g27563-2-1"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/list-light.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52">
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-           id="rect6977-9-4"
-           width="40"
-           height="40"
-           x="-680"
-           y="580" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-           id="rect7668-3-9"
-           width="40"
-           height="40"
-           x="-680"
-           y="660" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-           id="rect7670-1-2"
-           width="40"
-           height="40"
-           x="-680"
-           y="820" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-           id="rect7670-6-9-0"
-           width="40"
-           height="40"
-           x="-680"
-           y="740" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-           id="rect7672-4-6"
-           width="200"
-           height="40"
-           x="-600"
-           y="580" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-           id="rect7674-7-8"
-           width="200"
-           height="40"
-           x="-600"
-           y="660" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-           id="rect7676-8-9"
-           width="200"
-           height="40"
-           x="-600"
-           y="740" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-           id="rect7676-2-4-2"
-           width="200"
-           height="40"
-           x="-600"
-           y="820" />
-      </g>
-      <g
-         id="g27563"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/list-light.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52">
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-           id="rect6977"
-           width="40"
-           height="40"
-           x="-680"
-           y="580" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-           id="rect7668"
-           width="40"
-           height="40"
-           x="-680"
-           y="660" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-           id="rect7670"
-           width="40"
-           height="40"
-           x="-680"
-           y="820" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-           id="rect7670-6"
-           width="40"
-           height="40"
-           x="-680"
-           y="740" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-           id="rect7672"
-           width="200"
-           height="40"
-           x="-600"
-           y="580" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-           id="rect7674"
-           width="200"
-           height="40"
-           x="-600"
-           y="660" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-           id="rect7676"
-           width="200"
-           height="40"
-           x="-600"
-           y="740" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-           id="rect7676-2"
-           width="200"
-           height="40"
-           x="-600"
-           y="820" />
-      </g>
-    </g>
-    <g
        id="g1977"
        inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
@@ -1044,248 +1669,47 @@
            sodipodi:nodetypes="cccccccc" />
       </g>
     </g>
-    <g
-       id="g1970"
+    <rect
+       style="fill:#2a66a3;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+       id="rect867-6-0-61"
+       width="400"
+       height="400"
+       x="-2200"
+       y="320"
+       ry="40"
        inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
-       inkscape:export-ydpi="24"
-       transform="translate(3e-5,-200)">
-      <rect
-         style="fill:#2a66a3;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-         id="rect867-6-0-61"
-         width="400"
-         height="400"
-         x="-2200"
-         y="520"
-         ry="40"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/reset-dark.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52" />
-      <g
-         id="g23470-9-7"
-         transform="translate(-960.00003,90)"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/reset-dark.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52">
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:107.641px;line-height:1.25;font-family:'Noto Sans Mono';-inkscape-font-specification:'Noto Sans Mono Medium';letter-spacing:0px;word-spacing:0px;fill:#ffffff;stroke-width:1.44162"
-           x="-1201.4615"
-           y="743.61707"
-           id="text11489-2-6"><tspan
-             sodipodi:role="line"
-             id="tspan11487-2-56"
-             x="-1201.4615"
-             y="743.61707"
-             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Noto Sans Mono';-inkscape-font-specification:'Noto Sans Mono Medium';stroke-width:1.44162">00:00</tspan></text>
-        <path
-           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           d="m -1070,490 h 60 v 80 h 50 l -80,70 -80,-70 h 50 z"
-           id="path22492-8-9"
-           sodipodi:nodetypes="cccccccc" />
-      </g>
-    </g>
-    <g
-       id="g1907"
+       inkscape:export-ydpi="24" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:107.641px;line-height:1.25;font-family:'Noto Sans Mono';-inkscape-font-specification:'Noto Sans Mono Medium';letter-spacing:0px;word-spacing:0px;fill:#ffffff;stroke-width:1.44162"
+       x="-2161.4614"
+       y="633.61707"
+       id="text11489-2-6"
        inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
-       inkscape:export-ydpi="24"
-       transform="translate(20)">
-      <rect
-         style="fill:#11a300;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-         id="rect867-0"
-         width="400"
-         height="400"
-         x="-2220"
-         y="-480"
-         ry="40"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/start-dark.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52" />
-      <path
-         sodipodi:type="star"
-         style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-         id="path3654-3"
-         inkscape:flatsided="false"
-         sodipodi:sides="3"
-         sodipodi:cx="-1068.4337"
-         sodipodi:cy="-280"
-         sodipodi:r1="137.73499"
-         sodipodi:r2="68.867493"
-         sodipodi:arg1="0"
-         sodipodi:arg2="1.0471976"
-         inkscape:rounded="0"
-         inkscape:randomized="0"
-         inkscape:transform-center-x="-34.433799"
-         inkscape:transform-center-y="9.5996444e-06"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/start-dark.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52"
-         d="M -930.69873,-280 -1034,-220.359 l -103.3012,59.641 V -280 -399.282 L -1034,-339.641 Z"
-         transform="translate(-969.30127)" />
-    </g>
-    <g
-       id="g2029"
+       inkscape:export-ydpi="24"><tspan
+         sodipodi:role="line"
+         id="tspan11487-2-56"
+         x="-2161.4614"
+         y="633.61707"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Noto Sans Mono';-inkscape-font-specification:'Noto Sans Mono Medium';stroke-width:1.44162">00:00</tspan></text>
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -2030,380 h 60 v 80 h 50 l -80,70 -80,-70 h 50 z"
+       id="path22492-8-9"
+       sodipodi:nodetypes="cccccccc"
        inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
-       inkscape:export-ydpi="24"
-       transform="translate(-360,-200)">
-      <rect
-         style="fill:#3176bd;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-         id="rect867-6-1-0"
-         width="400"
-         height="400"
-         x="-240"
-         y="520"
-         ry="40"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/list.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52" />
-      <g
-         id="g27563-2"
-         transform="translate(500)"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/list.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52">
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-           id="rect6977-9"
-           width="40"
-           height="40"
-           x="-680"
-           y="580" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-           id="rect7668-3"
-           width="40"
-           height="40"
-           x="-680"
-           y="660" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-           id="rect7670-1"
-           width="40"
-           height="40"
-           x="-680"
-           y="820" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-           id="rect7670-6-9"
-           width="40"
-           height="40"
-           x="-680"
-           y="740" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-           id="rect7672-4"
-           width="200"
-           height="40"
-           x="-600"
-           y="580" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-           id="rect7674-7"
-           width="200"
-           height="40"
-           x="-600"
-           y="660" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-           id="rect7676-8"
-           width="200"
-           height="40"
-           x="-600"
-           y="740" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-           id="rect7676-2-4"
-           width="200"
-           height="40"
-           x="-600"
-           y="820" />
-      </g>
-    </g>
-    <g
-       id="g2042"
+       inkscape:export-ydpi="24" />
+    <path
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -2030,2230 h 60 v -80 h 50 l -80,-70 -80,70 h 50 z"
+       id="path22492-8-9-2"
+       sodipodi:nodetypes="cccccccc"
        inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
-       inkscape:export-ydpi="24"
-       transform="translate(-460,-200)">
-      <rect
-         style="fill:#2a66a3;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-         id="rect867-6-0-2"
-         width="400"
-         height="400"
-         x="260"
-         y="520"
-         ry="40"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/list-dark.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52" />
-      <g
-         id="g27563-5"
-         transform="translate(1000)"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/list-dark.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52">
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-           id="rect6977-0"
-           width="40"
-           height="40"
-           x="-680"
-           y="580" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-           id="rect7668-36"
-           width="40"
-           height="40"
-           x="-680"
-           y="660" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-           id="rect7670-10"
-           width="40"
-           height="40"
-           x="-680"
-           y="820" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-           id="rect7670-6-6"
-           width="40"
-           height="40"
-           x="-680"
-           y="740" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-           id="rect7672-3"
-           width="200"
-           height="40"
-           x="-600"
-           y="580" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-           id="rect7674-2"
-           width="200"
-           height="40"
-           x="-600"
-           y="660" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-           id="rect7676-0"
-           width="200"
-           height="40"
-           x="-600"
-           y="740" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-           id="rect7676-2-6"
-           width="200"
-           height="40"
-           x="-600"
-           y="820" />
-      </g>
-    </g>
+       inkscape:export-ydpi="24" />
     <g
        id="g25580"
        transform="translate(1560,-100)"
@@ -1704,44 +2128,38 @@
            sodipodi:nodetypes="cccccccc" />
       </g>
     </g>
-    <g
-       id="g25358"
+    <rect
+       style="fill:#d64033;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+       id="rect867-7-62"
+       width="400"
+       height="400"
+       x="-1000"
+       y="1120"
+       ry="40"
        inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
-       inkscape:export-ydpi="24">
+       inkscape:export-ydpi="24" />
+    <g
+       id="g27956-61"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24"
+       transform="rotate(45,-1997.8174,456.15225)">
       <rect
-         style="fill:#d64033;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-         id="rect867-7-62"
-         width="400"
-         height="400"
-         x="-1000"
-         y="1120"
-         ry="40"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/add-light.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52" />
-      <g
-         id="g27956-61"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/add-light.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52"
-         transform="rotate(45,-1997.8174,456.15225)">
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-           id="rect4922-8"
-           width="280.00003"
-           height="80"
-           x="-680"
-           y="180" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-           id="rect4922-3-7"
-           width="280.00003"
-           height="80"
-           x="-360.00003"
-           y="-580"
-           transform="rotate(-90)" />
-      </g>
+         style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+         id="rect4922-8"
+         width="280.00003"
+         height="80"
+         x="-680"
+         y="180" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke-width:16;stroke-linecap:round"
+         id="rect4922-3-7"
+         width="280.00003"
+         height="80"
+         x="-360.00003"
+         y="-580"
+         transform="rotate(-90)" />
     </g>
     <g
        id="g25364"
@@ -2031,150 +2449,14 @@
            y="1837.4489"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';fill:#eeeeec;stroke-width:5.28355">$</tspan></text>
     </g>
-    <g
-       id="g2999"
-       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/upload-3.png"
+    <path
+       style="display:inline;fill:#3465a4;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1960,2240 h -80 v -80 h -60 l 100,-120 100,120 h -60 z"
+       id="path22492-8-44-2-1-2"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
        inkscape:export-xdpi="24"
-       inkscape:export-ydpi="24">
-      <rect
-         style="fill:#3786d6;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-         id="rect867-6-9-3"
-         width="400"
-         height="400"
-         x="-1400"
-         y="1920"
-         ry="40"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/reset-light.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52" />
-      <g
-         id="g2925">
-        <path
-           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           d="m -1160,2180 h -80 v -80 h -60 l 100,-120 100,120 h -60 z"
-           id="path22492-8-44-2"
-           sodipodi:nodetypes="cccccccc" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:round"
-           id="rect1698"
-           width="280"
-           height="40"
-           x="-1340"
-           y="2220" />
-      </g>
-    </g>
-    <g
-       id="g2992"
-       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/upload-2.png"
-       inkscape:export-xdpi="24"
-       inkscape:export-ydpi="24">
-      <rect
-         style="fill:#3176bd;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-         id="rect867-6-1-0-8-6"
-         width="400"
-         height="400"
-         x="-1800"
-         y="1920"
-         ry="40"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/reset.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52" />
-      <g
-         id="g2925-6"
-         style="display:inline"
-         transform="translate(-400)">
-        <path
-           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           d="m -1160,2180 h -80 v -80 h -60 l 100,-120 100,120 h -60 z"
-           id="path22492-8-44-2-1"
-           sodipodi:nodetypes="cccccccc" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:round"
-           id="rect1698-8"
-           width="280"
-           height="40"
-           x="-1340"
-           y="2220" />
-      </g>
-    </g>
-    <g
-       id="g2985"
-       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/upload-1.png"
-       inkscape:export-xdpi="24"
-       inkscape:export-ydpi="24">
-      <rect
-         style="fill:#2a66a3;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-         id="rect867-6-0-61-9"
-         width="400"
-         height="400"
-         x="-2200"
-         y="1920"
-         ry="40"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/reset-dark.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52" />
-      <g
-         id="g2925-7"
-         style="display:inline"
-         transform="translate(-800)">
-        <path
-           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           d="m -1160,2180 h -80 v -80 h -60 l 100,-120 100,120 h -60 z"
-           id="path22492-8-44-2-9"
-           sodipodi:nodetypes="cccccccc" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:round"
-           id="rect1698-2"
-           width="280"
-           height="40"
-           x="-1340"
-           y="2220" />
-      </g>
-    </g>
-    <g
-       id="g23318"
-       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/down-2.png"
-       inkscape:export-xdpi="24"
-       inkscape:export-ydpi="24">
-      <rect
-         style="display:inline;fill:#3176bd;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-         id="rect867-6-1-0-8-6-6"
-         width="400"
-         height="400"
-         x="-600"
-         y="1920"
-         ry="40"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/reset.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52" />
-      <path
-         style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m -360,2020 h -80 v 80 h -60 l 100,120 100,-120 h -60 z"
-         id="path22492-8-44-2-9-2-2"
-         sodipodi:nodetypes="cccccccc" />
-    </g>
-    <g
-       id="g23323"
-       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/down-3.png"
-       inkscape:export-xdpi="24"
-       inkscape:export-ydpi="24">
-      <rect
-         style="display:inline;fill:#3786d6;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-         id="rect867-6-9-3-2"
-         width="400"
-         height="400"
-         x="-200"
-         y="1920"
-         ry="40"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/reset-light.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52" />
-      <path
-         style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 40,2020 h -80 v 80 h -60 L 0,2220 100,2100 H 40 Z"
-         id="path22492-8-44-2-9-2-3"
-         sodipodi:nodetypes="cccccccc" />
-    </g>
+       inkscape:export-ydpi="24" />
     <text
        xml:space="preserve"
        style="font-size:189.32px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;fill:#ffffff;stroke-width:1.97208"
@@ -2189,28 +2471,6 @@
          x="-3238.2117"
          y="-1354.2655"
          style="stroke-width:1.97208">ACTIVITY</tspan></text>
-    <g
-       id="g23313"
-       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/down-1.png"
-       inkscape:export-xdpi="24"
-       inkscape:export-ydpi="24">
-      <rect
-         style="display:inline;fill:#2a66a3;fill-opacity:1;stroke-width:16;stroke-linecap:round"
-         id="rect867-6-0-61-9-7"
-         width="400"
-         height="400"
-         x="-1000"
-         y="1920"
-         ry="40"
-         inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/reset-dark.png"
-         inkscape:export-xdpi="11.52"
-         inkscape:export-ydpi="11.52" />
-      <path
-         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m -760,2020 h -80 v 80 h -60 l 100,120 100,-120 h -60 z"
-         id="path22492-8-44-2-9-2"
-         sodipodi:nodetypes="cccccccc" />
-    </g>
     <text
        xml:space="preserve"
        style="font-size:189.32px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;stroke-width:1.97208"
@@ -2225,5 +2485,608 @@
          x="-3111.0586"
          y="-502.20169"
          style="stroke-width:1.97208">TIMER</tspan></text>
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -160,-260 c 0,0 40,-120 160,-120 120,0 160,120 160,120 z"
+       id="path2100"
+       sodipodi:nodetypes="czcc"
+       clip-path="url(#clipPath4425)"
+       inkscape:path-effect="#path-effect4433"
+       inkscape:original-d="m -160,-260 c 0,0 40,-120 160,-120 120,0 160,120 160,120 z"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <path
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -160,-260 c 0,0 40,120 160,120 120,0 160,-120 160,-120 z"
+       id="path2100-7"
+       sodipodi:nodetypes="czcc"
+       clip-path="url(#clipPath4421)"
+       inkscape:path-effect="#path-effect4429"
+       inkscape:original-d="m -160,-260 c 0,0 40,120 160,120 120,0 160,-120 160,-120 z"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+       id="path3721"
+       sodipodi:type="arc"
+       sodipodi:cx="0"
+       sodipodi:cy="-260"
+       sodipodi:rx="50"
+       sodipodi:ry="50"
+       sodipodi:start="0"
+       sodipodi:end="6.2811956"
+       sodipodi:arc-type="slice"
+       d="m 50,-260 a 50,50 0 0 1 -49.97512906,49.99999 50,50 0 0 1 -50.02484594,-49.95025 50,50 0 0 1 49.9253622,-50.04968 50,50 0 0 1 50.0745138,49.90046 L 0,-260 Z"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <path
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -160,-260 c 0,0 40,-120 160,-120 120,0 160,120 160,120 z"
+       id="path2100-1"
+       sodipodi:nodetypes="czcc"
+       clip-path="url(#clipath_lpe_path-effect4825)"
+       inkscape:path-effect="#path-effect4825"
+       inkscape:original-d="m -160,-260 c 0,0 40,-120 160,-120 120,0 160,120 160,120 z"
+       transform="translate(-399.9999,0.09948529)"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <path
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -160,-260 c 0,0 40,120 160,120 120,0 160,-120 160,-120 z"
+       id="path2100-7-2"
+       sodipodi:nodetypes="czcc"
+       clip-path="url(#clipath_lpe_path-effect4829)"
+       inkscape:path-effect="#path-effect4829"
+       inkscape:original-d="m -160,-260 c 0,0 40,120 160,120 120,0 160,-120 160,-120 z"
+       transform="translate(-399.9999,0.09948529)"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <path
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+       id="path3721-7"
+       sodipodi:type="arc"
+       sodipodi:cx="-399.99991"
+       sodipodi:cy="-259.90051"
+       sodipodi:rx="50"
+       sodipodi:ry="50"
+       sodipodi:start="0"
+       sodipodi:end="6.2811956"
+       sodipodi:arc-type="slice"
+       d="m -349.99991,-259.90051 a 50,50 0 0 1 -49.97513,49.99999 50,50 0 0 1 -50.02484,-49.95025 50,50 0 0 1 49.92536,-50.04969 50,50 0 0 1 50.07451,49.90046 l -49.9999,0.0995 z"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <path
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -160,-260 c 0,0 40,-120 160,-120 120,0 160,120 160,120 z"
+       id="path2100-6"
+       sodipodi:nodetypes="czcc"
+       clip-path="url(#clipath_lpe_path-effect4886)"
+       inkscape:path-effect="#path-effect4886"
+       inkscape:original-d="m -160,-260 c 0,0 40,-120 160,-120 120,0 160,120 160,120 z"
+       transform="translate(-799.9999,0.09948529)"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <path
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -160,-260 c 0,0 40,120 160,120 120,0 160,-120 160,-120 z"
+       id="path2100-7-1"
+       sodipodi:nodetypes="czcc"
+       clip-path="url(#clipath_lpe_path-effect4890)"
+       inkscape:path-effect="#path-effect4890"
+       inkscape:original-d="m -160,-260 c 0,0 40,120 160,120 120,0 160,-120 160,-120 z"
+       transform="translate(-799.9999,0.09948529)"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <path
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+       id="path3721-8"
+       sodipodi:type="arc"
+       sodipodi:cx="-799.99988"
+       sodipodi:cy="-259.90051"
+       sodipodi:rx="50"
+       sodipodi:ry="50"
+       sodipodi:start="0"
+       sodipodi:end="6.2811956"
+       sodipodi:arc-type="slice"
+       d="m -749.99988,-259.90051 a 50,50 0 0 1 -49.97513,49.99999 50,50 0 0 1 -50.02484,-49.95025 50,50 0 0 1 49.92536,-50.04969 50,50 0 0 1 50.07451,49.90046 l -49.9999,0.0995 z"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <g
+       id="g7009"
+       transform="translate(1.5835733e-4,40.159176)"
+       clip-path="url(#clipPath7337)"
+       inkscape:path-effect="#path-effect7341"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24">
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="path6699"
+         sodipodi:type="arc"
+         sodipodi:cx="-2000"
+         sodipodi:cy="2040"
+         sodipodi:rx="80"
+         sodipodi:ry="80"
+         sodipodi:start="0"
+         sodipodi:end="6.2811956"
+         sodipodi:arc-type="slice"
+         d="m -1920,2040 a 80,80 0 0 1 -79.9602,80 80,80 0 0 1 -80.0398,-79.9204 80,80 0 0 1 79.8806,-80.0795 80,80 0 0 1 80.1192,79.8407 L -2000,2040 Z" />
+      <path
+         style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="path6699-7"
+         sodipodi:type="arc"
+         sodipodi:cx="-2080"
+         sodipodi:cy="2120"
+         sodipodi:rx="80"
+         sodipodi:ry="80"
+         sodipodi:start="0"
+         sodipodi:end="6.2811956"
+         sodipodi:arc-type="slice"
+         d="m -2000,2120 a 80,80 0 0 1 -79.9602,80 80,80 0 0 1 -80.0398,-79.9204 80,80 0 0 1 79.8806,-80.0795 80,80 0 0 1 80.1192,79.8407 L -2080,2120 Z" />
+      <path
+         style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="path6699-9"
+         sodipodi:type="arc"
+         sodipodi:cx="-1920"
+         sodipodi:cy="2120"
+         sodipodi:rx="80"
+         sodipodi:ry="80"
+         sodipodi:start="0"
+         sodipodi:end="6.2811956"
+         sodipodi:arc-type="slice"
+         d="m -1840,2120 a 80,80 0 0 1 -79.9602,80 80,80 0 0 1 -80.0398,-79.9204 80,80 0 0 1 79.8806,-80.0795 80,80 0 0 1 80.1192,79.8407 L -1920,2120 Z" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="rect6923"
+         width="160"
+         height="80"
+         x="-2080"
+         y="2120"
+         d="m -2080,2120 h 160 v 80 h -160 z"
+         sodipodi:type="rect" />
+    </g>
+    <g
+       id="g7009-2"
+       transform="translate(400,40)"
+       clip-path="url(#clipath_lpe_path-effect7725)"
+       inkscape:path-effect="#path-effect7725"
+       style="display:inline"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24">
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="path6699-2"
+         sodipodi:type="arc"
+         sodipodi:cx="-2000"
+         sodipodi:cy="2040"
+         sodipodi:rx="80"
+         sodipodi:ry="80"
+         sodipodi:start="0"
+         sodipodi:end="6.2811956"
+         sodipodi:arc-type="slice"
+         d="m -1920,2040 a 80,80 0 0 1 -79.9602,80 80,80 0 0 1 -80.0398,-79.9204 80,80 0 0 1 79.8806,-80.0795 80,80 0 0 1 80.1192,79.8407 L -2000,2040 Z" />
+      <path
+         style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="path6699-7-8"
+         sodipodi:type="arc"
+         sodipodi:cx="-2080"
+         sodipodi:cy="2120"
+         sodipodi:rx="80"
+         sodipodi:ry="80"
+         sodipodi:start="0"
+         sodipodi:end="6.2811956"
+         sodipodi:arc-type="slice"
+         d="m -2000,2120 a 80,80 0 0 1 -79.9602,80 80,80 0 0 1 -80.0398,-79.9204 80,80 0 0 1 79.8806,-80.0795 80,80 0 0 1 80.1192,79.8407 L -2080,2120 Z" />
+      <path
+         style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="path6699-9-9"
+         sodipodi:type="arc"
+         sodipodi:cx="-1920"
+         sodipodi:cy="2120"
+         sodipodi:rx="80"
+         sodipodi:ry="80"
+         sodipodi:start="0"
+         sodipodi:end="6.2811956"
+         sodipodi:arc-type="slice"
+         d="m -1840,2120 a 80,80 0 0 1 -79.9602,80 80,80 0 0 1 -80.0398,-79.9204 80,80 0 0 1 79.8806,-80.0795 80,80 0 0 1 80.1192,79.8407 L -1920,2120 Z" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="rect6923-7"
+         width="160"
+         height="80"
+         x="-2080"
+         y="2120"
+         sodipodi:type="rect"
+         d="m -2080,2120 h 160 v 80 h -160 z" />
+    </g>
+    <g
+       id="g7009-29"
+       transform="translate(800,40)"
+       clip-path="url(#clipath_lpe_path-effect7774)"
+       inkscape:path-effect="#path-effect7774"
+       style="display:inline"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24">
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="path6699-3"
+         sodipodi:type="arc"
+         sodipodi:cx="-2000"
+         sodipodi:cy="2040"
+         sodipodi:rx="80"
+         sodipodi:ry="80"
+         sodipodi:start="0"
+         sodipodi:end="6.2811956"
+         sodipodi:arc-type="slice"
+         d="m -1920,2040 a 80,80 0 0 1 -79.9602,80 80,80 0 0 1 -80.0398,-79.9204 80,80 0 0 1 79.8806,-80.0795 80,80 0 0 1 80.1192,79.8407 L -2000,2040 Z" />
+      <path
+         style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="path6699-7-1"
+         sodipodi:type="arc"
+         sodipodi:cx="-2080"
+         sodipodi:cy="2120"
+         sodipodi:rx="80"
+         sodipodi:ry="80"
+         sodipodi:start="0"
+         sodipodi:end="6.2811956"
+         sodipodi:arc-type="slice"
+         d="m -2000,2120 a 80,80 0 0 1 -79.9602,80 80,80 0 0 1 -80.0398,-79.9204 80,80 0 0 1 79.8806,-80.0795 80,80 0 0 1 80.1192,79.8407 L -2080,2120 Z" />
+      <path
+         style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="path6699-9-94"
+         sodipodi:type="arc"
+         sodipodi:cx="-1920"
+         sodipodi:cy="2120"
+         sodipodi:rx="80"
+         sodipodi:ry="80"
+         sodipodi:start="0"
+         sodipodi:end="6.2811956"
+         sodipodi:arc-type="slice"
+         d="m -1840,2120 a 80,80 0 0 1 -79.9602,80 80,80 0 0 1 -80.0398,-79.9204 80,80 0 0 1 79.8806,-80.0795 80,80 0 0 1 80.1192,79.8407 L -1920,2120 Z" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="rect6923-78"
+         width="160"
+         height="80"
+         x="-2080"
+         y="2120"
+         sodipodi:type="rect"
+         d="m -2080,2120 h 160 v 80 h -160 z" />
+    </g>
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+       id="path8231"
+       sodipodi:type="arc"
+       sodipodi:cx="-2000"
+       sodipodi:cy="-280"
+       sodipodi:rx="160"
+       sodipodi:ry="160"
+       sodipodi:start="0"
+       sodipodi:end="6.2811956"
+       sodipodi:arc-type="slice"
+       d="m -1840,-280 a 160,160 0 0 1 -159.9204,159.99998 160,160 0 0 1 -160.0795,-159.84081 160,160 0 0 1 159.7611,-160.15899 160,160 0 0 1 160.2385,159.68147 L -2000,-280 Z"
+       clip-path="url(#clipPath8934)"
+       inkscape:path-effect="#path-effect8938"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+       id="rect8592"
+       width="20"
+       height="120"
+       x="-2010"
+       y="-390"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <rect
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+       id="rect8592-5"
+       width="20"
+       height="100.00002"
+       x="-1356.72"
+       y="-1507.4186"
+       transform="rotate(-40.361227)"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <path
+       style="display:inline;fill:#888a85;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+       id="path8231-65"
+       sodipodi:type="arc"
+       sodipodi:cx="-2000"
+       sodipodi:cy="-280"
+       sodipodi:rx="160"
+       sodipodi:ry="160"
+       sodipodi:start="0"
+       sodipodi:end="6.2811956"
+       sodipodi:arc-type="slice"
+       clip-path="url(#clipath_lpe_path-effect9693)"
+       inkscape:path-effect="#path-effect9693"
+       transform="translate(0,400)"
+       d="m -1840,-280 a 160,160 0 0 1 -159.9204,159.99998 160,160 0 0 1 -160.0795,-159.8408 160,160 0 0 1 159.7611,-160.159 160,160 0 0 1 160.2385,159.68147 L -2000,-280 Z"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <rect
+       style="display:inline;fill:#888a85;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+       id="rect8592-6"
+       width="20"
+       height="120"
+       x="-2010"
+       y="9.9999981"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <rect
+       style="display:inline;fill:#888a85;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+       id="rect8592-5-9"
+       width="20"
+       height="100.00002"
+       x="-1615.7617"
+       y="-1202.6278"
+       transform="rotate(-40.361227)"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <path
+       style="display:inline;fill:#888a85;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+       id="path8231-65-4"
+       sodipodi:type="arc"
+       sodipodi:cx="-2000"
+       sodipodi:cy="-280"
+       sodipodi:rx="160"
+       sodipodi:ry="160"
+       sodipodi:start="0"
+       sodipodi:end="6.2811956"
+       sodipodi:arc-type="slice"
+       clip-path="url(#clipath_lpe_path-effect13153)"
+       inkscape:path-effect="#path-effect13153"
+       transform="translate(400,400)"
+       d="m -1840,-280 a 160,160 0 0 1 -159.9204,159.99998 160,160 0 0 1 -160.0795,-159.8408 160,160 0 0 1 159.7611,-160.159 160,160 0 0 1 160.2385,159.68147 L -2000,-280 Z"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <rect
+       style="display:inline;fill:#888a85;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+       id="rect8592-6-7"
+       width="20"
+       height="120"
+       x="-1610.0001"
+       y="9.9999962"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <rect
+       style="display:inline;fill:#888a85;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+       id="rect8592-5-9-4"
+       width="20"
+       height="100.00002"
+       x="-1310.9711"
+       y="-943.58606"
+       transform="rotate(-40.361227)"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <path
+       style="display:inline;fill:#888a85;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+       id="path8231-65-7"
+       sodipodi:type="arc"
+       sodipodi:cx="-2000"
+       sodipodi:cy="-280"
+       sodipodi:rx="160"
+       sodipodi:ry="160"
+       sodipodi:start="0"
+       sodipodi:end="6.2811956"
+       sodipodi:arc-type="slice"
+       clip-path="url(#clipath_lpe_path-effect13194)"
+       inkscape:path-effect="#path-effect13194"
+       transform="translate(800,400)"
+       d="m -1840,-280 a 160,160 0 0 1 -159.9204,159.99998 160,160 0 0 1 -160.0795,-159.8408 160,160 0 0 1 159.7611,-160.159 160,160 0 0 1 160.2385,159.68147 L -2000,-280 Z"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <rect
+       style="display:inline;fill:#888a85;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+       id="rect8592-6-8"
+       width="20"
+       height="120"
+       x="-1210"
+       y="10"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <rect
+       style="display:inline;fill:#888a85;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+       id="rect8592-5-9-6"
+       width="20"
+       height="100.00002"
+       x="-1006.1804"
+       y="-684.54431"
+       transform="rotate(-40.361227)"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <path
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+       id="path8231-1"
+       sodipodi:type="arc"
+       sodipodi:cx="-2000"
+       sodipodi:cy="-280"
+       sodipodi:rx="160"
+       sodipodi:ry="160"
+       sodipodi:start="0"
+       sodipodi:end="6.2811956"
+       sodipodi:arc-type="slice"
+       clip-path="url(#clipath_lpe_path-effect9151)"
+       inkscape:path-effect="#path-effect9151"
+       transform="translate(400)"
+       d="m -1840,-280 a 160,160 0 0 1 -159.9204,159.99998 160,160 0 0 1 -160.0795,-159.8408 160,160 0 0 1 159.7611,-160.159 160,160 0 0 1 160.2385,159.68147 L -2000,-280 Z"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <rect
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+       id="rect8592-0"
+       width="20"
+       height="120"
+       x="-1610"
+       y="-390"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <rect
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+       id="rect8592-5-6"
+       width="20"
+       height="100.00002"
+       x="-1051.9292"
+       y="-1248.3767"
+       transform="rotate(-40.361227)"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <path
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+       id="path8231-6"
+       sodipodi:type="arc"
+       sodipodi:cx="-2000"
+       sodipodi:cy="-280"
+       sodipodi:rx="160"
+       sodipodi:ry="160"
+       sodipodi:start="0"
+       sodipodi:end="6.2811956"
+       sodipodi:arc-type="slice"
+       clip-path="url(#clipath_lpe_path-effect9192)"
+       inkscape:path-effect="#path-effect9192"
+       transform="translate(800.00024,0.2387647)"
+       d="m -1840,-280 a 160,160 0 0 1 -159.9204,159.99998 160,160 0 0 1 -160.0795,-159.8408 160,160 0 0 1 159.7611,-160.159 160,160 0 0 1 160.2385,159.68147 L -2000,-280 Z"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <rect
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+       id="rect8592-1"
+       width="20"
+       height="120"
+       x="-1209.9998"
+       y="-389.76123"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <rect
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+       id="rect8592-5-5"
+       width="20"
+       height="100.00002"
+       x="-747.29303"
+       y="-989.15295"
+       transform="rotate(-40.361227)"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24" />
+    <g
+       id="g21124"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24">
+      <rect
+         style="fill:#babdb6;fill-opacity:0.617644;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="rect15253"
+         width="320"
+         height="180"
+         x="-960"
+         y="1960" />
+      <path
+         style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -760,2080 h -80 v 80 h -60 l 100,120 100,-120 h -60 z"
+         id="path22492-8-44-2-9-2-2-1"
+         sodipodi:nodetypes="cccccccc" />
+      <text
+         xml:space="preserve"
+         style="font-size:91.9416px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;stroke-width:2.15488"
+         x="-948.40546"
+         y="2049.9402"
+         id="text17471"><tspan
+           id="tspan17469"
+           x="-948.40546"
+           y="2049.9402"
+           sodipodi:role="line"
+           style="stroke-width:2.15488">NOTES</tspan></text>
+    </g>
+    <g
+       id="g21124-7"
+       style="display:inline"
+       transform="translate(400)"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24">
+      <rect
+         style="fill:#babdb6;fill-opacity:0.617644;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="rect15253-2"
+         width="320"
+         height="180"
+         x="-960"
+         y="1960" />
+      <path
+         style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -760,2080 h -80 v 80 h -60 l 100,120 100,-120 h -60 z"
+         id="path22492-8-44-2-9-2-2-1-7"
+         sodipodi:nodetypes="cccccccc" />
+      <text
+         xml:space="preserve"
+         style="font-size:91.9416px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;stroke-width:2.15488"
+         x="-948.40546"
+         y="2049.9402"
+         id="text17471-2"><tspan
+           id="tspan17469-2"
+           x="-948.40546"
+           y="2049.9402"
+           sodipodi:role="line"
+           style="stroke-width:2.15488">NOTES</tspan></text>
+    </g>
+    <g
+       id="g21124-6"
+       style="display:inline"
+       transform="translate(800)"
+       inkscape:export-filename="/home/andrew/dev/godot/git/andrew-wilkes/godot-activity-timer/src/assets/temp/icons.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24">
+      <rect
+         style="fill:#babdb6;fill-opacity:0.617644;stroke:none;stroke-width:44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.54614"
+         id="rect15253-1"
+         width="320"
+         height="180"
+         x="-960"
+         y="1960" />
+      <path
+         style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -760,2080 h -80 v 80 h -60 l 100,120 100,-120 h -60 z"
+         id="path22492-8-44-2-9-2-2-1-0"
+         sodipodi:nodetypes="cccccccc" />
+      <text
+         xml:space="preserve"
+         style="font-size:91.9416px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;stroke-width:2.15488"
+         x="-948.40546"
+         y="2049.9402"
+         id="text17471-6"><tspan
+           id="tspan17469-1"
+           x="-948.40546"
+           y="2049.9402"
+           sodipodi:role="line"
+           style="stroke-width:2.15488">NOTES</tspan></text>
+    </g>
   </g>
 </svg>

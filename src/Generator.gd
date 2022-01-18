@@ -22,6 +22,7 @@ func _ready():
 		act.title = act_name
 		test7(act)
 		act.notes = PoolStringArray(ipsum.slice(0, randi() % ipsum.size())).join("\n")
+		act.color_code = $ColorGridPanel/Grid.get_child(id).modulate
 		activities.order.append(id)
 		activities.items[id] = act
 		id += 1
