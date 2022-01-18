@@ -8,9 +8,9 @@
 [ext_resource path="res://ActivityList.gd" type="Script" id=6]
 [ext_resource path="res://assets/icon-31.png" type="Texture" id=7]
 [ext_resource path="res://assets/icon-30.png" type="Texture" id=8]
-[ext_resource path="res://assets/upload-1.png" type="Texture" id=9]
-[ext_resource path="res://assets/upload-3.png" type="Texture" id=10]
-[ext_resource path="res://assets/upload-2.png" type="Texture" id=11]
+[ext_resource path="res://assets/icon-36.png" type="Texture" id=9]
+[ext_resource path="res://assets/icon-38.png" type="Texture" id=10]
+[ext_resource path="res://assets/icon-37.png" type="Texture" id=11]
 [ext_resource path="res://AlertPopup.tscn" type="PackedScene" id=12]
 [ext_resource path="res://Waiting.tscn" type="PackedScene" id=13]
 

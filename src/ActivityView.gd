@@ -22,7 +22,7 @@ func setup(_id, _act: Activity):
 	if act.title == "":
 		$Menu/Title.grab_focus()
 	$Notes.text = act.notes
-	$Time/ColorPicker.modulate = act.color_code
+	$Time/Sprite.modulate = act.color_code
 	update_time()
 	update_history()
 	update_last_start()
@@ -112,7 +112,7 @@ func _on_ColorPicker_pressed():
 func _on_ColorGridPanel_color_changed(color):
 	act.color_code = color
 	choosing_color = false
-	$Time/ColorPicker.modulate = color
+	$Time/Sprite.modulate = color
 
 
 func _on_List_pressed():
